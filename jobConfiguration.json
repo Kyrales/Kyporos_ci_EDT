@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/Kyrales/jenkins-lib/devkyr/resources/schema.json",
   "v8version": "8.3.25.1546",
-  "edtVersion": "2024.2.4:x86_64",
+  "edtVersion": "",
   "srcDir": "src/cf",
   "sourceFormat": "edt",
   "defaultBranch": "main",
