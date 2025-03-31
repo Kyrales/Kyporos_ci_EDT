@@ -49,7 +49,7 @@
       {
         "initMethod": "fromSource",
         "name": "YAXUNIT",
-        "path": "./src/cfe/yaxunit",
+        "path": "./src/cfe/Kyporos.YAXUNIT",
         "stages": [
           "yaxunit"
         ]
