@@ -1,3 +1,0 @@
-@Library('usher2') _
-
-repoSyncPipeline('tools/gitsync.json')

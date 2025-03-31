@@ -1,13 +1,13 @@
 {
   "$schema": "https://raw.githubusercontent.com/Kyrales/jenkins-lib/devkyr/resources/schema.json",
   "v8version": "8.3.25.1546",
-  "edtVersion": "",
+  "edtVersion": "2024.2.4:x86_64",
   "srcDir": "src/cf",
-  "sourceFormat": "designer",
-  "defaultBranch": "storage_1c",
+  "sourceFormat": "edt",
+  "defaultBranch": "main",
   "secrets": {
-    "storagePath": "Path_Otus_Storage_ID",
-    "storage": "DeployGit_id",
+    "storagePath": "",
+    "storage": "",
     "telegramBotToken": "UNKNOWN_ID",
     "telegramChatId": "UNKNOWN_ID"
   },
@@ -16,7 +16,7 @@
     "sonarqube": true,
     "bdd": true,
     "syntaxCheck": true,
-    "edtValidate": false,
+    "edtValidate": true,
     "smoke": false,
     "yaxunit": true,
     "email": true,
@@ -40,10 +40,10 @@
     "zipInfoBase": 60
   },
   "initInfobase": {
-    "initMethod": "fromStorage",
+    "initMethod": "fromSource",
     "runMigration": true,
     "additionalInitializationSteps": [],
-    "templateDBPath": "e:/1C/build/Demo83_otus/1Cv8.1CD",
+    "templateDBPath": "e:/1C/build/Kyporos/1Cv8.1CD",
     "vrunnerSettings": "./tools/vrunner.json",
     "extensions": [
       {
@@ -59,7 +59,13 @@
   "bdd": {
     "vrunnerSteps": [
       "vanessa --settings ./tools/vrunner.json"
-    ]
+    ],
+    "coverage": true,
+    "dbgsPort": 1550
+  },
+  "coverage": {
+    "dbgsPath": "",
+    "coverage41CPath": "c:/tools/Coverage/bin/Coverage41C.bat"
   },
   "sonarqube": {
     "sonarQubeInstallation": "",
@@ -81,8 +87,8 @@
       "-ExternalConnection"
     ],
     "vrunnerSettings": "./tools/vrunner.json",
-    "publishToAllureReport": true,
-    "publishToJUnitReport": false
+    "publishToJUnitReport": false,
+    "publishToAllureReport": true
   },
   "smoke": {
     "vrunnerSettings": "./tools/vrunner.json",
@@ -90,21 +96,17 @@
     "publishToAllureReport": false,
     "publishToJUnitReport": true
   },
-  "coverage": {
-    "dbgsPath": "",
-    "coverage41CPath": "c:/tools/Coverage/bin/Coverage41C.bat"
-  },
   "yaxunit": {
     "vrunnerSettings": "./tools/vrunner.json",
-    "configPath": "./tools/yaxunit_allure.json",
+    "configPath": "./tools/yaxunit.json",
     "publishToAllureReport": true,
     "publishToJUnitReport": false,
-    "coverage": false,
-    "dbgsPort": 1550
+    "coverage": true,
+    "dbgsPort": 1551
   },
   "resultsTransform": {
     "transformer": "stebi",
-    "genericIssueFormat": "Generic_Issue_10_3",
+    "genericIssueFormat": "Generic_Issue",
     "removeSupport": true,
     "supportLevel": 0
   },

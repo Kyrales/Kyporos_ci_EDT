@@ -10,7 +10,7 @@
     "$instrumentsRoot/features/libraries",
     "$workspaceRoot/features"
   ],
-  "ИмяСборки": "otus",
+  "ИмяСборки": "kyporos",
   "СписокТеговИсключение": [
     "IgnoreOnCIMainBuild",
     "FirstStart",
