@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19f1aded-9cf9-45fa-bc86-be488965d2d2">
+  <producedTypes>
+    <managerType typeId="a1dea999-12ca-4b5e-a2bc-1658888e8a3c" valueTypeId="857e5da7-68d6-4546-a135-b68d3698a384"/>
+    <valueManagerType typeId="c64c4f58-13db-4d81-95f3-581bb680dfed" valueTypeId="91348848-fd59-41c5-8389-91d26d546b91"/>
+    <valueKeyType typeId="348ce1aa-3269-54b5-bd3b-56aa3fd8b1dd" valueTypeId="d7f5ad6f-9277-5384-b749-231d4aaf3eca"/>
+  </producedTypes>
+  <name>ИспользоватьКонтрольСпискаБаз1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать контроль списка баз 1С по файлам v8i</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Если включено, то в регламетное задание &quot;Актуализация данных из Active Directory&quot; добавляется обновление списка баз 1С из справочника &quot;Информационные базы 1С&quot;</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5302704e-ff92-43c2-bd12-69b43f54b630">
+  <producedTypes>
+    <refType typeId="b4ffdaa8-c80d-4557-b90e-73c7734bf1b7" valueTypeId="4652fc10-b1f9-47d4-8526-d380acfb9f10"/>
+    <listType typeId="bce31d1a-2983-404a-9880-8c5a7173ab33" valueTypeId="309f3235-4bfa-421d-9664-6487b8e9ddb4"/>
+    <managerType typeId="e0d9ea60-064b-4348-abd1-7578de556ca4" valueTypeId="99365f94-2998-4091-965c-10c90791238f"/>
+  </producedTypes>
+  <name>ТипыСерверовSQL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы серверов SQL</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8eeb6274-6fc1-457d-b815-883f0cdc7b32">
+    <name>SQL_2012</name>
+    <synonym>
+      <key>ru</key>
+      <value>SQL Server 2012</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ee08a6b8-6c60-46fd-b079-4b385921f351">
+    <name>SQL_2008</name>
+    <synonym>
+      <key>ru</key>
+      <value>SQL Server 2008</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3f106883-7366-450b-bd30-a700ea236550">
+    <name>SQL_2005</name>
+    <synonym>
+      <key>ru</key>
+      <value>SQL Server 2005</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="970b7a4c-3bc6-4d8c-8dcd-1410caf61362">
+    <name>SQL_2000</name>
+    <synonym>
+      <key>ru</key>
+      <value>SQL Server 2000</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

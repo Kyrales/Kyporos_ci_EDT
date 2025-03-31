@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef044879-e731-418a-b917-6a685f27c5f4">
+  <name>ИспользоватьДополнительныеОтчетыИОбработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать дополнительные отчеты и обработки</value>
+  </synonym>
+  <location>Constant.ИспользоватьДополнительныеОтчетыИОбработки</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ДополнительныеОтчетыИОбработки</content>
+  <content>InformationRegister.НазначениеДополнительныхОбработок</content>
+  <content>CommonCommand.ДополнительныеОбработкиАдминистрирование</content>
+  <content>Enum.РежимыСовместимостиРазрешенийДополнительныхОтчетовИОбработок</content>
+  <content>CommonCommand.ДополнительныеОтчетыУчетКонфигураций</content>
+  <content>CommonCommand.ДополнительныеОтчетыУчетЗадачПользователей</content>
+  <content>CommonCommand.ДополнительныеОтчетыИТАктивы</content>
+  <content>InformationRegister.ПользовательскиеНастройкиДоступаКОбработкам</content>
+  <content>CommonCommand.ДополнительныеОбработкиУчетКонфигураций</content>
+  <content>CommonCommand.ДополнительныеОтчетыАдминистрирование</content>
+  <content>CommonCommand.ДополнительныеОбработкиУчетЗадачПользователей</content>
+  <content>CommonCommand.ДополнительныеОбработкиИТАктивы</content>
+  <content>CommonCommand.ДополнительныеОбработкиТелеграм</content>
+  <content>CommonCommand.ДополнительныеОтчетыТелеграм</content>
+</mdclass:FunctionalOption>

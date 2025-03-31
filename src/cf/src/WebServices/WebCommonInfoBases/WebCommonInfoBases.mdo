@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bee54d25-9b2e-4d33-b68a-2dd1acc26e43">
+  <name>WebCommonInfoBases</name>
+  <synonym>
+    <key>ru</key>
+    <value>Web common info bases</value>
+  </synonym>
+  <namespace>http://sibgenco.local/WebCommonInfoBases</namespace>
+  <descriptorFileName>WebCommonInfoBases.1cws</descriptorFileName>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="0c90ed81-b1c6-453e-b9e8-ef3b4d406a9d">
+    <name>CheckInfoBases</name>
+    <synonym>
+      <key>ru</key>
+      <value>Check info bases</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>boolean</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>CheckInfoBases</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="0ffa8136-11ac-45b6-8917-aaf47468e861">
+      <name>ClientID</name>
+      <synonym>
+        <key>ru</key>
+        <value>Client ID</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="3041b70d-0858-4c8f-b61b-41a129549e11">
+      <name>InfoBasesCheckCode</name>
+      <synonym>
+        <key>ru</key>
+        <value>Info bases check code</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="08dfe9ed-00ac-4d8d-b868-808d887da619">
+      <name>InfoBasesChanged</name>
+      <synonym>
+        <key>ru</key>
+        <value>Info bases changed</value>
+      </synonym>
+      <xdtoValueType>
+        <name>boolean</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <transferDirection>Out</transferDirection>
+    </parameters>
+    <parameters uuid="0a9f54f2-af02-44f2-8598-de39238fb9fd">
+      <name>URL</name>
+      <synonym>
+        <key>ru</key>
+        <value>URL</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <transferDirection>Out</transferDirection>
+    </parameters>
+  </operations>
+  <operations uuid="c73ec5ca-7055-444f-83df-ac4daf7a60c6">
+    <name>GetInfoBases</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get info bases</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>boolean</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>GetInfoBases</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="6ad30636-bead-4c4f-b81f-1b97d4bd839d">
+      <name>ClientID</name>
+      <synonym>
+        <key>ru</key>
+        <value>Client ID</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <transferDirection>InOut</transferDirection>
+    </parameters>
+    <parameters uuid="a7c2af83-7031-4ff5-8bef-265aa2282eb4">
+      <name>InfoBasesCheckCode</name>
+      <synonym>
+        <key>ru</key>
+        <value>Info bases check code</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <transferDirection>Out</transferDirection>
+    </parameters>
+    <parameters uuid="6fd5b67b-1978-4ca6-ad58-c15a9575c746">
+      <name>InfoBases</name>
+      <synonym>
+        <key>ru</key>
+        <value>Info bases</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <transferDirection>Out</transferDirection>
+    </parameters>
+  </operations>
+</mdclass:WebService>

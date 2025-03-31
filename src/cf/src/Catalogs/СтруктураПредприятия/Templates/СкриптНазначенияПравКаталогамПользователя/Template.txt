@@ -1,0 +1,41 @@
+On Error Resume Next 
+
+Set WshShell = WScript.CreateObject("WScript.Shell") 
+
+'--------------Права на корневую папку----------------------------------
+		Call WshShell.Run("icacls " & Chr(34) & RootFolder & Chr(34) & " /grant " & Chr(34) & "&ДоменПредприятия\" & UserAccountName & Chr(34) & ":(RX,WEA,WA)",,True)
+
+'--------------Права на папку общую папку Обмен-------------------------
+		Call WshShell.Run("icacls " & Chr(34) & EveryOneFolderExchange & Chr(34) & " /grant " & Chr(34) & "&ДоменПредприятия\" & UserAccountName & Chr(34) & ":(OI)(CI)(GR,GW,GE,DC)",,True)
+		
+		'WScript.Sleep 2000
+
+'--------------Права на папки Сканеры и вложенные в нее подпапки--------
+		'ПраваНаДополнительныеПапкиОбщегоДоступа
+		
+		'Пример общей: Call WshShell.Run("icacls " & Chr(34) & Scaners & Chr(34) & " /grant " & Chr(34) & "&ДоменПредприятия\" & UserAccountName & Chr(34) & ":(RX,WEA,WA)")
+		'Пример вложенной общей: Call WshShell.Run("icacls " & Chr(34) & Scan1 & Chr(34) & " /grant " & Chr(34) & "&ДоменПредприятия\" & UserAccountName & Chr(34) & ":(OI)(CI)(GR,GW,GE,DC)")
+		'WScript.Sleep 2000
+
+'--------------Права на папку Службы пользователя-----------------------				
+		Call WshShell.Run("icacls " & Chr(34) & UserFolderServisesAll & Chr(34) & " /grant " & Chr(34) & "&ДоменПредприятия\" & UserAccountName & Chr(34) & ":(RX,WEA,WA)",,True)
+		
+		'WScript.Sleep 2000
+
+'--------------Права на папку Отдела пользователя-----------------------
+		Call WshShell.Run("icacls " & Chr(34) & UserFolderDepartmentAll & Chr(34) & " /grant " & Chr(34) & "&ДоменПредприятия\" & UserAccountName & Chr(34) & ":(RX,WEA,WA)",,True)
+	
+		'WScript.Sleep 2000
+
+'--------------Права на доступ к смежным папкам других пользователей-----------------------
+		
+		'ПраваНаДоступКСмежнымПапкамДругихПользователей
+
+'--------------Права на личную папку пользователя-----------------------		
+		Call WshShell.Run("icacls " & Chr(34) & UserFolder & Chr(34) & " /grant " & Chr(34) & "&ДоменПредприятия\" & UserAccountName & Chr(34) & ":(OI)(CI)(GR,GW,GE,DC,WO)",,True)
+		
+		'WScript.Sleep 2000
+
+
+
+'MsgBox "End of script"

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6fbef18-ab11-4f82-8aa9-6e12038ab45d">
+  <producedTypes>
+    <refType typeId="218b7cc5-4ba0-450a-a99c-ccd303ba9ff4" valueTypeId="d955d678-2f05-4f72-89aa-b546692bb2eb"/>
+    <listType typeId="1df6b41c-bed9-4b4e-823b-ba4c2d941ef9" valueTypeId="5173f813-8081-4a5a-b79b-f2acde80d01a"/>
+    <managerType typeId="b8c92e14-32bf-463c-887f-bd25fd3f9ee9" valueTypeId="80849e64-b1ef-45da-b7c6-932e50cb45ff"/>
+  </producedTypes>
+  <name>СтатусыЗаменыЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы замены задач</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="39c23bdd-038e-44f9-b567-ee58395e5d93">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fa3e0a2a-8f29-46f8-8f4c-9dd5bd363d0d">
+    <name>НаСогласовании</name>
+    <synonym>
+      <key>ru</key>
+      <value>На согласовании</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="076fd92e-6847-4257-a4cd-181546dbb8f6">
+    <name>ЗаменаСогласована</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замена согласована</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6b6d7ded-f320-472a-a255-bb91cb333565">
+    <name>ЗаменаНеСогласована</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замена не согласована</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d68fc079-cfeb-47e8-a544-9fcdce574ca9">
+    <name>Отменено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменено</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

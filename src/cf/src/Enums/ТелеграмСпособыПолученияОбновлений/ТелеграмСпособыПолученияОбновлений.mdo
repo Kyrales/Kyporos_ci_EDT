@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ffea934-8c7b-46ce-92e7-95a72c4766e6">
+  <producedTypes>
+    <refType typeId="87abc275-8c5e-4b77-a7e8-6d514624d4eb" valueTypeId="375d460d-b849-43d2-b002-d7e0dc4ae9db"/>
+    <listType typeId="31b2dab5-7c1b-4332-ab8b-24c43f8047f7" valueTypeId="fbbe8baf-de80-4893-8580-7de5dcd34faa"/>
+    <managerType typeId="89b48f4a-68fb-4cc3-b115-155375a27681" valueTypeId="3213c613-de83-4bfb-9db0-4e65bda56add"/>
+  </producedTypes>
+  <name>ТелеграмСпособыПолученияОбновлений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм: способы получения обновлений</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Способы получения обновлений</value>
+  </listPresentation>
+  <enumValues uuid="0296d16c-9624-428c-b9be-e2f76f3e00ee">
+    <name>ПериодическийЗапрос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периодический запрос</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4f359589-9c8a-4106-b0aa-610e9b86d968">
+    <name>Вебхуки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вебхуки</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

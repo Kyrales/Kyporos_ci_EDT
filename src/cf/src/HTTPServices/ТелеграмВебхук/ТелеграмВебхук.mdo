@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da69d7d2-cfbe-4478-9ec3-4cde94bf2aa4">
+  <name>ТелеграмВебхук</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм: вебхук</value>
+  </synonym>
+  <comment>WebHook</comment>
+  <rootURL>webhook</rootURL>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="11416a4f-134d-417d-9728-f373ee2e58c7">
+    <name>Любой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Любой</value>
+    </synonym>
+    <template>/{Ключ}</template>
+    <methods uuid="456b3a73-de87-4603-8349-f27414d1263b">
+      <name>Post</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ЛюбойPost</handler>
+    </methods>
+    <methods uuid="c8af9b12-1a3f-42c5-a09f-09189292255f">
+      <name>Get</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get</value>
+      </synonym>
+      <handler>ЛюбойGet</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

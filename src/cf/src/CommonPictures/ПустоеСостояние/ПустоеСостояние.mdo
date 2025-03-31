@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3c2fa63-9289-402d-846b-c4eb65cafdfa">
+  <name>ПустоеСостояние</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пустое состояние</value>
+  </synonym>
+</mdclass:CommonPicture>

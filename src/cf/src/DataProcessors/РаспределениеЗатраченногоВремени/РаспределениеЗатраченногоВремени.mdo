@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1eccc96-56cd-43bc-b27d-68ff1f9a9a1b">
+  <producedTypes>
+    <objectType typeId="39e14b09-1ac0-46b8-bed7-68f94dd0146e" valueTypeId="d98e624c-8575-4d74-881c-eda404518fad"/>
+    <managerType typeId="73e4b120-ac68-4968-9e8a-95e58f0a10c9" valueTypeId="3e839eb4-1883-4196-be5e-80a079a4c893"/>
+  </producedTypes>
+  <name>РаспределениеЗатраченногоВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Распределение затраченного времени</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РаспределениеЗатраченногоВремени.Form.Форма</defaultForm>
+  <forms uuid="02f2cee0-ac5b-4b04-9775-3fbcc6c2f8b3">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bbdb3691-0bbd-46bf-9c5f-3007102f63a1">
+    <name>РедактированиеТрудозатрат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование трудозатрат</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9f35e0f9-7c4d-4471-a34f-ed41125a9262">
+    <name>ЗаполнитьПоШаблонам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнить по шаблонам</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

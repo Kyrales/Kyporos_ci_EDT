@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c39d32c-7af9-43f8-895b-366d8255b179">
+  <name>Купопрос_ТестыУправленияДоступом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Купопрос тесты управления доступом</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ОМ_РаботаСоСтруктуройКаталоговAD</content>
+  <content>CommonModule.РаботаСоСтруктуройКаталоговAD</content>
+  <content>CommonModule.ОМ_УправлениеДаннымиВнешнихСистем</content>
+  <content>CommonTemplate.ЮТ_ТестовыеДанныеШаблоновДоступа</content>
+</mdclass:Subsystem>

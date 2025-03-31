@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fad671e7-c797-472b-b2f5-6df87404e4d0">
+  <name>ОбменВРаспределеннойИнформационнойБазеРегистрацияУдаления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен в распределенной информационной базе зарегистрировать удаление</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.СтраныМира</types>
+    <types>CatalogObject.ГруппыИсполнителейЗадач</types>
+    <types>CatalogObject.ВерсииФайлов</types>
+    <types>ChartOfCharacteristicTypesObject.ОбъектыАдресацииЗадач</types>
+    <types>CatalogObject.УчетныеЗаписиЭлектроннойПочты</types>
+    <types>CatalogObject.ВерсииКонфигураций</types>
+    <types>CatalogObject.ВидыНоменклатуры</types>
+    <types>CatalogObject.ШаблоныЗаполнения</types>
+    <types>CatalogObject.ПрофилиГруппДоступа</types>
+    <types>TaskObject.ЗадачиПользователя</types>
+    <types>CatalogObject.ТемыОбсуждений</types>
+    <types>CatalogObject.ПользовательскиеНастройкиОтчетов</types>
+    <types>CatalogObject.ФизическиеЛица</types>
+    <types>CatalogObject.Организации</types>
+    <types>CatalogObject.ПапкиФорума</types>
+    <types>CatalogObject.ЗадачиПользователяПрисоединенныеФайлы</types>
+    <types>CatalogObject.ГруппыВнешнихПользователей</types>
+    <types>ChartOfCharacteristicTypesObject.ДополнительныеРеквизитыИСведения</types>
+    <types>CatalogObject.ДополнительныеОтчетыИОбработки</types>
+    <types>CatalogObject.СертификатыКлючейЭлектроннойПодписиИШифрования</types>
+    <types>CatalogObject.СообщенияОбсуждений</types>
+    <types>CatalogObject.ПредопределенныеВариантыОтчетов</types>
+    <types>CatalogObject.ВидыКонтактнойИнформации</types>
+    <types>CatalogObject.ВнешниеПользователи</types>
+    <types>CatalogObject.ЗначенияСвойствОбъектов</types>
+    <types>CatalogObject.ЗначенияСвойствОбъектовИерархия</types>
+    <types>CatalogObject.ГруппыДоступа</types>
+    <types>CatalogObject.НаборыДополнительныхРеквизитовИСведений</types>
+    <types>CatalogObject.ПроизводственныеКалендари</types>
+    <types>CatalogObject.ОрганизацииПрисоединенныеФайлы</types>
+    <types>CatalogObject.Файлы</types>
+    <types>CatalogObject.СценарииОбработкиЗадач</types>
+    <types>CatalogObject.ВариантыОтчетов</types>
+    <types>CatalogObject.ВидыДокументовФизическихЛиц</types>
+    <types>CatalogObject.ГруппыПользователей</types>
+    <types>CatalogObject.СостоянияЗадач</types>
+    <types>CatalogObject.ПрограммыЭлектроннойПодписиИШифрования</types>
+    <types>CatalogObject.Проекты</types>
+    <types>CatalogObject.СообщенияОбсужденийПрисоединенныеФайлы</types>
+    <types>CatalogObject.ВидыРабот</types>
+    <types>CatalogObject.РолиИсполнителей</types>
+    <types>CatalogObject.ПроектыПрисоединенныеФайлы</types>
+    <types>CatalogObject.Пользователи</types>
+  </source>
+  <event>BeforeDelete</event>
+  <handler>CommonModule.ОбменДаннымиСобытияКупоросВызовСервера.ОбменВРаспределеннойИнформационнойБазеЗарегистрироватьУдаление</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3de6e0ec-e96b-4db3-b653-07c348c3974f">
+  <name>ИзменениеТекущегоСостоянияЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение текущего состояния задач</value>
+  </synonym>
+  <methodName>CommonModule.РаботаСЗадачами.ИзменениеТекущегоСостоянияЗадач</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e1b148c-90d1-445b-bc18-4f912e1d7617">
+  <producedTypes>
+    <objectType typeId="76fc821f-3399-428d-b5cc-7198a20b7bfc" valueTypeId="e29ed419-d9c9-4c37-8c85-b0e4571cfa92"/>
+    <managerType typeId="1d5fe894-66cd-4f9e-9e2c-8f804a36a128" valueTypeId="50e94fd1-9b88-44c5-9ff4-1098574f274c"/>
+  </producedTypes>
+  <name>МессенджерТелеграм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мессенджер телеграм</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МессенджерТелеграм.Form.РабочийСтол</defaultForm>
+  <forms uuid="66b43df2-d51f-4ac8-98ba-2521290eebf0">
+    <name>РабочийСтол</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочий стол</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

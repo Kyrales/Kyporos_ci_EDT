@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="21c4d795-3b5c-4a6e-a7a8-a9c91626b785">
+  <name>ИспользоватьЗагрузкуВходящихЭлектронныхПисем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать загрузку входящих электронных писем</value>
+  </synonym>
+  <location>Constant.ИспользоватьЗагрузкуОбработкуВходящихЭлектронныхПисем</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ЭлектронныеПисьмаВходящие</content>
+  <content>Catalog.ЭлектронныеПисьмаВходящиеПрисоединенныеФайлы</content>
+  <content>Catalog.УчетныеЗаписиЭлектроннойПочты.Attribute.ИспользоватьДляЗагрузкиВходящихЭлектронныхПисем</content>
+</mdclass:FunctionalOption>

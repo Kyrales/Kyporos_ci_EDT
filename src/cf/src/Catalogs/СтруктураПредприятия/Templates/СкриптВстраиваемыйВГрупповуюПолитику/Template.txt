@@ -1,0 +1,17 @@
+Set WshShell = WScript.CreateObject("WScript.Shell") 
+Set WshNetwork = WScript.CreateObject("WScript.Network")
+Set oFSO = CreateObject("Scripting.FileSystemObject")
+
+On Error Resume Next
+
+AccountName = WshNetwork.UserName
+'Пример: path = "\\krekfs\newobmenservice$\" & AccountName & ".vbs"
+path = &ПутьКСлужебнойПапке & AccountName & ".vbs"
+
+If (oFSO.FileExists(path)) Then
+   'MsgBox "Exist path" & path
+   Call WshShell.Run("cscript " & path, 0, false) 
+   
+Else
+   'MsgBox "Not exist path" & path
+End If

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64400f4a-55ad-407e-990a-249b0de81ae1">
+  <name>УправлениеСетью</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление сетью</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ИменаПользователей</content>
+  <content>CommonModule.РаботаСоСтруктуройКаталоговAD</content>
+  <content>Constant.ИспользоватьКонтрольСпискаБаз1С</content>
+  <content>Catalog.СтруктураПредприятия</content>
+  <content>WebService.WebCommonInfoBases</content>
+  <content>Constant.ТипРасположенияИмениВActiveDirectory</content>
+  <content>FunctionalOption.ИспользоватьКонтрольСпискаБаз1С</content>
+  <content>Constant.ДоменПредприятия</content>
+  <content>Catalog.СерверыSQL</content>
+  <content>ScheduledJob.АктуализацияДанныхИзActiveDirectory</content>
+  <content>ScheduledJob.ОбновлениеСправочникаСпискаОбщихБазПользователей</content>
+  <content>Catalog.СписокИнформационныхБаз1С</content>
+  <content>Constant.ЗагружатьПользователейИзAD</content>
+  <content>Enum.СпособыАутентификации</content>
+  <content>CommonModule.УправлениеРезервнымКопированиемВызовСервера</content>
+  <content>Catalog.ГруппыПользователейAD</content>
+  <content>Enum.ТипыСерверовSQL</content>
+  <content>Role.ДобавлениеИзменениеНастроекСети</content>
+  <content>CommonModule.УправлениеДаннымиВнешнихСистем</content>
+  <content>Catalog.ШаблоныДоступаПользователей</content>
+  <content>Enum.ТипыРасположенияИмениВActiveDirectory</content>
+  <content>Constant.ИспользоватьУправлениеСетью</content>
+  <content>Enum.ТипРеквизитаAD</content>
+  <content>FunctionalOption.ИспользоватьУправлениеСетью</content>
+  <content>Role.ЧтениеСпискаИнформационныхБаз</content>
+  <content>Catalog.СписокОбщихБазПользователей</content>
+  <content>WebService.AccessControl</content>
+  <content>XDTOPackage.AccessControlData</content>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>

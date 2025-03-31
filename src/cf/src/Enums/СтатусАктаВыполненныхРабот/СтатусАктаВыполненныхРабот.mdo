@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04549a0f-339b-4363-a3a6-2c12755ad7d3">
+  <producedTypes>
+    <refType typeId="ac5cd83d-4b4c-4212-9ddf-2773cfcf2eec" valueTypeId="af417c49-0ddf-4ae6-a194-dbcf0f784f64"/>
+    <listType typeId="e9e6c669-aad1-4e89-a85c-2a170c34617f" valueTypeId="1b5f1b7f-2c0c-4288-9105-6758ed59e697"/>
+    <managerType typeId="ad80686e-4fad-44ec-8101-335347ada2d9" valueTypeId="7c6a715e-5426-46be-ab7b-aee19906944d"/>
+  </producedTypes>
+  <name>СтатусАктаВыполненныхРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус акта выполненных работ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9507c2de-85ff-40e7-ab44-54762b0a46bf">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d5e9c065-6181-4eb8-b012-528c4e52e5cf">
+    <name>НаСогласовании</name>
+    <synonym>
+      <key>ru</key>
+      <value>На согласовании</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="108695cf-8c87-458f-90b3-5670816e722c">
+    <name>ОжидаетОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидает оплаты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1e942c42-ee93-4cc0-b260-0d02cb45fd07">
+    <name>Оплачен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплачен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="831d7b5b-fa59-49fa-922d-a32e29fc0bbf">
+    <name>Отклонен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

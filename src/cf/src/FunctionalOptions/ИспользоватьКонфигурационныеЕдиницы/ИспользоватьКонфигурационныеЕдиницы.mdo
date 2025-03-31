@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f8c62ec-3310-44c1-86a3-13fd233c7b3b">
+  <name>ИспользоватьКонфигурационныеЕдиницы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать конфигурационные единицы</value>
+  </synonym>
+  <location>Constant.ИспользоватьКонфигурационныеЕдиницы</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.КонфигурационныеЕдиницы</content>
+  <content>Task.ЗадачиПользователя.Attribute.КонфигурационнаяЕдиница</content>
+</mdclass:FunctionalOption>

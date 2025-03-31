@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e29251de-d907-4d2b-b266-52e07a849b87">
+  <name>Набор_LED</name>
+  <synonym>
+    <key>ru</key>
+    <value>LED</value>
+  </synonym>
+</mdclass:CommonPicture>

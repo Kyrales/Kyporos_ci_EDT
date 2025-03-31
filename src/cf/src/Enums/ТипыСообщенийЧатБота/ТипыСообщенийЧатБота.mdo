@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73d9284b-21c5-4b35-a37c-eec296b07fe3">
+  <producedTypes>
+    <refType typeId="075bcf51-1009-41df-87c1-f198a8c85267" valueTypeId="56e49127-eda8-4530-8267-57b99b5404cb"/>
+    <listType typeId="87150be2-5c14-4c44-9bde-078004914aca" valueTypeId="c1c78981-2b83-4c8d-b439-bb15414c16f9"/>
+    <managerType typeId="b9738101-3382-4219-8941-d4a0888994a2" valueTypeId="da6a7183-3db7-4a54-ab81-b28f6b16538e"/>
+  </producedTypes>
+  <name>ТипыСообщенийЧатБота</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы сообщений чат бота</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="82616645-ae80-4fc0-ab2c-e1aec24cde51">
+    <name>Сообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="edb8de24-8038-484c-8862-3b4528cd5e1f">
+    <name>Картинка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Картинка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cfaca05e-b4c0-4a92-8816-440a84f356f3">
+    <name>Аудио</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аудио</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8639b7b1-4fb8-4272-825a-8b987c466be2">
+    <name>Видео</name>
+    <synonym>
+      <key>ru</key>
+      <value>Видео</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f97af655-1dcd-41e2-bd60-c63b5fb75c0b">
+    <name>Файл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="81058dcc-2cdf-4e9c-9801-6a8f6f4b52d8">
+    <name>Контакт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контакт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8452af92-d5ce-4351-8381-e868ed562b77">
+    <name>Стикер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стикер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b53300aa-2811-4b36-a83e-a939da4c5782">
+    <name>Местоположение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Местоположение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f73c563b-938f-4902-8f4f-dea376cc6608">
+    <name>ПодтвержденныйКонтакт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтвержденный контакт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2e9a80d0-c393-4842-8f87-a2a70a7cde13">
+    <name>КнопкаИнлайн</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кнопка инлайн</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e038908d-c0e2-4159-8b2c-cf0cfe00716d">
+    <name>КнопкаКлавиатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кнопка меню</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f5c22e0e-cf27-4d77-8bd7-6fc0f4ebfece">
+    <name>ЗапроситьНомерТелефона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запросить телефон</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bebad0d1-3db7-4326-88d8-1d41d9d040a3">
+    <name>ЗапроситьМестоположение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запросить местоположение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ec680c1c-c23f-4ae8-9a1f-dbd8f1755f8f">
+    <name>ВызватьМетод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вызвать метод</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

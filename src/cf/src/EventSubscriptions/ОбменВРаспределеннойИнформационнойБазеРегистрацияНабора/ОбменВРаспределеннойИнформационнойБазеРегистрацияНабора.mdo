@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b44562a-c52e-43c7-841f-e6422399cce5">
+  <name>ОбменВРаспределеннойИнформационнойБазеРегистрацияНабора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен в распределенной информационной базе зарегистрировать изменение набора записей</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.ДанныеПроизводственногоКалендаря</types>
+    <types>InformationRegisterRecordSet.НастройкиКомандПечати</types>
+    <types>InformationRegisterRecordSet.НапоминанияПользователя</types>
+    <types>InformationRegisterRecordSet.ИспользуемыеВидыДоступа</types>
+    <types>InformationRegisterRecordSet.ЗатраченноеВремяПоЗадачам</types>
+    <types>InformationRegisterRecordSet.ДанныеБизнесПроцессов</types>
+    <types>InformationRegisterRecordSet.СведенияОПрочтении</types>
+    <types>InformationRegisterRecordSet.ДанныеОбработанныеВЦентральномУзлеРИБ</types>
+    <types>InformationRegisterRecordSet.ТекущиеСостоянияЗадач</types>
+    <types>InformationRegisterRecordSet.НазначениеДополнительныхОбработок</types>
+    <types>InformationRegisterRecordSet.ГруппыЗначенийДоступа</types>
+    <types>InformationRegisterRecordSet.НаличиеФайлов</types>
+    <types>InformationRegisterRecordSet.КодировкиФайлов</types>
+    <types>InformationRegisterRecordSet.СведенияОГолосовании</types>
+    <types>InformationRegisterRecordSet.НастройкиВариантовОтчетов</types>
+    <types>InformationRegisterRecordSet.НастройкиВерсионированияОбъектов</types>
+    <types>InformationRegisterRecordSet.СертификатыШифрования</types>
+    <types>InformationRegisterRecordSet.НастройкиОчисткиФайлов</types>
+    <types>InformationRegisterRecordSet.КурсыВалют</types>
+    <types>InformationRegisterRecordSet.НаборыЗначенийДоступа</types>
+    <types>InformationRegisterRecordSet.ДополнительныеСведения</types>
+    <types>InformationRegisterRecordSet.ПользовательскиеМакетыПечати</types>
+    <types>InformationRegisterRecordSet.ИсполнителиЗадач</types>
+    <types>InformationRegisterRecordSet.ОповещенияПользователейСертификатов</types>
+    <types>InformationRegisterRecordSet.СведенияОТемахОбсуждений</types>
+    <types>InformationRegisterRecordSet.НастройкиПравОбъектов</types>
+    <types>InformationRegisterRecordSet.ПользовательскиеНастройкиДоступаКОбработкам</types>
+    <types>InformationRegisterRecordSet.ПериодыНерабочихДнейКалендаря</types>
+    <types>InformationRegisterRecordSet.ЭлектронныеПодписи</types>
+    <types>InformationRegisterRecordSet.ПроцессыДляЗапуска</types>
+    <types>InformationRegisterRecordSet.СведенияОФайлах</types>
+    <types>InformationRegisterRecordSet.ВерсииОбъектов</types>
+    <types>InformationRegisterRecordSet.НаследованиеНастроекПравОбъектов</types>
+    <types>InformationRegisterRecordSet.СоставыГруппПользователей</types>
+    <types>InformationRegisterRecordSet.ЗаявленияНаВыпускСертификата</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбменДаннымиСобытияКупоросВызовСервера.ОбменВРаспределеннойИнформационнойБазеЗарегистрироватьИзменениеНабораЗаписей</handler>
+</mdclass:EventSubscription>

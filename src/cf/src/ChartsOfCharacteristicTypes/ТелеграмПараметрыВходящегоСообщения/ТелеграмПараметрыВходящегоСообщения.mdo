@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c919fdab-93fe-4870-a940-af77e66b1af9">
+  <producedTypes>
+    <objectType typeId="69312c61-136d-4234-b43d-bf381948b8a6" valueTypeId="8a7d89cd-9fad-469d-8489-42c6b53cb6ce"/>
+    <refType typeId="d8d6a9cf-09d2-41f5-a137-6c934f5d542d" valueTypeId="8c6c7c1a-f993-4012-8e37-3d3a3d9a0f79"/>
+    <selectionType typeId="0b380f6e-424b-4e79-b861-037fcfbac871" valueTypeId="6739b1bc-c13b-4808-a88f-25950f9c06b5"/>
+    <listType typeId="a88eda6d-8d2d-4e58-b5be-ab24ba336d6c" valueTypeId="af09a4b3-0669-455b-9c51-a5777207ac3a"/>
+    <managerType typeId="9ad14050-b47f-424b-afd1-17b3b4ba9315" valueTypeId="03e3fa23-6af6-4e61-9235-7afca20ac446"/>
+    <containerType typeId="dd275e55-e1b1-44f2-bbcb-391923f509dd" valueTypeId="da162100-a467-43b9-b81c-687f2a2422b3"/>
+  </producedTypes>
+  <name>ТелеграмПараметрыВходящегоСообщения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм: параметры входящего сообщения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ТелеграмПараметрыВходящегоСообщения.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ТелеграмПараметрыВходящегоСообщения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ValueType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Параметр входящего сообщения</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Параметры входящего сообщения</value>
+  </listPresentation>
+  <type>
+    <types>Boolean</types>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>50</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="4ca8bcf1-e924-449e-b908-b2bc15c4f3c8">
+      <name>СодержитАудио</name>
+      <description>Содержит аудио</description>
+      <code>000000003</code>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+    <items id="d427867b-26e5-4031-81fd-b5cc56a9c351">
+      <name>СодержитВидео</name>
+      <description>Содержит видео</description>
+      <code>000000006</code>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+    <items id="e541fc1d-37de-426c-8776-5ebcc561bd63">
+      <name>СодержитГолосовоеСообщение</name>
+      <description>Содержит голосовое сообщение</description>
+      <code>000000007</code>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+    <items id="62b1784b-f9d9-4ee7-a5a8-8a39794d529c">
+      <name>СодержитКонтакт</name>
+      <description>Содержит контакт</description>
+      <code>000000012</code>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+    <items id="264563f8-6256-412a-ba6c-26dcb26ef0f4">
+      <name>СодержитМестоНаКарте</name>
+      <description>Содержит место на карте</description>
+      <code>000000010</code>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+    <items id="884db14d-9e27-4065-a149-ad55385f8557">
+      <name>СодержитМестоположение</name>
+      <description>Содержит местоположение</description>
+      <code>000000009</code>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+    <items id="f119f956-aced-49e2-a23f-256c37ffe77f">
+      <name>СодержитПодписьФФВ</name>
+      <description>Содержит подпись к файлу, фото или видео</description>
+      <code>000000008</code>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+    <items id="cb7a71d3-2c2d-4310-b04c-26d254dcea42">
+      <name>СодержитТекст</name>
+      <description>Содержит текст</description>
+      <code>000000002</code>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+    <items id="b3405db5-0b49-44f8-83dc-003df10edf21">
+      <name>СодержитФайл</name>
+      <description>Содержит файл</description>
+      <code>000000004</code>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+    <items id="043d4c55-7aad-46ce-9e16-1a810ea1b634">
+      <name>СодержитФото</name>
+      <description>Содержит фото</description>
+      <code>000000005</code>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+    <items id="a25cfaa7-7908-4ce2-998e-31dac9aef2b7">
+      <name>ТекстПодписиФФВ</name>
+      <description>Текст подписи к файлу, фото или видео</description>
+      <code>000000011</code>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="97a9f758-8809-4000-8ce5-d2676ef27cc5">
+      <name>ТекстСообщения</name>
+      <description>Текст сообщения</description>
+      <code>000000001</code>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

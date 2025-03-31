@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b13dfc99-69f1-4025-a6f4-dc15fdf4d890">
+  <producedTypes>
+    <managerType typeId="453a0122-41da-4ec4-a70b-09b6d46eddc3" valueTypeId="1eae1f2a-90bd-4025-a4a6-ecc83ae37597"/>
+    <valueManagerType typeId="6a7f3998-f434-41dd-9e05-b015f0f25175" valueTypeId="f5e29597-6a8a-4a11-bc78-39f3e0906dfd"/>
+    <valueKeyType typeId="b1db0773-efab-56eb-b527-72932bad6c70" valueTypeId="7255cfcb-158a-5495-96ed-8dccc624243c"/>
+  </producedTypes>
+  <name>ИспользоватьЗагрузкуОбработкуВходящихЭлектронныхПисем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать загрузку и обработку входящих электронных писем</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

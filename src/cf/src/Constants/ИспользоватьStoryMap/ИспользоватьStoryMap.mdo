@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b8687b4-8d73-4213-b0f6-50580d72cb82">
+  <producedTypes>
+    <managerType typeId="98343f2d-f230-4960-bfa5-8f725a481d99" valueTypeId="8b6c63fa-d239-416b-90d9-38954aa9e301"/>
+    <valueManagerType typeId="bb14111d-5643-4443-9c9c-66c3bfb442d9" valueTypeId="bbea3e74-3598-4295-9fdf-8b0a9082fc67"/>
+    <valueKeyType typeId="6fc4790e-9fb5-4816-b3fc-d10437525177" valueTypeId="bbdd711c-373e-4ddc-8ef7-e1298791ed51"/>
+  </producedTypes>
+  <name>ИспользоватьStoryMap</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать StoryMap</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

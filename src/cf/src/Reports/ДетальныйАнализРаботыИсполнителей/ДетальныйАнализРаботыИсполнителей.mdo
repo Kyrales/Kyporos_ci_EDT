@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3331283-26cb-4a50-81c1-0977d5ef9388">
+  <producedTypes>
+    <objectType typeId="0de977a3-97dd-409b-9ead-d268500b715a" valueTypeId="27b441c6-bdf5-40b3-a48e-a9400becca77"/>
+    <managerType typeId="45b7fbeb-0bc4-43e1-b834-109535592894" valueTypeId="9774d641-a6a0-422f-a7fe-1c8e27f6d41a"/>
+  </producedTypes>
+  <name>ДетальныйАнализРаботыИсполнителей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Детальный анализ работы исполнителей</value>
+  </synonym>
+  <comment>Только фактические данных по трудозатратам</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ДетальныйАнализРаботыИсполнителей.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="e524ce78-d6ef-4c87-8b12-4c98469bc320">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

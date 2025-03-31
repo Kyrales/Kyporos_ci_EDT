@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60b71e15-01fc-40d6-b12a-576dca7d258e">
+  <producedTypes>
+    <objectType typeId="1c780c65-a5bb-4a1e-853e-613c1d100740" valueTypeId="6ac4e693-8ca5-4871-bfb6-7ce164877a4b"/>
+    <refType typeId="da8fe43c-e8e1-4ceb-99ca-f3cce0505d25" valueTypeId="d53363ae-35ab-4fbf-b4c2-9f8f9f1c4d8a"/>
+    <selectionType typeId="7f69af12-556c-4f8b-856f-75d26f860500" valueTypeId="216b2e75-291f-4279-b88a-3875289703df"/>
+    <listType typeId="47f249c7-aad2-4131-870b-de73959bf042" valueTypeId="104d2185-68a0-4845-b69f-807ac1ae1f98"/>
+    <managerType typeId="93cb94e7-8e9e-4fb0-8ca3-ef340670665d" valueTypeId="2897ec86-f4e4-4fc5-b2e3-589aeb809b38"/>
+  </producedTypes>
+  <name>Сертификаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сертификаты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Сертификаты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Сертификаты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>120</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Сертификаты.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Сертификаты.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Сертификаты.Form.ФормаСписка</defaultChoiceForm>
+  <attributes uuid="74dbecc1-831a-46d5-9797-85da03dd5b8e">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d1d0f07e-0221-433f-98e1-b0f5571382a4">
+    <name>БезНапоминаний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без напоминаний</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cf4a5aba-c83c-44a8-9654-8ed8a2ecd49a">
+    <name>ВладелецСертификата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец сертификата</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f9b55dea-a619-473d-9281-c71b93f25cd7">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0334f77f-5752-4803-a576-898adf228200">
+    <name>ДатаНачалаДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала действия</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4b47937a-5ecf-425d-923c-8f5a9923d3d9">
+    <name>ДатаСоздания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата создания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b5cca7ad-5d21-4688-b683-1033c66c7224">
+    <name>ИнформационныеСистемыСтрока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационные системы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="be7140a0-6b38-42b1-9eb9-d673db926c5b">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="48c95b4c-0652-4ac8-8ea4-9bcd7b1437d8">
+    <name>НапоминанияУстановлены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Напоминания установлены</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Автоматически устанавливаются перед записью. Для этого требуется, чтобы был заполнен &quot;Срок действия&quot; и статус сертификата был &quot;Активный&quot;.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ac511661-c396-492a-aaf4-51e7df83ccd2">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1c9e2b5a-bdd9-4784-9ac5-b8142a746bb4">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f09068fb-063d-4762-8584-38f6f316c027">
+    <name>РабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РабочиеМеста</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="afb3d992-d533-44c2-bf1a-3094cdbb896b">
+    <name>СрокДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок действия</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fcfc4ef1-1823-4679-ae39-59dd7e5325e9">
+    <name>СтатусСертификата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус сертификата</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыСертификатов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.СтатусыСертификатов.EnumValue.Активный</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e81b368b-2d82-4002-a569-688c52b7ce8d">
+    <name>ТипПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип пользователей</value>
+    </synonym>
+    <comment>В качестве типа используется пустая ссылка</comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Тип объектов информационной базы, которые могут быть в составе участников группы доступа</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="40a4cb24-31b9-4f8c-9ff8-6d1349e20386">
+    <name>Транспортный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспортный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="33391fe4-26cc-4afa-a7a3-2dc721bc2e0b">
+    <producedTypes>
+      <objectType typeId="a7da3b35-4485-40e9-b8d5-e79efe80c3d6" valueTypeId="fbc976d7-90c9-4746-833d-137cc4728b47"/>
+      <rowType typeId="17ab5b08-fb15-4180-97c1-0b27d3293abd" valueTypeId="96eb8e04-4fb9-467b-8f3e-4c37b7ccec8c"/>
+    </producedTypes>
+    <name>Ответственные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственные</value>
+    </synonym>
+    <attributes uuid="b91523e0-f67b-4cd7-a29a-38d704c45d0c">
+      <name>Пользователь</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пользователь</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВнешниеПользователи</types>
+        <types>CatalogRef.ГруппыВнешнихПользователей</types>
+        <types>CatalogRef.ГруппыПользователей</types>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="b2d699ad-9f07-47eb-9bd4-5f4bb310be06">
+    <producedTypes>
+      <objectType typeId="ba691f01-2894-47fd-ac5b-4761a0d0bf7e" valueTypeId="9ac65973-fb5e-46a7-9856-ee676b13c77c"/>
+      <rowType typeId="a2689ff8-fe20-4ff0-82ea-ccfd36eb25bd" valueTypeId="9c0374d1-b02f-4f3e-9ab0-0ec2d2bf747f"/>
+    </producedTypes>
+    <name>ИнформационныеСистемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационные системы</value>
+    </synonym>
+    <attributes uuid="57dba2d6-b79f-42da-b11f-81577966e454">
+      <name>ИнформационнаяСистема</name>
+      <synonym>
+        <key>ru</key>
+        <value>Информационная система</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ИнформационныеСистемы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="3fdf42f0-3e84-49f0-b068-97b0c414ce4f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="267c2fbf-9b1e-4658-9ddd-d7aaddbbc589">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5775d64e-fe6a-4204-a104-588fa08ad494">
+  <producedTypes>
+    <selectionType typeId="abd2e2a5-9490-4509-b890-8e3ded50e400" valueTypeId="4de235bb-a627-4ad4-ac5d-b5a3213c7fcd"/>
+    <listType typeId="de75ff71-0f48-49d2-9b4e-5ecf540157e8" valueTypeId="a9b2412a-ee33-4e6a-80e9-6724a55c5ae7"/>
+    <managerType typeId="fadd9909-497b-4888-a752-cc0953db3fbb" valueTypeId="f810cdb7-85d9-4308-ac62-c66331e092d5"/>
+    <recordSetType typeId="0f6340a5-a8b9-460c-b3b6-64f7f31f8c9a" valueTypeId="6acf86a2-6159-468a-a18f-97dc696d84d0"/>
+    <recordKeyType typeId="6e529662-b430-4881-9f23-e64640360c38" valueTypeId="67b23cc3-230f-4a7b-9642-46d4c22bd370"/>
+    <recordType typeId="2f6a32f5-6940-48fb-b221-e42216e81e41" valueTypeId="9ae8d147-6aa7-4959-8637-3366cd9b1229"/>
+    <recordManagerType typeId="9c9d75d6-2ffc-4ec8-91a1-119b37d22103" valueTypeId="2fef0c5c-1f7f-4cd7-9d8d-c635ab66d4e4"/>
+  </producedTypes>
+  <name>ТелеграмКонтекстСеансов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм: контекст сеансов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ТелеграмКонтекстСеансов.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Контекст сеанса</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Текущий контекст сеансов</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Текущий контекст сеансов (ручной ввод не требуется)</value>
+  </extendedListPresentation>
+  <resources uuid="e75cc383-70e5-483f-8720-7296639b8d60">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ТелеграмПараметрыКонтекста</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <linkByType>
+      <field>InformationRegister.ТелеграмКонтекстСеансов.Dimension.Параметр</field>
+    </linkByType>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f46ea38b-4bca-4fbd-98ed-cd93e4139cc2">
+    <name>ЗначениеДляКэшПараметра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение для кэш параметра</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Используется только для параметра &quot;Кэш параметров&quot;. Таблица значений с накопленными данными сеанса</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="f4e96c03-bf71-4896-8103-654352d58e5f">
+    <name>Бот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бот</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТелеграмБоты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7a513379-561e-4249-b324-8e60bfe7b1a4">
+    <name>ИдентификаторЧата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор чата</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>20</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="834d2e47-1514-4dfd-a706-9484d4fd1506">
+    <name>Параметр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ТелеграмПараметрыКонтекста</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="9d54a7be-7073-40e0-8d4b-39be3b84485d">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

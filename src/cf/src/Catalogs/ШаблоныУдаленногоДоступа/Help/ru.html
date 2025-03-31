@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html xmlns:o=""><head><meta content="text/html; charset=utf-8" http-equiv="Content-Type"></meta><link rel="stylesheet" type="text/css" href="v8help://service_book/service_style"></link><meta name="GENERATOR" content="MSHTML 9.00.8112.16441"></meta></head><body>
+<div id="V8TopicString">
+<h1 class="V8TopicText">Справочник "Шаблоны удаленного доступа"</h1></div>
+<div id="V8TextArea" valign="bottom">
+<div class="Section1">
+<p>Справочник предназначен для хранения информации о шаблонах подключения удаленного доступа.<br>Шаблон подключения удаленного доступа есть настройка параметризованной командной строки, для запуска программы удаленного доступа.</p>
+<p><b style="mso-bidi-font-weight: normal">Реквизиты</b>:</p>
+<p style="TEXT-INDENT: -18pt; MARGIN-LEFT: 36pt; mso-list: l0 level1 lfo2; tab-stops: list 36.0pt"><span style="FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><span style="mso-list: Ignore">·<span style="FONT: 7pt 'Times New Roman'">        </span></span></span><b style="mso-bidi-font-weight: normal">Наименование</b> – Наименование шаблона.<b style="mso-bidi-font-weight: normal"><o:p></o:p></b></p>
+<p style="TEXT-INDENT: -18pt; MARGIN-LEFT: 36pt; mso-list: l0 level1 lfo2; tab-stops: list 36.0pt"><span style="FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><span style="mso-list: Ignore">·<span style="FONT: 7pt 'Times New Roman'">        </span></span></span><b style="mso-bidi-font-weight: normal">Рабочий каталог – </b>Рабочий каталог, в котором будут выполняться команды.</p>
+<p style="TEXT-INDENT: -18pt; MARGIN-LEFT: 36pt; mso-list: l0 level1 lfo2; tab-stops: list 36.0pt"><span style="FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><span style="mso-list: Ignore">·<span style="FONT: 7pt 'Times New Roman'">        </span></span></span><b style="mso-bidi-font-weight: normal">Шаблон командной строки – </b>Шаблон командной строки, который при вызове удаленного подключения, будет заполнен из дополнительных свойств рабочего места. </p>
+<p style="TEXT-INDENT: -18pt; MARGIN-LEFT: 36pt; mso-list: l0 level1 lfo2; tab-stops: list 36.0pt"><strong>Для простановки свойства в шаблоне необходимо указать ключ %Свойство%. </strong></p>
+<p style="TEXT-INDENT: -18pt; MARGIN-LEFT: 36pt; mso-list: l0 level1 lfo2; tab-stops: list 36.0pt"><strong>Например</strong> для удаленного рабочего стола:</p>
+<blockquote style="MARGIN-RIGHT: 0px" dir="ltr">
+<p style="TEXT-INDENT: -18pt; MARGIN-LEFT: 36pt; mso-list: l0 level1 lfo2; tab-stops: list 36.0pt">Наименование = "Удаленный рабочий стол" </p>
+<p style="TEXT-INDENT: -18pt; MARGIN-LEFT: 36pt; mso-list: l0 level1 lfo2; tab-stops: list 36.0pt">Рабочий каталог = "c:\windows\system32\"</p>
+<p style="TEXT-INDENT: -18pt; MARGIN-LEFT: 36pt; mso-list: l0 level1 lfo2; tab-stops: list 36.0pt">Шаблон командной строки = "mstsc.exe /V:%Имя или IP%"</p>
+<p style="TEXT-INDENT: -18pt; MARGIN-LEFT: 36pt; mso-list: l0 level1 lfo2; tab-stops: list 36.0pt">У рабочего места должно присутствовать дополнительное свойство "Имя или IP"  в значении которого должен быть указан конкретный IP адрес или сетевое имя компьютера к которому будет осуществляться подключения.</p></blockquote>
+<p>Справочник доступен из командного интерфейса подсистемы "Администрирование".</p></div></div>
+<p><br><br> </p></body></html>

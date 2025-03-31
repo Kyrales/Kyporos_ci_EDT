@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52acc1ed-c020-4666-9209-3220adcdf06d">
+  <producedTypes>
+    <managerType typeId="1ae8cb93-badb-4643-b631-78d05af79672" valueTypeId="50eb3ded-c9d9-4d4e-b081-076bceeaffae"/>
+    <valueManagerType typeId="9f378111-dea7-44f5-89ca-613abfde1f2e" valueTypeId="5cc4bc53-ce53-438f-8bc0-a9d7865bd0f7"/>
+    <valueKeyType typeId="cbe54af8-78ae-518c-9853-2151b4283bec" valueTypeId="346801f0-2aeb-52a9-bd38-87493fdce5b8"/>
+  </producedTypes>
+  <name>ДатаУведомленияСлужбыПоддержкиОНовыхЗадачах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дата уведомления службы поддержки о новых задачах</value>
+  </synonym>
+  <comment>Служебная, не редактируется пользователем</comment>
+  <type>
+    <types>Date</types>
+    <dateQualifiers/>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

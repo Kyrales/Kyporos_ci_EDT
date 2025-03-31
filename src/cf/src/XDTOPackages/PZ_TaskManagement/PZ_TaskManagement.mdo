@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97353f72-495b-48bd-b759-8d36872992bc">
+  <name>PZ_TaskManagement</name>
+  <synonym>
+    <key>ru</key>
+    <value>Task management</value>
+  </synonym>
+  <namespace>PZ_TaskManagement</namespace>
+</mdclass:XDTOPackage>

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="630708e5-cd9a-4d16-94f8-b0da3e02fe89">
+  <producedTypes>
+    <selectionType typeId="b07ed81c-d53b-40a0-9569-b1f09bd6786f" valueTypeId="66e8c47d-9977-409f-b30a-488fa5d529a1"/>
+    <listType typeId="caeca8ec-101a-429a-9f72-e5e428405288" valueTypeId="5b8410dc-b3a2-4251-8f46-e85a3d2b7f07"/>
+    <managerType typeId="1c5471e9-fedc-4a1c-be7a-e1c680e434a6" valueTypeId="b231a935-f5d6-412f-8311-0b0acca98724"/>
+    <recordSetType typeId="5433a626-ca54-43e0-92db-6bcc5dbde613" valueTypeId="c0f1f422-8f2d-47a4-93f6-2a1f0701dbc4"/>
+    <recordKeyType typeId="15e348b2-59f9-4667-adef-68b878a4694b" valueTypeId="0d36963b-8391-497f-8c98-eadb39f7ca4f"/>
+    <recordType typeId="d8090903-31fd-431b-ac6b-c3782b0743a4" valueTypeId="6a2464fb-9140-424d-9a91-cdfde252f686"/>
+    <recordManagerType typeId="5af89010-e382-429f-a171-37e64c9ad366" valueTypeId="46b0a58d-ed65-40dc-af17-6ce02ae04056"/>
+  </producedTypes>
+  <name>ТелеграмМетоды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм: описание параметров методов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ТелеграмМетоды.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ТелеграмМетоды.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Параметр метода</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Описание параметров методов</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Описание параметров методов (редактирование нежелательно)</value>
+  </extendedListPresentation>
+  <resources uuid="1a4fef03-71ec-46b3-b147-24ae3605c7f3">
+    <name>ОсобеннаяСборка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Особенная сборка</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сборка параметра имеет особенный алгоритм, отраженный в процедуре ТелеграмСервер.ОсобеннаяСборкаПараметра</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="20af5974-92d3-4a56-9f5a-72298695137b">
+    <name>Параметр1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр 1С</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Отражение параметра в 1С</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="721f4d4d-f121-471b-ae4a-7321b52c4cb7">
+    <name>ОбязательныйДляЗаполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обязательный для заполнения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Является обязательным для заполнения в коде обработки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9ab147d0-096b-43ad-877a-c71d290ec12c">
+    <name>ОбязательныйДляПередачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обязательный для передачи</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Является обязательным для сервера Telegram</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="628a323d-dc51-43b7-a858-05d0ad380c70">
+    <name>Сортировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сортировка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сортировка параметров при выводе</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="48a1ab2d-28d3-4af1-8515-39322abef88c">
+    <name>Тип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Тип значения параметра</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5263c1f3-c03f-4e43-8322-d2ac6245510a">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Подсказка по заполнению</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="a1bcc2fb-ea4b-452c-bafe-de6c0847f62a">
+    <name>Метод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метод</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Метод Telegram</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9bdeeceb-d44b-4542-adaa-e40a7949f002">
+    <name>Параметр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Параметр Telegram</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="2d3a91ed-f8ca-4511-b54f-6952847a00ee">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3b1b48d0-6f9e-49c7-8f71-022357b6c316">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="59cb1c00-8239-4aa4-acc5-e094ae44b0dd">
+    <name>Слепок20170525</name>
+    <synonym>
+      <key>ru</key>
+      <value>Слепок20170525</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="b4dc7267-5d02-47b2-bba5-acaa501c30f7">
+    <name>Обновление20171121</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление20171121, версия 1.02</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="5a7186fb-22ed-4850-b8e8-9a25fb46cc76">
+    <name>Обновление20220823</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление 20220823, версия 2.00</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:InformationRegister>

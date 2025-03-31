@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88b5c3eb-9149-4a98-b01e-3c794b461e90">
+  <producedTypes>
+    <refType typeId="62d71374-b8e7-4827-bddd-0abe867ea614" valueTypeId="0860439c-b10a-4b9c-b827-ca6830ca2b77"/>
+    <listType typeId="aff8c068-d002-4539-a8ce-bffe1e990f72" valueTypeId="3a6cbb48-d88e-4951-abdb-70376bfcb912"/>
+    <managerType typeId="c8cdbf0f-2d1d-48f8-bbf3-3924f1213bbb" valueTypeId="68f450ed-cc82-4ae3-a379-6ddf5618b61f"/>
+  </producedTypes>
+  <name>ТипыПользователейЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы пользователей задач</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9e48c440-435a-4abb-9d83-b6670b12850b">
+    <name>Администратор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Администратор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b059f9c4-a90e-4ae7-be5e-8a1169e724f7">
+    <name>КонтрольЗадачПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контроль задач пользователей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8eeb2184-13ec-40cc-ae09-6a4c552cf65e">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="900fce5a-b2f3-4f33-a337-c553e7d81cfb">
+    <name>ИнициаторПолучательУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инициатор/получатель услуг</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d6c82490-92fa-4e2c-8d05-35284a8a1763">
+    <name>ПользовательРабочейГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь рабочей группы</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3a23ed3-c8ec-4eec-a8ff-978630264780">
+  <producedTypes>
+    <selectionType typeId="d0f747e2-d417-4491-ad16-ea9e4ad5cd76" valueTypeId="02eafaea-4626-4f49-812c-6c908b69747b"/>
+    <listType typeId="22a39f2c-590a-4599-a3a8-65de043489fa" valueTypeId="4c08f03c-95c0-4a3b-9c6d-654b72a5ed83"/>
+    <managerType typeId="e742d4be-cd9f-490d-8cb8-3ad95455c982" valueTypeId="3334cda4-6b6a-461d-b98f-74bfda52224b"/>
+    <recordSetType typeId="d77ada1f-9965-4c40-b8e2-1b4b2098186b" valueTypeId="033348e9-5c7e-48a4-a852-c5439a1764e1"/>
+    <recordKeyType typeId="427d4d18-56ad-44c6-ac7f-7ee6490f2058" valueTypeId="c909f7d7-592d-44b4-a8c1-51740dd1c9fa"/>
+    <recordType typeId="54574f6d-4c64-486a-9581-282bbc5b2e24" valueTypeId="3a99c033-d87e-4088-955c-edc5b0acb9c0"/>
+    <recordManagerType typeId="ff7d6617-032b-42cd-b72b-f0bdc583e201" valueTypeId="0b54674e-818b-4635-9d5a-39f4fe24ce98"/>
+  </producedTypes>
+  <name>УчетОборудованияРабочихМест</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет оборудования рабочих мест</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.УчетОборудованияРабочихМест.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ed7190d9-e8fe-4096-9c81-1d9c4fe6437b">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:NumberValue">
+      <value>1</value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="d71047e4-4476-46c7-afba-3ff1758775f5">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="81ba0cd7-ccdd-4e81-b319-fb0013c81466">
+    <name>РабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РабочиеМеста</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="166b8e1e-4997-4f0a-b220-4e295a16ab62">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="66078e3e-ba67-4255-9a1b-f91b25f4e0f5">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

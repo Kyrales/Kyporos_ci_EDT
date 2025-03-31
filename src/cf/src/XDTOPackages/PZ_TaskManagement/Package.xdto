@@ -1,0 +1,80 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="PZ_TaskManagement">
+	<valueType name="WorkType" base="xs:string" variety="Atomic">
+		<enumeration xsi:type="xs:string">FormationTechnicalSolutions</enumeration>
+		<enumeration xsi:type="xs:string">Development</enumeration>
+		<enumeration xsi:type="xs:string">Documentation</enumeration>
+		<enumeration xsi:type="xs:string">Testing</enumeration>
+		<enumeration xsi:type="xs:string">Deployment</enumeration>
+		<enumeration xsi:type="xs:string">Maintenance</enumeration>
+		<enumeration xsi:type="xs:string">Conference</enumeration>
+	</valueType>
+	<valueType name="TaskType" base="xs:string" variety="Atomic">
+		<enumeration xsi:type="xs:string">Development</enumeration>
+		<enumeration xsi:type="xs:string">Maintenance</enumeration>
+		<enumeration xsi:type="xs:string">Arbitrary</enumeration>
+		<enumeration xsi:type="xs:string">Other</enumeration>
+	</valueType>
+	<objectType name="TaskList">
+		<property xmlns:d3p1="PZ_TaskManagement" name="Tasks" type="d3p1:Task" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="PZ_TaskManagement" name="OperationResult" type="d3p1:OperationResult"/>
+	</objectType>
+	<objectType name="Task">
+		<property name="Number" type="xs:string"/>
+		<property name="PlannedTimeInSec" type="xs:int"/>
+		<property name="TotalDurationInSec" type="xs:int"/>
+		<property name="Deadline" type="xs:dateTime"/>
+		<property name="Running" type="xs:boolean"/>
+		<property name="URL" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+		<property xmlns:d3p1="PZ_TaskManagement" name="Works" type="d3p1:Work" lowerBound="0" upperBound="-1"/>
+		<property name="ShortName" type="xs:string"/>
+		<property name="Status" type="xs:string"/>
+		<property name="Active" type="xs:boolean"/>
+		<property xmlns:d3p1="PZ_TaskManagement" name="WorkType" type="d3p1:WorkType" nillable="true"/>
+		<property name="IsFavorite" type="xs:boolean"/>
+		<property xmlns:d3p1="PZ_TaskManagement" name="TaskType" type="d3p1:TaskType"/>
+	</objectType>
+	<objectType name="AlertSettings">
+		<property name="AlertTimeInMin" type="xs:int"/>
+		<property name="DelayTimeInMin" type="xs:int"/>
+		<property xmlns:d3p1="PZ_TaskManagement" name="OperationResult" type="d3p1:OperationResult"/>
+		<property name="MaxSessionLockInMin" type="xs:int"/>
+	</objectType>
+	<objectType name="UserSettings">
+		<property name="AutoStopTask" type="xs:boolean"/>
+		<property xmlns:d3p1="PZ_TaskManagement" name="OperationResult" type="d3p1:OperationResult"/>
+	</objectType>
+	<objectType name="OperationResult">
+		<property name="Error" type="xs:boolean"/>
+		<property name="Description" type="xs:string"/>
+	</objectType>
+	<objectType name="CreateTaskResult">
+		<property name="TaskNumber" type="xs:string" nillable="true"/>
+		<property xmlns:d3p1="PZ_TaskManagement" name="OperationResult" type="d3p1:OperationResult"/>
+	</objectType>
+	<objectType name="TaskDescription">
+		<property xmlns:d3p1="PZ_TaskManagement" name="Task" type="d3p1:Task"/>
+		<property name="Description" type="xs:string"/>
+		<property name="Initiator" type="xs:string"/>
+		<property name="Recipient" type="xs:string"/>
+		<property name="RequestType" type="xs:string"/>
+		<property name="RequestType2" type="xs:string"/>
+		<property name="ResponsibleEmployee" type="xs:string"/>
+		<property name="ResponsibleTeam" type="xs:string"/>
+		<property name="CreationDate" type="xs:dateTime"/>
+		<property name="PostponDate" type="xs:dateTime"/>
+		<property name="PostponComment" type="xs:string"/>
+		<property name="Priority" type="xs:int"/>
+		<property name="DynamicPriority" type="xs:int"/>
+		<property name="Location" type="xs:string"/>
+		<property xmlns:d3p1="PZ_TaskManagement" name="OperationResult" type="d3p1:OperationResult"/>
+		<property name="Completed" type="xs:boolean"/>
+		<property name="CompletedDate" type="xs:dateTime"/>
+	</objectType>
+	<objectType name="Work">
+		<property xmlns:d3p1="PZ_TaskManagement" name="Type" type="d3p1:WorkType" nillable="true"/>
+		<property name="PlannedTimeInSec" type="xs:int"/>
+		<property name="TotalDurationInSec" type="xs:int"/>
+		<property name="Running" type="xs:boolean"/>
+	</objectType>
+</package>

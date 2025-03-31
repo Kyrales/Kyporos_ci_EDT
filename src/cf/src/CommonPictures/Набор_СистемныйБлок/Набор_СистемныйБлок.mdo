@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a821bbc4-cbe8-42c9-a864-16db5fad49f6">
+  <name>Набор_СистемныйБлок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Системный блок</value>
+  </synonym>
+</mdclass:CommonPicture>

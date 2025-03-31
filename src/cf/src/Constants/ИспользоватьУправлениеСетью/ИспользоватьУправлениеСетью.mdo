@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25ea1bf1-1382-4126-b48f-906e536fa9eb">
+  <producedTypes>
+    <managerType typeId="d0116efc-8e11-4bd5-9362-8189351ef60e" valueTypeId="6fcf6818-0a4d-4830-b187-522a020b8e23"/>
+    <valueManagerType typeId="07adc4d3-e955-4533-940c-7ba502d58c41" valueTypeId="7f3e623b-cd54-46ab-9502-95bca39413ce"/>
+    <valueKeyType typeId="b0c6f809-1fab-5315-a9cf-793df6aa1333" valueTypeId="c82d9bcb-553b-5760-a60e-a1e816c869a1"/>
+  </producedTypes>
+  <name>ИспользоватьУправлениеСетью</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать управление сетью</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

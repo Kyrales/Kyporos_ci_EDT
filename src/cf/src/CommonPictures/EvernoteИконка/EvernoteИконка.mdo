@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="876e5960-5261-4eab-9146-319de5d89647">
+  <name>EvernoteИконка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Evernote иконка</value>
+  </synonym>
+</mdclass:CommonPicture>

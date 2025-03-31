@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="50bbae96-cd2c-4338-891c-bf8d846f5b7c">
+  <name>РС_УчетВерсийКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет версий конфигурации</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

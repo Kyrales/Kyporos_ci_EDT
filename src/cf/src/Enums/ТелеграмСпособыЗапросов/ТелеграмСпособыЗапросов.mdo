@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="adef303a-2e8e-4ead-9b7b-1d31a5e3a282">
+  <producedTypes>
+    <refType typeId="7286844d-5476-4bcb-b34c-6c5a53aa22ca" valueTypeId="c1fa8706-cb85-476d-a34c-32eba2c047f0"/>
+    <listType typeId="8babdc8b-ab75-4498-a593-4ed18090443f" valueTypeId="b955f4b5-11a8-4ec1-a39d-b25c3a99cece"/>
+    <managerType typeId="430b4b92-44ac-4c8f-a553-513d254e36db" valueTypeId="608155e0-16af-4e99-9b58-4b4599abf1dc"/>
+  </producedTypes>
+  <name>ТелеграмСпособыЗапросов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм: способы POST запросов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Способы POST запросов к Телеграм</value>
+  </listPresentation>
+  <enumValues uuid="af8c8aae-900a-4ac2-856f-2dcf717dc384">
+    <name>Простой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос в URL</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8c95c5ef-731d-4a24-a5e7-5e25ff22f457">
+    <name>Кодированный</name>
+    <synonym>
+      <key>ru</key>
+      <value>application/x-www-form-urlencoded</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="28d427f2-95ef-4300-86c0-e84ed68ab5b9">
+    <name>Джейсон</name>
+    <synonym>
+      <key>ru</key>
+      <value>application/json</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9a3e1e5e-a62d-4637-83ab-bf2f311c5796">
+    <name>Мультипарт</name>
+    <synonym>
+      <key>ru</key>
+      <value>multipart/form-data</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

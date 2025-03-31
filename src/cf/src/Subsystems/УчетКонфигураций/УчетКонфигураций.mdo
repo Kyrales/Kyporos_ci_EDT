@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd270546-f02f-485e-9a1d-03b9ed64a611">
+  <name>УчетКонфигураций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет конфигураций</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.УчетКонфигураций</picture>
+  </picture>
+  <content>Catalog.Конфигурации</content>
+  <content>Catalog.ВерсииКонфигураций</content>
+  <content>Catalog.ОбъектыМетаданныхКонфигураций</content>
+  <content>Catalog.ТипОбъектаМетаданных</content>
+  <content>Catalog.ТипыМодулей</content>
+  <content>InformationRegister.УчетВерсийКонфигурации</content>
+  <content>Enum.РежимРаботыПослеОбновления</content>
+  <content>CommonModule.УправлениеУчетомКонфигурацийВызовСервера</content>
+  <content>CommonPicture.СтатусыОбъектов</content>
+  <content>CommonPicture.КоллекцияСтатусыУстановки</content>
+  <content>Report.АнализВерсийКонфигураций</content>
+  <content>Catalog.СценарииТестированияОбъектов</content>
+  <content>Document.ТестированиеОбъектовМетаданных</content>
+  <content>Catalog.ЭтапыПроверкиОбъектов</content>
+  <content>Enum.РезультатЭтапаПроверки</content>
+  <content>InformationRegister.ОписаниеИзмененийКонфигурации</content>
+  <content>Catalog.РазделыОбновленийКонфигураций</content>
+  <content>Enum.ТипИзмененияОбъекта</content>
+  <content>CommonModule.УправлениеУчетомКонфигурацийКлиент</content>
+  <content>FunctionalOption.ИспользоватьУчетКонфигураций</content>
+  <content>DataProcessor.ФормированиеШапкиМодуля</content>
+  <content>Role.РаботаСУчетомКонфигураций</content>
+  <content>CommonModule.СохранениеВводимыхЗначенийВызовСервера</content>
+  <content>CommonModule.СохранениеВводимыхЗначенийКлиент</content>
+  <content>Catalog.КонфигурацииПрисоединенныеФайлы</content>
+  <content>Constant.ИспользоватьУчетКонфигураций</content>
+  <content>CommonCommand.ПанельОтчетовУчетКонфигураций</content>
+  <content>CommonCommand.ДополнительныеОтчетыУчетКонфигураций</content>
+  <content>CommonCommand.ДополнительныеОбработкиУчетКонфигураций</content>
+  <content>Role.ПодсистемаУчетКонфигураций</content>
+</mdclass:Subsystem>

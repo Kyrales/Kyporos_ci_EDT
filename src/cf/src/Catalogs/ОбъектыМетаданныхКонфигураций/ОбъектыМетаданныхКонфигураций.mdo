@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="83429cf5-d4a5-401e-abca-0e152893ef18">
+  <producedTypes>
+    <objectType typeId="b50812c2-cdb0-41e4-84e9-ed61dba9eafc" valueTypeId="015cd64e-5a00-4231-b42e-593b2ea012e4"/>
+    <refType typeId="a819ece9-e05b-433b-adc1-dd43d8827f4f" valueTypeId="45686909-902b-4509-99b3-a119eedcbb05"/>
+    <selectionType typeId="5e218a1b-d1d1-4b62-b3a9-3dc41970b25a" valueTypeId="b30959b3-137a-49e5-8db3-73990cae7bb1"/>
+    <listType typeId="ed28be38-7f3f-48e0-a732-2b5603443218" valueTypeId="bc5d8caa-c72d-4261-b069-5c3ed0de683b"/>
+    <managerType typeId="358158e5-4512-467c-a46b-161601fa2d32" valueTypeId="98852003-379a-45f5-b441-9ba470f0ad8f"/>
+  </producedTypes>
+  <name>ОбъектыМетаданныхКонфигураций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объекты метаданных конфигураций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ОбъектыМетаданныхКонфигураций.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ОбъектыМетаданныхКонфигураций.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Конфигурации</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>60</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ОбъектыМетаданныхКонфигураций.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultChoiceForm>Catalog.ОбъектыМетаданныхКонфигураций.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="e7603d70-a865-4f17-b400-e978ac8c599b">
+    <name>Актуальность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Актуальность</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ff6ec216-f5ed-49db-992b-49b941075298">
+    <name>ТипОбъектаМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип объекта метаданных</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипОбъектаМетаданных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="59c6c984-02e5-4444-94ef-58c0fc56f013">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="70fb157e-a9a7-440d-b3cf-7ddd79d97f7b">
+    <name>ОбъектПротестирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект протестирован</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="991f11a9-742a-4092-9c37-42526096115e">
+    <name>ДатаДобавления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата добавления</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="30ba6fb0-8569-4815-81e6-8430462570ec">
+    <producedTypes>
+      <objectType typeId="9c4b9e16-9654-46cc-82a8-1c545729c163" valueTypeId="8e4916e1-f462-4137-9e35-af73f8e2d2ba"/>
+      <rowType typeId="cb4a73b7-3b13-48a8-865d-8e820acae540" valueTypeId="fce31963-638a-44a9-a0f1-b7f0342b50f3"/>
+    </producedTypes>
+    <name>ИзмененияПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменения по умолчанию</value>
+    </synonym>
+    <attributes uuid="27fd857d-a668-42b3-b37e-da1afb8ff308">
+      <name>ТипМодуля</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип модуля</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ТипыМодулей</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <quickChoice>DontUse</quickChoice>
+      <createOnInput>Use</createOnInput>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bd81aa33-9698-4fc2-814f-8f80a60d3429">
+      <name>ИнформацияПоИзменениям</name>
+      <synonym>
+        <key>ru</key>
+        <value>Информация по изменениям</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <multiLine>true</multiLine>
+      <extendedEdit>true</extendedEdit>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="81efbd79-6ed6-49ce-86de-2a10beca4626">
+      <name>АвторИзменений</name>
+      <synonym>
+        <key>ru</key>
+        <value>Автор изменений</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="ef9ce47c-dacd-4222-a549-f9f42e4a16a6">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bbcb9e17-3d30-4555-b793-96b5bddfbd11">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

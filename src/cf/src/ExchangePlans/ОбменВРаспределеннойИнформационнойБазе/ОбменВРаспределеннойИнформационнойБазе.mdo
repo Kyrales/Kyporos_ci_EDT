@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3aba569e-4bd9-42bf-830e-02c059fcdd28" thisNode="6deaf092-ea58-4c78-a9e7-a58e9badb6a0">
+  <producedTypes>
+    <objectType typeId="c8f96d61-756e-482a-aac9-7d7bf48eec7e" valueTypeId="a775f792-f711-437d-9fc5-f998661e8d61"/>
+    <refType typeId="7b4a0e19-4ad2-47c7-9332-8e14592549d5" valueTypeId="c491a0b8-5909-41da-b16d-cb2386d66062"/>
+    <selectionType typeId="5bd7c7ec-003e-4e0c-8866-dad9cb27c6ea" valueTypeId="ff328384-4d89-40b7-b4f7-f27c640563b1"/>
+    <listType typeId="de0a7bd7-b801-4488-8d5a-75e38b932146" valueTypeId="1b08a66c-3d82-4bc8-b70d-b9959047a9a9"/>
+    <managerType typeId="678c2f39-db40-4659-a177-39cfe3c2a19d" valueTypeId="a080fa8d-e65d-485b-b665-52a4468ac366"/>
+  </producedTypes>
+  <name>ОбменВРаспределеннойИнформационнойБазе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен в распределенной информационной базе</value>
+  </synonym>
+  <inputByString>ExchangePlan.ОбменВРаспределеннойИнформационнойБазе.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.ОбменВРаспределеннойИнформационнойБазе.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ThisNode</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ReceivedNo</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>SentNo</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя узла информационной базы</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Префикс информационной базы</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Узел распределенной информационной базы</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Узлы распределенной информационной базы</value>
+  </listPresentation>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>150</descriptionLength>
+  <content>
+    <mdObject>InformationRegister.ПроцессыДляЗапуска</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.НаличиеФайлов</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.УдалитьХранимыеФайлыВерсий</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьШаблоныСообщений</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.НаборыДополнительныхРеквизитовИСведений</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ПериодыНерабочихДнейКалендаря</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВариантыОтчетов</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ВерсииОбъектов</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.УчетнаяЗаписьДляВосстановленияПароля</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьЭлектронныеПодписи</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьДополнительныеОтчетыИОбработки</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ГрафикиРаботыСотрудников</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.НастройкиПодчиненногоУзлаРИБ</mdObject>
+  </content>
+  <content>
+    <mdObject>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.КурсыВалют</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ЗапрещатьЗагрузкуФайловПоРасширению</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ЗаявленияНаВыпускСертификата</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.НаборыЗначенийДоступа</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СообщенияОбсужденийПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ШаблоныСообщенийПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Валюты</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ШаблоныСообщений</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ЗависимостиПравДоступа</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ВерсияКлассификатораБанков</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьОбсуждения</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ИерархияГруппПользователей</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ПланыПоЗадачам</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ОрганизацииПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ДобавлятьМеткиВремениАвтоматически</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.СписокРасширенийФайловOpenDocumentОбластиДанных</mdObject>
+  </content>
+  <content>
+    <mdObject>AccumulationRegister.ВзаиморасчетыСОрганизациями</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.СведенияОЗадачахПоМесяцам</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ЗадачиПользователяПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ФизическиеЛица</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.НеИспользоватьНесколькоОрганизаций</mdObject>
+  </content>
+  <content>
+    <mdObject>Task.ЗадачаИсполнителя</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ДополнительныеСведения</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ИдентификаторыОбъектовМетаданных</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ЗатраченноеВремяПоЗадачам</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьШифрование</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ПараметрыПодсистемыПланированиеЗадач</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ИзбранныеЗадачи</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.РаботыПоЗадаче</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ДанныеОбработанныеВЦентральномУзлеРИБ</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ОбработчикиОбновления</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ИсполнителиЗадач</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.НастройкиВерсионированияОбъектов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.РолиИсполнителей</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.СписокЗапрещенныхРасширенийОбластиДанных</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВидыЗадач</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьПодчиненныеБизнесПроцессы</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ДанныеПроизводственногоКалендаря</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПапкиФорума</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьВерсионированиеОбъектов</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ПланРабочегоВремениПоДням</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.НаследованиеНастроекПравОбъектов</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.СписокРасширенийТекстовыхФайлов</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ПраваРолей</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ПрофилиРаспределенияРабочегоВремениИсполнителей</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.УсовершенствоватьПодписиАвтоматически</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.СписокРасширенийФайловOpenDocument</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Пользователи</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ОсновнойЯзык</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.УчетРабочегоВремени</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьДополнительныйЯзык1</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ВерсииПодсистем</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПользовательскиеНастройкиОтчетов</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ОповещенияПользователейСертификатов</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ЗначенияГруппДоступаПоУмолчанию</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.РазрешенныеНеаккредитованныеУЦ</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ОтложенноеОбновлениеЗавершеноУспешно</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьДополнительныеРеквизитыИСведения</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ПланРабочегоВремениСводный</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.УчетныеЗаписиЭлектроннойПочты</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.МаксимальныйРазмерФайла</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВидыДокументовФизическихЛиц</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ПользовательскиеНастройкиДоступаКОбработкам</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ТемыОбсуждений</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьДополнительныйЯзык2</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПроизводственныеКалендари</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.НазначениеДополнительныхОбработок</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВидыКонтактнойИнформации</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СтраныМира</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьГруппыВнешнихПользователей</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьДатуИВремяВСрокахЗадач</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВидыНоменклатуры</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.РаботыПоЗадачам</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Производители</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СертификатыКлючейЭлектроннойПодписиИШифрования</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Проекты</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьОтправкуSMSВШаблонахСообщений</mdObject>
+  </content>
+  <content>
+    <mdObject>Task.ЗадачиПользователя</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.СведенияОФайлах</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.СоставыГруппПользователей</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ПользовательскиеМакетыПечати</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ТаблицыГруппДоступа</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьВидыЗадач</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.АдресаСерверовМетокВремени</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ДанныеБизнесПроцессов</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.НастройкиПравОбъектов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ДополнительныеОтчетыИОбработки</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВнешниеПользователи</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.АктыВыполненныхРабот</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПапкиФайлов</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.НапоминанияПользователя</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ЗначенияГруппДоступа</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьПолнотекстовыйПоиск</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВерсииКонфигураций</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ДополнительныйЯзык2</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ГруппыЗначенийДоступа</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.НастройкиКомандПечати</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ДанныеДляОтложенногоОбновления</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ПервоеОбновлениеДоступаЗавершилось</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.СведенияОБлокируемыхОбъектах</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВидыРабот</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПредопределенныеВариантыОтчетов</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьЭлектроннуюПочтуВШаблонахСообщений</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПроектыПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьБизнесПроцессыИЗадачи</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ШаблоныЗаполнения</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ГруппыПользователей</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ОграничиватьДоступНаУровнеЗаписейУниверсально</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.НастройкиОчисткиФайлов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ЗначенияСвойствОбъектовИерархия</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.СведенияОТемахОбсуждений</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ТекущиеСостоянияЗадач</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.МаксимальныйРазмерФайлаОбластиДанных</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьВнешнихПользователей</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ПараметрыРаботыПрограммы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПрограммыЭлектроннойПодписиИШифрования</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.НастройкиКолонтитулов</mdObject>
+  </content>
+  <content>
+    <mdObject>ChartOfCharacteristicTypes.ОбъектыАдресацииЗадач</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьГруппыПользователей</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьНесколькоПроизводственныхКалендарей</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ДанныеДляИзмененияМультиязычныхРеквизитов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ГруппыИсполнителейЗадач</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ЗначенияСвойствОбъектов</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьНесколькоОрганизаций</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ЭлектронныеПодписи</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ПараметрыОграниченияДоступа</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.КлассификаторБанков</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.СписокЗапрещенныхРасширений</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.НастройкиВариантовОтчетов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Организации</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.СертификатыШифрования</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.РазделыОбновленийКонфигураций</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьНапоминанияПользователя</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ТипПодписиКриптографииПоУмолчанию</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СценарииОбработкиЗадач</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ЯзыкиПечатныхФорм</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.СведенияОЗадачахСводные</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ОграничиватьДоступНаУровнеЗаписей</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СтатусыОбработкиЗадач</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ГруппыВнешнихПользователей</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.НастройкиДоступностиПоСостояниюЗадачи</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.СведенияОбОбновленииИБ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ГруппыДоступа</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ОтсутствияИсполнителей</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ИспользуемыеВидыДоступа</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</mdObject>
+  </content>
+  <content>
+    <mdObject>BusinessProcess.Задание</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПрофилиРаспределенияРабочегоВремени</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.МакетыПечатныхФорм</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.СведенияОГолосовании</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ДополнительныйЯзык1</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ИспользуемыеВидыДоступаПоТаблицам</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.КодировкиФайлов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Файлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВерсииФайлов</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.УдалитьДвоичныеДанныеФайлов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СостоянияЗадач</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ДетализироватьОбновлениеИБВЖурналеРегистрации</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПрофилиГруппДоступа</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьПланированиеЗадач</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.СведенияОПользователяхКупорос</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИзменятьЗаданияЗаднимЧислом</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СообщенияОбсуждений</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ПриоритизацияЗадач</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.СведенияОПрочтении</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.УсовершенствоватьПодписиСДаты</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьУдалениеПомеченныхОбъектов</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьДатуНачалаЗадач</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.НастройкиАвторизацииИнтернетСервисов</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ExchangePlan.ОбменВРаспределеннойИнформационнойБазе.Form.ФормаУзла</defaultObjectForm>
+  <defaultListForm>ExchangePlan.ОбменВРаспределеннойИнформационнойБазе.Form.ФормаСписка</defaultListForm>
+  <distributedInfoBase>true</distributedInfoBase>
+  <attributes uuid="899c67c7-0403-49ab-b1ed-7f06c1d057fe">
+    <name>ДатаНачалаВыгрузкиДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала выгрузки документов</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата, с которой выгружаются документы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d885b954-0d22-4106-bf16-4ca17b5023bc">
+    <name>ИспользоватьОтборПоОрганизациям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор по организациям</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак использования отбора выгружаемых данных по организациям</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7181ea7f-ab03-4ca2-bfd0-eab8581527ba">
+    <name>ИспользоватьОтборПоПроектам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор по проектам</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак использования отбора выгружаемых данных по проектам</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="75bf0d18-933e-4670-b917-7e75e120a747">
+    <name>РегистрироватьИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрировать изменения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак необходимости регистрации изменений данных на узле</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="025ad1cc-495e-416f-a931-9fc32b8bd826">
+    <name>ИдентификаторУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор узла</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Запрещено изменять, если уже существуют документы по данному идентификатору.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="b907f610-7b10-4c73-adde-87dcd4be8005">
+    <producedTypes>
+      <objectType typeId="ea35f9ad-af8e-49f6-97db-45091a774ec0" valueTypeId="77f632f4-f3ad-425f-a1ac-f1d3eb68d76e"/>
+      <rowType typeId="57cf8172-9d34-4f70-85f4-595856ba6249" valueTypeId="12d6f64d-ebff-4d93-8d15-624c5e3ed2e9"/>
+    </producedTypes>
+    <name>Организации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="74e61308-7212-480b-98db-94e3fc5269d2">
+      <name>Организация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Организация</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Организации</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Организация по которой производится выгрузка данных</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="38a88e51-d849-40b9-b7e5-6e7ada082b4d">
+    <producedTypes>
+      <objectType typeId="75e5303a-f04c-400f-9232-539b1cdf6879" valueTypeId="642c78df-3242-4a1d-8aff-df0f35d799c5"/>
+      <rowType typeId="c7725051-53ad-4143-b27e-2ce4a6a8db98" valueTypeId="85e0e07f-f568-4a65-8ff9-da18bfb7b465"/>
+    </producedTypes>
+    <name>Проекты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проекты</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="6640503e-6715-48e3-bc1a-1c84534a3e3b">
+      <name>Проект</name>
+      <synonym>
+        <key>ru</key>
+        <value>Проект</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Проекты</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Проект по которому производится выгрузка данных</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="084d86ff-c014-4f8c-8eb4-ec89e5d2339a">
+    <producedTypes>
+      <objectType typeId="e251ac04-def7-45b9-84c0-4dd0aa1a4914" valueTypeId="60146b67-a1fd-42f1-a168-3a09bf378aa6"/>
+      <rowType typeId="21bf48ed-327b-409c-b99d-7cc853b971e2" valueTypeId="b4461ebc-2781-4b29-8beb-1a88cf32de2d"/>
+    </producedTypes>
+    <name>ОбщиеПользователи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общие пользователи</value>
+    </synonym>
+    <attributes uuid="69c8e847-59a0-4a99-8664-2f49e858e768">
+      <name>Пользователь</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пользователь</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="1cdd7a5c-aab6-460b-947e-547209d1c9dd">
+    <name>ФормаУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма узла</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="525f8f2f-fcaf-472c-9ca2-36b51c726553">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2a849f84-54a1-491c-9d4b-7403d193bcb4">
+    <name>ФормаНастройкиУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки узла</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="10d5eb4a-e66a-4734-b1a7-139a56be9d54">
+    <name>ФормаСозданияНачальногоОбраза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма создания начального образа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="b411b629-f653-4bd5-af72-c54c27a00ab6">
+    <name>ПравилаРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила регистрации</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:ExchangePlan>

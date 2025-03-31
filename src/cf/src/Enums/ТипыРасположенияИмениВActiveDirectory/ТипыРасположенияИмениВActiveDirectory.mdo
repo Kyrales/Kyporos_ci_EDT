@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98b1f014-4825-40af-9f3c-755c140f1d3e">
+  <producedTypes>
+    <refType typeId="a89c0518-dc9f-4030-8a7b-db57b30d869a" valueTypeId="47804ea2-77ed-4f09-94a6-97bb3be5d1f5"/>
+    <listType typeId="fa258c3d-7439-4274-b6ca-7840025a4052" valueTypeId="8178d0b6-8a05-4c90-9736-b1c241e80a73"/>
+    <managerType typeId="277f2436-1347-4146-8402-ced12d428e4e" valueTypeId="16cabacc-4f50-42e2-8a84-fcecbfea77de"/>
+  </producedTypes>
+  <name>ТипыРасположенияИмениВActiveDirectory</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы расположения имени в active directory</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7279b757-b40e-4c8d-b706-a71fa5cb38b6">
+    <name>ИмяОтчествоФамилия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя отчество фамилия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="72b51d9e-da90-442a-8686-240d014136b3">
+    <name>ФамилияИмяОтчество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фамилия имя отчество</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

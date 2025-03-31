@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7435ebaf-37a6-40cb-8c92-b945c71ac0ea">
+  <producedTypes>
+    <objectType typeId="26415699-0df5-41bc-b909-15e9ff11e7b1" valueTypeId="efa26ea8-3564-40ec-86b7-e1e18e669645"/>
+    <refType typeId="ccd11df3-9f4d-44b2-b0e3-26b51ced55fd" valueTypeId="d0d45b06-a76d-4907-bdd9-6cbaa9172cb5"/>
+    <selectionType typeId="00b74dd3-294e-4b1f-a0a3-5e269ea5c637" valueTypeId="494235e1-8065-4372-850e-7ddf88de738a"/>
+    <listType typeId="ed740037-49d8-4eed-8c09-e8e27da39523" valueTypeId="3817f190-0fb8-4e33-b559-48e3ef0313aa"/>
+    <managerType typeId="da66c1bd-cddc-4243-9eab-e7856015ed8c" valueTypeId="063c37aa-72be-4206-81fd-e025063ff949"/>
+  </producedTypes>
+  <name>СписокИнформационныхБаз1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информационные базы 1С</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СписокИнформационныхБаз1С.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СписокИнформационныхБаз1С.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>4</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СписокИнформационныхБаз1С.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.СписокИнформационныхБаз1С.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="b020c9ef-126a-4934-a211-e40fb0347bd4">
+    <name>Используется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e84c0e2d-90c6-43c7-a8fb-4b62b6be44b7">
+    <name>ТипРасположенияИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип расположения ИБ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e19de813-d8e9-4992-9072-c8ad357aa88f">
+    <name>КаталогИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог ИБ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>                                                                                                    </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="16154108-5264-459c-93a7-0c1d193bfd1c">
+    <name>Сервер1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер 1С</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="34ce86bf-31a1-41ad-aeaa-4b4ff7a99d79">
+    <name>ИмяБазыНаСервере</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя базы на сервере</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="efe7b8b0-f6f0-40c9-b9e2-97ae7a5a7d21">
+    <name>ВерсияПлатформы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия платформы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value>8.3</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="40b30a6b-389f-48f4-8305-8b6f6dd1ec64">
+    <name>ПутьКФайлуБазы_v8i</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к файлу базы v8i</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="55183604-85d2-4058-960d-04b5f90fbbe6">
+    <name>РежимЗапуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим запуска</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>60</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>Auto</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8ff8055d-69a8-4312-838d-459cabfbf570">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6a166761-e46f-4633-be4c-d72fdc54a34a">
+    <name>ДополнительныеПараметрыЗапуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные параметры запуска</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>80</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e6ecf2f6-12ec-4158-af68-203e4a615048">
+    <name>СерверSQL</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер SQL</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СерверыSQL</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1743a381-369a-461d-8f33-844e428204cf">
+    <name>ИмяБазыНаСервереSQL</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя базы на сервере SQL</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cb9824e9-59a1-4339-af2d-e6f9c0027b3e">
+    <name>ПапкаДляВыгрузок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Папка для выгрузок</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="70b2fb70-7e5a-428e-a9ae-322839ded99c">
+    <name>ИмяФайлаВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла выгрузки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4f440f52-1a14-47a9-aacf-1cd240ba5347">
+    <name>Выражение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выражение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Если установлена, значит что имя файла выгрузки определяется как выражение. Например &quot;ТекущаяДата()&quot;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a53e44c1-4357-4011-be4c-385a8457a479">
+    <name>ОписаниеВФормате_v8i</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание в формате v8i</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Используется при получении списка баз веб-сервиса</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="40fbac8c-d46f-445f-a4b4-2564e81dbd04">
+    <name>ИспользоватьВебСервисДляОбновленияСпискаБаз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать веб-сервис для обновления списка баз</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7d4ef242-016e-45c1-bb12-2b73f6360933">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="148394c6-539a-4307-af9e-01f2af0c68d7">
+    <name>ДатаИзмененияПараметровБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения параметров базы</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="035fd170-0aaf-49a5-9904-0614513bf14b">
+    <name>ИД_ИнформационнойБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор базы</value>
+    </synonym>
+    <comment>Должен быть уникальным в рамках одной сети</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Для определения прав внешней системы через веб-сервис AccessControl</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="240ef3a7-c145-4ce1-95bc-a7f3b8d02fa5">
+    <producedTypes>
+      <objectType typeId="237f859a-955a-45b9-86ac-6a5b36b87361" valueTypeId="a0f73a4f-4459-44cd-9f01-97807e11f902"/>
+      <rowType typeId="534563d9-fdcd-4658-aadb-baeb5e97abfb" valueTypeId="8f098e0c-1fac-45e8-8cbb-f3cba53c746f"/>
+    </producedTypes>
+    <name>СписокПравДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список прав доступа</value>
+    </synonym>
+    <attributes uuid="2bd29471-a1a6-4597-99f7-2f0d796faf39">
+      <name>ОбъектДоступа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объект доступа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ГруппыПользователейAD</types>
+        <types>CatalogRef.ГруппыПользователей</types>
+        <types>CatalogRef.ИменаПользователей</types>
+        <types>CatalogRef.СтруктураПредприятия</types>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="a4fffc7d-0f57-407c-bb3c-3cf27e962559">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d7b1db45-c6f0-450b-8333-2515690cb715">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c9b58159-adb2-4e1a-8c64-5d349e467219">
+    <name>СписокИспользуемыхБаз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список подключенных баз 1С</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ec324d01-21be-4c2f-8ae9-52f6a49b7646">
+    <name>ВосстановлениеИнформационнойБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Восстановление информационной базы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="e5c715fd-a576-4741-b383-1ece178fc5b7">
+    <name>ИнформационныеБазы1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационные базы 1С</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.ИменаПользователей</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Catalog>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6aa3843-0b29-4a2b-a142-ca3e986669db">
+  <producedTypes>
+    <managerType typeId="d40d65f4-6f1d-4391-b9e3-7befaa5848ad" valueTypeId="035bc29a-c777-416c-bc8d-ba64b9902074"/>
+    <valueManagerType typeId="1dce3b82-bb4f-46fc-bf72-7dc0aa5841b2" valueTypeId="8fb8f13c-b224-4c22-9ffb-a7f1ecfc05ad"/>
+    <valueKeyType typeId="a6131c9b-c33d-5a1e-9a21-78f9f306799d" valueTypeId="9dcdd984-6d0a-557a-90a7-32d1567edf99"/>
+  </producedTypes>
+  <name>ТипРасположенияИмениВActiveDirectory</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип расположения имени в Active directory</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ТипыРасположенияИмениВActiveDirectory</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

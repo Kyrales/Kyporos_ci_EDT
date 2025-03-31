@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5bf89367-a991-4865-b98b-f9132f2cc0ed">
+  <name>ПланированиеЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планирование задач</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.ПланированиеВыполненияЗадач</content>
+  <content>DataProcessor.ПланированиеРабочегоВремени</content>
+  <content>InformationRegister.ПланРабочегоВремениПоДням</content>
+  <content>Catalog.ПрофилиРаспределенияРабочегоВремени</content>
+  <content>Enum.ТипыЗадач</content>
+  <content>FunctionalOption.ИспользоватьПланированиеЗадач</content>
+  <content>InformationRegister.УчетРабочегоВремени</content>
+  <content>Report.АнализРаботыИсполнителейПоПроектам</content>
+  <content>Catalog.ШаблоныПлановыхТрудозатрат</content>
+  <content>InformationRegister.ПрофилиРаспределенияРабочегоВремениИсполнителей</content>
+  <content>InformationRegister.ЗадачиВРаботе</content>
+  <content>InformationRegister.ПараметрыПодсистемыПланированиеЗадач</content>
+  <content>DataProcessor.РаспределениеЗатраченногоВремени</content>
+  <content>InformationRegister.ОтсутствияИсполнителей</content>
+  <content>Catalog.СтатусыОбработкиЗадач</content>
+  <content>Catalog.КонфигурационныеЕдиницы</content>
+  <content>InformationRegister.СведенияОЗадачахСводные</content>
+  <content>InformationRegister.ПланРабочегоВремениСводный</content>
+  <content>Role.ПланированиеЗадач</content>
+  <content>InformationRegister.СведенияОПользователяхКупорос</content>
+  <content>XDTOPackage.PZ_TaskManagement</content>
+  <content>Task.ЗадачиПользователя</content>
+  <content>Document.ПриоритизацияЗадач</content>
+  <content>Role.ПриоритизацияЗадач</content>
+  <content>InformationRegister.ПланыПоЗадачам</content>
+  <content>InformationRegister.СведенияОЗадачахПоМесяцам</content>
+  <content>CommonModule.ПланированиеЗадачСервер</content>
+  <content>Report.АнализРаботыИсполнителейПоДням</content>
+  <content>Report.ПланированиеЗадачПриоритизации</content>
+  <content>Catalog.ГрафикиРаботыСотрудников</content>
+  <content>Role.ПодсистемаУчетЗадачПользователей</content>
+  <content>Enum.ТипыРаботПоЗадачам</content>
+  <content>Enum.ПовторятьНедель</content>
+  <content>InformationRegister.РаботыПоЗадачам</content>
+  <content>Report.СтатистикаВыполненияЗадачПоМесяцам</content>
+  <content>Catalog.ЗаменыЗадачПоПриоритизации</content>
+  <content>Report.РезультатыПланированияЗадач</content>
+  <content>Enum.СтатусыЗаменыЗадач</content>
+  <content>Catalog.Спринты</content>
+  <content>InformationRegister.ИзбранныеЗадачи</content>
+  <content>Constant.ИспользоватьПланированиеЗадач</content>
+  <content>Enum.ТипыСпринтов</content>
+  <content>Constant.ИспользоватьКонфигурационныеЕдиницы</content>
+  <content>FunctionalOption.ИспользоватьКонфигурационныеЕдиницы</content>
+  <content>Enum.ДниНедели</content>
+  <content>Report.ДетальныйАнализРаботыИсполнителей</content>
+  <parentSubsystem>Subsystem.УчетЗадачПользователей</parentSubsystem>
+</mdclass:Subsystem>

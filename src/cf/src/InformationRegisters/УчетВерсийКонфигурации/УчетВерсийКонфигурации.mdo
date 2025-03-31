@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="653b5728-4c8c-4605-827a-1819da50db9d">
+  <producedTypes>
+    <selectionType typeId="7bbe8a6f-d13c-46c2-8128-f213e2461d2a" valueTypeId="b6f0e6c9-74b0-4423-9c10-d1bbe6424c2b"/>
+    <listType typeId="914dcd83-78a4-4ed3-b33b-6b16bf10c66d" valueTypeId="0f8e0bfa-3120-43e1-a11a-62eff69d9f1b"/>
+    <managerType typeId="e0152f67-b601-481c-b09e-238301e264fe" valueTypeId="37f40d69-d4d4-45af-af7b-040ab971cdb8"/>
+    <recordSetType typeId="99987db7-6eeb-42fd-8a23-876134a3f047" valueTypeId="5920a49f-985f-497c-89f7-4317e8d98665"/>
+    <recordKeyType typeId="f1f89399-901c-45b8-8008-50b065220f01" valueTypeId="13554147-4e47-4fae-8fa3-07cf2e2c2252"/>
+    <recordType typeId="52c65345-87e7-4124-ab4e-089eb990756c" valueTypeId="0e443b86-2654-4e77-a5bc-24d43c9cd46f"/>
+    <recordManagerType typeId="230a122e-4c3f-415b-b45c-76323ede1bc2" valueTypeId="361ec52e-281d-4247-a083-a21957a30916"/>
+  </producedTypes>
+  <name>УчетВерсийКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет версий типовых конфигураций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.УчетВерсийКонфигурации.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.УчетВерсийКонфигурации.Form.ФормаСписка</defaultListForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="05dcc324-a22a-43fa-ab80-dff5eb28d90f">
+    <name>КомментарийИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий изменения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="df43165f-0b67-4ead-b120-8f77e5afcca2">
+    <name>ПроведенАнализИзменений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проведен анализ изменений</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bf754d21-fbe1-4356-ad0c-d0f0ffbce99c">
+    <name>ИзмененийНеТребуется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменений не требуется</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="78677f87-f610-40fc-ab96-ee7706914b82">
+    <name>ДатаАнализаИзменений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата анализа изменений</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4884ecf7-8de8-431d-b38d-cfe2ffb2aa51">
+    <name>ВыполненоИзменение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнено изменение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="90ea1567-c7e8-4722-92a6-cc5404fe786d">
+    <name>ДатаВыполненияИзменений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата выполнения изменений</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bcc71f57-4dea-4cc8-86f4-5b725c91eb9e">
+    <name>ДействияРезультат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действия результат</value>
+    </synonym>
+    <type>
+      <types>EnumRef.РежимРаботыПослеОбновления</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.РежимРаботыПослеОбновления.EnumValue.ИзмененияНеТребуются</value>
+    </fillValue>
+  </resources>
+  <resources uuid="95bb15d7-07b1-4ddb-b49f-e9d408237f20">
+    <name>КомментарийРезультата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий результата</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="1a461eb3-7d94-431f-a9bc-12a97073228c">
+    <name>АвторИзменений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор изменений</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="1da65613-14f1-4f20-bd5e-1ad60d85cd51">
+    <name>ТегиИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Теги изменения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="c8cc9099-0ee0-490b-991c-540774e5442d">
+    <name>Конфигурация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфигурация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Конфигурации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="602db70c-9177-4e6f-a5df-7440a29dc839">
+    <name>ВерсияКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия конфигурации</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВерсииКонфигураций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.УчетВерсийКонфигурации.Dimension.Конфигурация</field>
+    </choiceParameterLinks>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6f6f86fb-5da5-44a3-8336-d02be71523ea">
+    <name>ОбъектМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект метаданных</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбъектыМетаданныхКонфигураций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.УчетВерсийКонфигурации.Dimension.Конфигурация</field>
+    </choiceParameterLinks>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="82203785-1bda-4f71-9e55-204c883a9dbc">
+    <name>ТипМодуля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип модуля</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыМодулей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <quickChoice>DontUse</quickChoice>
+    <createOnInput>Use</createOnInput>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="8144eca2-f468-4188-9346-7b496026877f">
+    <name>ФормаУчетаВерсийКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма учета версий конфигурации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fed89e81-d8b0-4593-a1ce-cc0715c7455b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5c30fb26-83ce-4890-9769-2ebf0b6aa891">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7f539998-b8dc-4417-9186-67d56a530f82">
+    <name>ИмпортИзМодулей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Импорт из модулей</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a2fd9efd-b8aa-4ecc-a2cd-1ca73670daff">
+    <name>ШаблонРазработчика_st</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон разработчика (st)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <commands uuid="39912bc1-bec1-4316-8b27-15fadf531939">
+    <name>УчетВерсийКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учет версий конфигураций</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35954f71-f6af-4ed2-9e05-e6435e26a395">
+  <producedTypes>
+    <containerType typeId="c9fa7b0b-fd55-44dc-b32d-90806dde0ddf" valueTypeId="6cd9b8dc-575f-46e6-8fe7-d7eec9930393"/>
+  </producedTypes>
+  <name>ВерсионируемыеДанныеДокумент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версионируемые данные документ</value>
+  </synonym>
+  <type>
+    <types>DocumentObject.АрхитектурноеРешение</types>
+    <types>DocumentObject.ПриоритизацияЗадач</types>
+  </type>
+</mdclass:DefinedType>

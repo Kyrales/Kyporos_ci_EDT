@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bcc8ef70-347e-4419-aa03-5b9258633e92">
+  <name>ИспользоватьОбсуждения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать обсуждения</value>
+  </synonym>
+  <location>Constant.ИспользоватьОбсуждения</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ТемыОбсуждений</content>
+  <content>Catalog.СообщенияОбсужденийПрисоединенныеФайлы</content>
+  <content>Catalog.СообщенияОбсуждений</content>
+  <content>Catalog.СообщенияОбсуждений.Command.ОткрытьОбсуждениеДокумента</content>
+  <content>Catalog.СообщенияОбсуждений.Command.ПечатьКарточки</content>
+  <content>Catalog.ТемыОбсуждений.Command.ОткрытьФормуПросмотраОбсуждений</content>
+  <content>Catalog.ТемыОбсуждений.Command.ПечатьКарточки</content>
+  <content>Catalog.ПапкиФорума</content>
+</mdclass:FunctionalOption>

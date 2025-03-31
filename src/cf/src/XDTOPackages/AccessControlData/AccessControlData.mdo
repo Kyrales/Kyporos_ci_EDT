@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76643eea-b24b-4888-a9eb-981e6c8db247">
+  <name>AccessControlData</name>
+  <synonym>
+    <key>ru</key>
+    <value>Access control Data</value>
+  </synonym>
+  <namespace>https://kpkrs.site/AccessControl</namespace>
+</mdclass:XDTOPackage>

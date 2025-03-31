@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40b77704-e2ee-41c0-840f-0f3844e0b006">
+  <producedTypes>
+    <selectionType typeId="3ffe39a0-794e-46b3-9d60-d2a9e6855d1d" valueTypeId="4191ce3a-1b61-46e4-b704-64589c7f2558"/>
+    <listType typeId="594d586a-a7ab-447e-84e9-6f8b4dabcfbb" valueTypeId="0a3d78da-d29c-412c-8303-4d6138cdfe3a"/>
+    <managerType typeId="d4f437be-5676-4ad1-84dd-51926dbfe0a0" valueTypeId="9ea71c59-57f4-4950-8b29-a85337481132"/>
+    <recordSetType typeId="20867713-bb5f-4e41-8fbe-f90f3aeab37f" valueTypeId="7ed2327d-4032-4d77-80aa-187e1fc69108"/>
+    <recordKeyType typeId="ca6af7c0-74ac-4ca7-9950-b6d590b87399" valueTypeId="317b16a9-bc2e-4e4f-8dde-91938cc4298e"/>
+    <recordType typeId="01b22601-3371-4c0f-af7f-4d23dd6f1b33" valueTypeId="bd6dd9f9-e56c-489a-8d34-da98c67bedc6"/>
+    <recordManagerType typeId="ed631682-77a0-43ea-8569-c011908f3736" valueTypeId="61941441-5e89-4cbe-9e02-f6b5c2d54982"/>
+  </producedTypes>
+  <name>ЗатраченноеВремяПоЗадачам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Затраченное время</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ЗатраченноеВремяПоЗадачам.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ЗатраченноеВремяПоЗадачам.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата выполнения работы</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Затраченное время по задаче</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Затраченное время по задаче</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Затраченное время</value>
+  </listPresentation>
+  <resources uuid="1480dfcf-65ee-455a-82d9-7b9e71235956">
+    <name>ЗатраченноеВремя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Затраченное время (в часах)</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ТрудоемкостьЧасовНеотрицательная</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="2d260e78-1b6a-419a-abf4-f5a17d110597">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="0e177c44-8dc1-4899-962b-48e0f56c8f1e">
+    <name>АвторФиксацииВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор фиксации времени</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="49efbcfd-a9ea-4d2a-9fee-94616434d1ad">
+    <name>ОтразитьРаботуПоЗадаче</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отразить работу по задаче</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Для возможности списания по актам выполненных работ.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cb53c9e2-acbf-4d11-a910-710fba73900f">
+    <name>РаботаПоЗадаче</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работа по задаче</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.РаботыПоЗадаче</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="ff0437c7-aeb0-43a4-b0c7-ba6e4cfdaa52">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <comment>АПК:1208 Считаем корректным имя в Купорос</comment>
+    <type>
+      <types>TaskRef.ЗадачиПользователя</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="81727d86-a43a-4b2e-a09c-3df88fcdf631">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8b25125d-1207-4415-9cbf-c8778070760f">
+    <name>ВидРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид работы</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыРабот</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="a890b3e4-b752-4c68-805b-4c64b6bf1346">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="97fab817-d1f2-4ce4-831d-b6692e94924b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4c3b7cee-0ee3-4ff3-9d61-468a22c73b0b">
+    <name>ФормаСпискаЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка задачи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="5215cfb5-7d9d-4e88-930b-871b8787a61f">
+    <name>ОткрытьФормуСпискаЗатраченногоВремениЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Затраченное время</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>TaskRef.ЗадачиПользователя</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

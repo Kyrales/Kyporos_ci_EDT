@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd85bce2-2395-4da5-847e-cd5e660411a3">
+  <name>ИспользоватьДополнительныеРеквизитыИСведенияКупорос</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать дополнительные реквизиты и сведения Купорос</value>
+  </synonym>
+  <location>Constant.ИспользоватьДополнительныеРеквизитыИСведения</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.НаборыДополнительныхРеквизитовИСведений</content>
+  <content>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</content>
+  <content>CommonCommand.ДополнительныеСведенияКоманднаяПанель</content>
+  <content>InformationRegister.ДополнительныеСведения</content>
+  <content>Catalog.ЗначенияСвойствОбъектов</content>
+  <content>Catalog.ЗначенияСвойствОбъектовИерархия</content>
+  <content>Catalog.ВидыНоменклатуры.Attribute.НаборСвойств</content>
+  <content>Catalog.Номенклатура.Attribute.НаборСвойств</content>
+  <content>Catalog.Проекты.Attribute.НаборСвойств</content>
+</mdclass:FunctionalOption>

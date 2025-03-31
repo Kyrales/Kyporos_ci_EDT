@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d69611d1-c1ca-489e-9be2-cb09d75befda">
+  <producedTypes>
+    <refType typeId="a9b2fed1-68ec-4ee9-9f46-3632dd154989" valueTypeId="becef0db-bb13-4618-b0a4-607a37d24291"/>
+    <listType typeId="feec231d-8d5b-4523-8dec-774778288d71" valueTypeId="2d41e82a-2bd1-4e51-8dce-4926c6dc8d22"/>
+    <managerType typeId="927d756a-85e0-444d-9650-3dc49451afa0" valueTypeId="06bff857-4dd0-442a-880d-01fe6370c457"/>
+  </producedTypes>
+  <name>ТипыСпринтов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы спринтов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="555ded6e-8827-4d17-8c6a-ebfd55c729d5">
+    <name>Месяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e0508238-ce90-4b5e-8657-d36d91524a14">
+    <name>ОднаНеделя</name>
+    <synonym>
+      <key>ru</key>
+      <value>1 Неделя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3619d55f-1071-4ae2-af25-1e4ab3ff70f4">
+    <name>ДвеНедели</name>
+    <synonym>
+      <key>ru</key>
+      <value>2 Недели</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6caf4e87-2b9d-4104-98b7-3c97bd3e44c6">
+    <name>ТриНедели</name>
+    <synonym>
+      <key>ru</key>
+      <value>3 Недели</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8038cbe4-e26a-48fc-b5c7-328050d68ab2">
+    <name>ЧетыреНедели</name>
+    <synonym>
+      <key>ru</key>
+      <value>4 Недели</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c2cab99f-4a96-4fe5-8592-3facc9236bd5">
+    <name>ДваМесяца</name>
+    <synonym>
+      <key>ru</key>
+      <value>2 Месяца</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7bc95acc-e207-410a-9417-ac1140b52aa9">
+    <name>ТриМесяца</name>
+    <synonym>
+      <key>ru</key>
+      <value>3 Месяца</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

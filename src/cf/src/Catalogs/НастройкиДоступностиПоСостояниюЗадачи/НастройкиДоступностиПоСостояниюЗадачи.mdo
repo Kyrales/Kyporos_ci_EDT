@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ccd52486-e023-48cd-aff3-617142d98fc6">
+  <producedTypes>
+    <objectType typeId="5b63572a-180c-4908-911c-7445af1fbd69" valueTypeId="30d26ddd-5c20-4a14-987c-034960bacbaf"/>
+    <refType typeId="3dcc4182-35d3-4086-add0-62547510eea9" valueTypeId="35a73b4e-3214-4b0b-8043-38d98a25d144"/>
+    <selectionType typeId="f32c8e52-1378-4383-a35e-b88ccfefaa87" valueTypeId="44b8bc9d-4ceb-43f8-ae17-ea5e83c98eda"/>
+    <listType typeId="7f4d0383-69bf-4b60-96d8-5138bb20f82f" valueTypeId="9edf4187-15b0-4cb0-b84e-d5d0243c660e"/>
+    <managerType typeId="336e75e4-db88-4cf0-b8c0-474ebbc385b5" valueTypeId="3d81e328-fb15-4868-81b8-b0560d13e2da"/>
+  </producedTypes>
+  <name>НастройкиДоступностиПоСостояниюЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки доступности по состоянию задачи</value>
+  </synonym>
+  <comment>#НастройкиДоступностиПоСостояниюЗадачи</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НастройкиДоступностиПоСостояниюЗадачи.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.НастройкиДоступностиПоСостояниюЗадачи.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="84a9a698-d9cd-4c7a-bf5c-2cdc38da15a0">
+    <name>ТипПользователяЗадач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип пользователя задач</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыПользователейЗадач</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="81fb8d48-3b73-4ee0-bfbf-92e1a76ca25d">
+    <name>ПоВсемПроектам</name>
+    <synonym>
+      <key>ru</key>
+      <value>По всем проектам</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4668ad62-4420-4117-9941-5ed54a50d012">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c3b388f7-a841-4e45-b2bd-71d25e9f2de1">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="13cdc9ee-74ed-44d2-be80-95e5e2a9c7e1">
+    <producedTypes>
+      <objectType typeId="36207e10-c967-4013-b00c-332e6c7ba057" valueTypeId="0cdbecf3-eac1-4ff8-a6b8-2fe6b5d609f7"/>
+      <rowType typeId="4a28f96b-f7fe-4f28-99ff-b843a20d8bb8" valueTypeId="c477e28a-4f21-4437-8302-fa17c093d84b"/>
+    </producedTypes>
+    <name>ИспользоватьДля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать для</value>
+    </synonym>
+    <attributes uuid="e23fc78c-2aa0-4cb7-9605-a9ffa56f9548">
+      <name>Участник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Участник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ГруппыПользователей</types>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="1434323d-de3b-4ee0-b2e4-db7a21fba6ab">
+    <producedTypes>
+      <objectType typeId="f365badb-9157-4d04-828f-df1c2f9169aa" valueTypeId="a8aeb8ed-8662-4ff2-9f5b-d0fc85049332"/>
+      <rowType typeId="55f54971-fc88-4e4c-a9bc-ee03937460b5" valueTypeId="098da35a-9d95-451d-8a2a-8c86e6574d40"/>
+    </producedTypes>
+    <name>НастройкиДоступности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки доступности</value>
+    </synonym>
+    <attributes uuid="7dce894e-b603-46e7-8ee9-ab8d5e1de1cc">
+      <name>ИмяПоляКоманды</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя поля команды</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2e96732d-9359-408f-a9bc-10ebaf164a43">
+      <name>ПредставлениеПоляКоманды</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление поля команды</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>80</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1d569b3b-419f-4e31-b482-4aa8a006ae15">
+      <name>Состояние</name>
+      <synonym>
+        <key>ru</key>
+        <value>Состояние</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СостоянияЗадач</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0822b3e5-96ac-4326-9429-966260aed733">
+      <name>Доступность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Доступность</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ДоступностьПолей</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="80646594-f5e8-4cff-883e-28f74f6f4ed4">
+      <name>ВариантОграниченияНаФормеЗадачи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вариант ограничения на форме</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ВариантыОграниченияДоступаНаФорме</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="c1d1ecd4-cbdd-4d06-90df-ea151191c923">
+    <producedTypes>
+      <objectType typeId="4ce559fb-758b-4a2c-93df-bba9cc468784" valueTypeId="1e4fc8dd-69e7-4cb0-9a43-78dc83fc2cc7"/>
+      <rowType typeId="b001de07-5e26-4f33-a36b-157c72a33a5f" valueTypeId="2c4f9829-39ae-4d5e-8b02-678b505c089e"/>
+    </producedTypes>
+    <name>Проекты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проекты</value>
+    </synonym>
+    <attributes uuid="bbb4a416-6dcf-4689-a4fa-edd43150953a">
+      <name>Проект</name>
+      <synonym>
+        <key>ru</key>
+        <value>Проект</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Проекты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="401dbf74-2feb-4b83-9ae4-c1d1d19a41fb">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a236102f-cc10-41ed-980d-bed6bc50c80d">
+    <name>ЗаполнениеДоступностиСостояний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение доступности состояний</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

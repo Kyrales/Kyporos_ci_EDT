@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d52e7aa3-05c3-413c-8465-4c1461b0dd0a">
+  <producedTypes>
+    <objectType typeId="f70ea4ec-f9c3-4f30-b5fe-d52aa378c036" valueTypeId="3261c155-85c5-4e3f-b6ca-868861e3508a"/>
+    <managerType typeId="4e1f6a55-0345-4a30-9661-a11bd862bd49" valueTypeId="5bf88e8c-e4e3-4d95-8490-c04a66dcad9a"/>
+  </producedTypes>
+  <name>ФормированиеШапкиМодуля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формирование шапки модуля</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ФормированиеШапкиМодуля.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="e5618500-35c9-4c24-a2f2-b8a75ff71a2c">
+    <name>МодульОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модуль объекта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="83ea3fb1-01a5-4200-b472-d2b2912d1c39">
+    <name>Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="ee81fdc2-a123-408e-88f0-7d326173ddf6">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

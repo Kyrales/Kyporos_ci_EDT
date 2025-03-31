@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ccbf2da3-fa6b-4ef2-ad44-347a33dde428">
+  <producedTypes>
+    <refType typeId="b99e03bc-2f62-445f-b9bf-577597b27856" valueTypeId="90adcf57-8e4b-4bc5-a883-ea560fadd647"/>
+    <listType typeId="235b8a72-78c4-4fa9-907d-4ef0367cb5e5" valueTypeId="5745e14f-f37d-465b-971c-08e1622a55d7"/>
+    <managerType typeId="48719646-4c7a-4696-a6b8-7f8d8751bd0e" valueTypeId="5bfb341e-473f-4c84-9107-d92c9956a0de"/>
+  </producedTypes>
+  <name>ТелеграмВидыКлавиатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм: виды клавиатуры</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Виды клавиатуры</value>
+  </listPresentation>
+  <enumValues uuid="8e6a48ca-b9c0-48d6-b953-92f9b9475237">
+    <name>Стандартная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандартная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="17142d63-02c6-4baf-8341-10fe3c3b5b8c">
+    <name>Контекстная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контекстная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b3d21e03-46ca-4eed-b1f0-7bc6badc3116">
+    <name>Программная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Программная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4c9c49a2-14ff-4e35-a077-3532a6b7d5b5">
+    <name>СкрытьКлавиатуру</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скрыть клавиатуру</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

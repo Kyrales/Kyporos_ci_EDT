@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44dd0703-9039-4443-a600-c87a922871a3">
+  <producedTypes>
+    <objectType typeId="88ffcf71-e071-41d5-95ae-377910aa0b37" valueTypeId="88c13195-8dc5-4083-9978-2ef2fee2748e"/>
+    <managerType typeId="016f1ed5-3417-4c8d-9b4e-c82336f9b1c5" valueTypeId="68b140b3-47db-4d27-a99e-9d5f288145a7"/>
+  </producedTypes>
+  <name>ПанельАдминистрирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Панель администрирования</value>
+  </synonym>
+  <forms uuid="a923d449-0769-4a74-b845-7f9a1fb1285f">
+    <name>Организации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="805cfe67-4855-42b9-a1fd-8071bb8adac9">
+    <name>ПараметрыОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры организации</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Управление параметрами организаций</value>
+    </toolTip>
+  </commands>
+</mdclass:DataProcessor>

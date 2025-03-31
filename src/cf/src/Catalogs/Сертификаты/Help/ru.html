@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta><link rel="stylesheet" type="text/css" href="v8help://service_book/service_style"></link></head><body>
+<h1><font size="2">Хранение сертификатов организации</font></h1>
+<div><font size="2">Справочник позволяет хранить информацию о сертификатах электронной подписи, с гибким уведомлением ответственных об окончании срока действия.</font></div>
+<div><font size="2">Если владелец сертификата не задан, то это сертификат обезличенный на организацию.<br><br></font></div>
+<h1><font size="2">Напоминания об окончании срока действия сертификата</font></h1>
+<div><font size="2">Уведомления отправляются всем пользователям из табличной части "Ответственные". Если ответственный пользователь недействителен в 1С, то уведомлений отправляться ему не будет.</font></div>
+<div><font size="2"><br></font></div>
+<div><font size="2">Расписания уведомлений:</font><br><ul><li><font size="2">за месяц;</font></li>
+<li><font size="2">за неделю;</font></li>
+<li><font size="2">за день.</font></li></ul></div>
+<div><span style="font-size: small;"><br></span></div>
+<div><span style="font-size: small;">Типы уведомлений:</span></div>
+<div>
+<ul><li><font size="2">Всплывающее окно напоминания в 1С</font></li>
+<li><font size="2">По электронной почте</font></li>
+<li><font size="2">По Телеграм (если включена функциональная опция и настроен "Бот телеграм" с признаком "Использовать для отправки сообщений задач")</font></li></ul><span style="font-size: small;"><br><b><font color="#ff0000">Ключевой фактор: Напоминания а</font></b></span><font size="2" color="#ff0000"><b>втоматически устанавливаются перед записью. Для этого требуется, чтобы был заполнен "Срок действия" и статус сертификата был "Активный".</b></font></div>
+<div>
+<ul><li><font size="2">Если включен признак "Без напоминаний" (на закладке "Дополнительно"), то </font><span style="font-size: small;">все уведомления будут очищены</span><span style="font-size: small;"> и </span><span style="font-size: small;">новые напоминания создаваться не будут.</span></li>
+<li><span style="font-size: small;">Если перевести статус сертификата в "Неактуален", то все уведомления будут очищены и новые не будут создаваться (аналогично признаку "Без напоминаний").</span></li>
+<li><span style="font-size: small;">Если перевести статус сертификата в "В процессе активации", то записи регистра напоминаний останутся, но новых/обновленных создаваться не будет. При необходимости уведомления можно удалить/прервать вручную.</span></li></ul></div>
+<div><font size="2"><br></font></div>
+<div><font size="2">Обновление напоминаний при записи происходит при следующих событиях: </font></div>
+<div>
+<ul><li><span style="font-size: small;">изменение Наименования;</span></li>
+<li><span style="font-size: small;">изменение Срока действия </span></li>
+<li><span style="font-size: small;">изменение Владельца сертификата;</span></li>
+<li><span style="font-size: small;">изменение Ответственных;</span></li>
+<li><span style="font-size: small;">При выполнении команды "Удалить напоминания".</span></li></ul></div>
+<div><font size="2"><br></font></div>
+<div><font size="2"><br></font></div>
+<div><font size="2"><br></font></div></body></html>

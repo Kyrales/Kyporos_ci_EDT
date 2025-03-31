@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9186afef-562b-404a-b448-0cc7db454940">
+  <producedTypes>
+    <objectType typeId="318390d8-29c0-40a3-b25d-4565ee30b120" valueTypeId="399ea680-26e4-4b78-8ca4-a351ee4c0df3"/>
+    <managerType typeId="2366a499-c5c6-4839-abe4-c18e0aab4cb9" valueTypeId="87fbe0b5-c41d-45ec-b6ee-1aff11eac1c9"/>
+  </producedTypes>
+  <name>ПланированиеЗадачПриоритизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планирование задач приоритизации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ПланированиеЗадачПриоритизации.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="d41e6881-14a7-40da-93fb-e8b1c74f4709">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20cc4770-ad56-4d57-be8a-68fe9d07dbd2">
+  <name>Набор_ПрограммноеОбеспечение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Программное обеспечение</value>
+  </synonym>
+</mdclass:CommonPicture>

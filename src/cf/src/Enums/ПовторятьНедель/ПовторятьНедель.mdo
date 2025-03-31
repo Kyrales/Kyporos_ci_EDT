@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08ac153e-ebe4-44bf-ae75-6d4f4e682eec">
+  <producedTypes>
+    <refType typeId="45403619-6a30-4f3b-8391-3e2bf387491f" valueTypeId="90f7a316-8e2c-4286-8f91-39db5add0b1d"/>
+    <listType typeId="9dbea3bb-2779-4cba-b0b8-ee2999092454" valueTypeId="d7dc4e68-cb85-4726-81f4-04b807e4d3fb"/>
+    <managerType typeId="101ca198-32d1-4c34-9324-50feef5dfb3b" valueTypeId="2f14965c-83d7-4c14-bc4d-4044511da961"/>
+  </producedTypes>
+  <name>ПовторятьНедель</name>
+  <synonym>
+    <key>ru</key>
+    <value>Повторять недель</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="187b9ae8-cdcd-42ac-8c52-8036b3ce8460">
+    <name>РазВНеделю</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раз в неделю</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d6b949dc-8a3c-4c21-b05b-c40e0f4d18f1">
+    <name>РазВДвеНедели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раз в две недели</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ceb6755f-cf5c-4852-ae94-46908e6f1d37">
+    <name>ПервуюНеделюМесяца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первую неделю месяца</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="858644e9-0ee2-46b0-bf6d-06d161504886">
+    <name>ВторуюНеделюМесяца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вторую неделю месяца</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5d52e0f5-a6ae-4bb2-8a65-39b98b3e18ee">
+    <name>ТретьюНеделюМесяца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Третью неделю месяца</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8dc49768-b2ac-43c1-82bd-cd62733df831">
+    <name>ЧетвертуюНеделюМесяца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Четвертую неделю месяца</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ac9a7983-44ba-4753-9b70-6cc4ae53320c">
+    <name>ВторуюЧетвертуюНеделюМесяца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вторую и четвертую неделю месяца</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ef54c72b-3a65-4684-8119-7fec147e891d">
+    <name>ПервуюТретьюНеделюМесяца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первую и третью неделю месяца</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7db28a19-dbbd-4523-8571-0158f7d5316f">
+    <name>КаждыйДень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каждый день</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

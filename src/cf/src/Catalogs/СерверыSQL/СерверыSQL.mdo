@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af25b4d6-045c-4fe3-b8de-30a74a23b4f0">
+  <producedTypes>
+    <objectType typeId="a4c7022b-c8ed-4b8a-b53e-d9e087812497" valueTypeId="9b218ace-a0e3-472c-8e02-c23708e48d3c"/>
+    <refType typeId="8b4b8e29-0e34-4a08-aeb5-6bb1c341eda9" valueTypeId="896a59da-430d-4236-9c49-7c2ecbbf9e98"/>
+    <selectionType typeId="1853e783-1ec9-4bb0-9505-af1db0b3add1" valueTypeId="f3994226-5663-4e31-9a3f-0c05bb8f5302"/>
+    <listType typeId="6fba1cb5-74b1-4b8c-905b-186388c958c7" valueTypeId="0b9396f1-e628-42b1-b258-d989191c0d62"/>
+    <managerType typeId="0f7a131c-d615-4957-88d9-c4e16f8003e2" valueTypeId="fd581c27-93a6-4245-8de7-c0e250b8d8af"/>
+  </producedTypes>
+  <name>СерверыSQL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Серверы SQL</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СерверыSQL.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СерверыSQL.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>8</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СерверыSQL.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="6ff4596f-37e6-4013-9672-1735f206b024">
+    <name>ТипСервераSQL</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип сервера SQL</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыСерверовSQL</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f1a4a088-dac5-450d-a25c-4f5de90dedce">
+    <name>Сервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dcd31423-89ee-493b-b542-842f2e391d9b">
+    <name>Аутентификация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аутентификация</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыАутентификации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.СпособыАутентификации.EnumValue.SQLServer</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b643813a-12e1-49c9-8b4d-ddea27bb145d">
+    <name>ИмяПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя пользователя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="616e9f40-1b68-4ce8-a0ab-bd998e5b4ea6">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <passwordMode>true</passwordMode>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8c5ef21c-2442-4585-b930-802d4eee47d2">
+    <name>ПапкаКБазамПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Папка к базам по умолчанию</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="91f6b595-5a69-4bd6-94db-018b93f4204f">
+    <name>ПапкаДляВыгрузокПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Папка для выгрузок по умолчанию</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="7b2d263c-5f39-4277-86c3-e4df940bd914">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

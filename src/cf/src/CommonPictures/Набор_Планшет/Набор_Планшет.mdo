@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a2f42cd-bbb4-4550-bfa2-32e00b63fcec">
+  <name>Набор_Планшет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планшет</value>
+  </synonym>
+</mdclass:CommonPicture>

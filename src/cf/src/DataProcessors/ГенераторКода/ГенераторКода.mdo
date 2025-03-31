@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc96d245-5189-4aba-9801-bb116f3e41c8">
+  <producedTypes>
+    <objectType typeId="58071b86-c0af-478b-af47-be81631a91d5" valueTypeId="f3066a94-2dd9-42b0-8455-fcae98c04a22"/>
+    <managerType typeId="199ccf03-8c55-4127-9eee-1edad72235ca" valueTypeId="830c2aed-cc61-4a89-9acb-ba85bb34f523"/>
+  </producedTypes>
+  <name>ГенераторКода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Генератор кода</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ГенераторКода.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="4865190d-1113-4e46-8dd2-971f0029a792">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

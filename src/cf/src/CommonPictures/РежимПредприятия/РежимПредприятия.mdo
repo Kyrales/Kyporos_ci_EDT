@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="596adb19-e56d-4d3d-b691-e5872de2fac8">
+  <name>РежимПредприятия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режим предприятия</value>
+  </synonym>
+  <transparentPixel>
+    <x>3</x>
+    <y>2</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

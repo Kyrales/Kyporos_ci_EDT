@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a4ba03a-cfa4-4e69-81a9-8cd0070682b4">
+  <producedTypes>
+    <refType typeId="1098dfc3-1651-4411-a064-914b9944e5ce" valueTypeId="8b6ec3b2-08dc-4185-84ad-b3eccb9c0720"/>
+    <listType typeId="cda37e9d-4b95-4856-a6a0-815fc7fa9af5" valueTypeId="95373564-4c8d-4b3a-bd30-d9146bc39318"/>
+    <managerType typeId="f66a33bd-6c0b-4e23-89d6-4941add914fc" valueTypeId="2ded5d0c-41f3-44cf-a0d0-9becbc4a8797"/>
+  </producedTypes>
+  <name>ВидыПросмотраСпискаОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды просмотра списка объектов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="522aeef2-4d2a-4db7-aba6-3714e2a398f2">
+    <name>Списком</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списком</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="757a2456-885a-412a-ae82-7275ef442550">
+    <name>ПоПапкам</name>
+    <synonym>
+      <key>ru</key>
+      <value>По папкам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7964f0bd-f8de-4795-9d8b-41227acd021b">
+    <name>ПоКатегориям</name>
+    <synonym>
+      <key>ru</key>
+      <value>По категориям</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="420a9616-26af-4f00-90f1-a9d15139b52f">
+    <name>ПоВидамДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>По видам документов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1cf08951-6760-4050-b18a-b49f3c56e07a">
+    <name>ПоВопросамДеятельности</name>
+    <synonym>
+      <key>ru</key>
+      <value>По вопросам деятельности</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d103ff23-a6b8-40d4-8bea-5df8055dc3f2">
+    <name>ПоКонтрагентам</name>
+    <synonym>
+      <key>ru</key>
+      <value>По контрагентам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5ae8099d-5547-4ba2-96d3-5cf377aa44e2">
+    <name>ПоНоменклатуреДел</name>
+    <synonym>
+      <key>ru</key>
+      <value>По номенклатуре дел</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4f68f27a-775b-469a-9325-fbdbc3768592">
+    <name>ПоДеламТомам</name>
+    <synonym>
+      <key>ru</key>
+      <value>По делам (томам)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3631846d-905c-4745-90ac-4aec7b4f1578">
+    <name>ПоПроектам</name>
+    <synonym>
+      <key>ru</key>
+      <value>По проектам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cd9fac1d-c701-43d6-b2db-b84cb37f1034">
+    <name>ПоПользователям</name>
+    <synonym>
+      <key>ru</key>
+      <value>По пользователям</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

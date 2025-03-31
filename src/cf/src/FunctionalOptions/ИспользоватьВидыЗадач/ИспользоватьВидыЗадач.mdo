@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cba441ca-2fae-4673-95ab-b66dfef4f548">
+  <name>ИспользоватьВидыЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать виды задач</value>
+  </synonym>
+  <location>Constant.ИспользоватьВидыЗадач</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Task.ЗадачиПользователя.Command.ОценкаЗадач</content>
+  <content>Catalog.ВидыЗадач</content>
+  <content>Catalog.ВидыЗадач.Attribute.Комментарий</content>
+  <content>Task.ЗадачиПользователя.Attribute.ВидЗадачи</content>
+  <content>Catalog.Проекты.Attribute.ВидЗадачиПоУмолчанию</content>
+  <content>Catalog.Проекты.Attribute.ПроверятьНаЗаполненностьВидЗадачи</content>
+</mdclass:FunctionalOption>

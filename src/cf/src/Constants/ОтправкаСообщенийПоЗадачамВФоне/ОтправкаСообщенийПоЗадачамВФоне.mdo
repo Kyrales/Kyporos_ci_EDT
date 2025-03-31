@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3b0c951-ca90-4c5b-9aaa-e01549eb1405">
+  <producedTypes>
+    <managerType typeId="1f54db5b-a566-404d-aaac-23a226ba9a30" valueTypeId="5c081e0a-c973-4167-baf3-340240217563"/>
+    <valueManagerType typeId="e5c55e1f-b89d-4fa7-b4a4-15bcb76673f2" valueTypeId="a536113b-22a4-486c-9e31-b5b1ac6c1c6b"/>
+    <valueKeyType typeId="1ab5d064-7f57-5f66-af75-06ba2eaab5d3" valueTypeId="9958e94d-4e0c-577c-b98e-439769c3722b"/>
+  </producedTypes>
+  <name>ОтправкаСообщенийПоЗадачамВФоне</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка сообщений по задачам в фоне</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

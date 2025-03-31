@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="643a4991-ed92-48a6-a6cd-3a66b3cb0edd">
+  <producedTypes>
+    <refType typeId="586c0e37-2e66-4359-ab30-63f6c7b6e405" valueTypeId="f1a38daf-10d2-44e8-a8a9-6d4b57656274"/>
+    <listType typeId="cffc7074-b3fc-4269-b7c5-33d67be998a1" valueTypeId="6c5e37ca-feca-48d4-b777-51fbfb4defef"/>
+    <managerType typeId="f827ed34-366b-43bd-88da-38143b86a5ba" valueTypeId="25f2d6b6-0c21-4356-a16c-df52ebc5837d"/>
+  </producedTypes>
+  <name>ТипыКоммитов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы коммитов</value>
+  </synonym>
+  <comment>По стандарту https://www.conventionalcommits.org</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6c7e8143-80d4-45b3-b6f4-3900457809bf">
+    <name>feat</name>
+    <synonym>
+      <key>ru</key>
+      <value>feat</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d367abb0-0dcd-4506-bf85-6ef7d865e70a">
+    <name>fix</name>
+    <synonym>
+      <key>ru</key>
+      <value>fix</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e697c1b3-2dc1-4f45-a336-f1a3cc3a089a">
+    <name>docs</name>
+    <synonym>
+      <key>ru</key>
+      <value>docs</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6dd7b5cd-ea87-4386-8eb9-feab2f2f6800">
+    <name>build</name>
+    <synonym>
+      <key>ru</key>
+      <value>build</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0dea7ad6-bb6b-4773-89f5-5e6844f6854e">
+    <name>ci</name>
+    <synonym>
+      <key>ru</key>
+      <value>ci</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="15dbb95f-7e4d-4a1d-9b54-e73acf8b7a54">
+    <name>test</name>
+    <synonym>
+      <key>ru</key>
+      <value>test</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="01a9876d-55a7-48a0-81ee-4e59f8e57342">
+    <name>revert</name>
+    <synonym>
+      <key>ru</key>
+      <value>revert</value>
+    </synonym>
+    <comment>Отмена изменений</comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71a95a72-f966-463a-98b0-1697a7f75599">
+  <name>Набор_Шкаф</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шкаф</value>
+  </synonym>
+</mdclass:CommonPicture>

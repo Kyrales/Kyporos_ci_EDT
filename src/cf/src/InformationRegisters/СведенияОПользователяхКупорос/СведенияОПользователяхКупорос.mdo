@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4c7e0b2-298b-4b88-9c51-337b8dcd7437">
+  <producedTypes>
+    <selectionType typeId="14597635-8c5a-4ad0-8126-9837e05af22a" valueTypeId="aa30701f-8a0a-45fb-ba24-7a68bb0266ce"/>
+    <listType typeId="7daf7c2c-b593-4cda-9869-e419eefdf56f" valueTypeId="b7fd2652-0bea-40ba-8a0a-cfb837379c7a"/>
+    <managerType typeId="b045cf09-9804-45d5-97a7-d4e3b3168748" valueTypeId="5e3edcc5-6347-49b1-a598-f72a76aff732"/>
+    <recordSetType typeId="13246a5b-20cd-40ea-ac10-c8e1f197c998" valueTypeId="9b0a675c-d9c0-46c9-bf80-3c3470c0b5c8"/>
+    <recordKeyType typeId="528c5fe8-a038-4877-a84e-b2bf2fb82038" valueTypeId="4c264305-0a57-4042-86ce-62ca064dc289"/>
+    <recordType typeId="ba0dbeec-d131-4236-9ee6-fb1b6039b388" valueTypeId="009e6c83-9ed1-4006-a03c-cae853e94abc"/>
+    <recordManagerType typeId="478e93f7-32d0-4326-9c80-501f631e6ac6" valueTypeId="f1df5c2e-7c24-4d72-a32a-28e62f6e95fc"/>
+  </producedTypes>
+  <name>СведенияОПользователяхКупорос</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сведения о пользователях (Купорос)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e2803db9-b7a4-4015-88ab-62982ed5db4e">
+    <name>ГрафикРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>График работы</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГрафикиРаботыСотрудников</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="64cebceb-1a20-4fec-9a45-30cdb9b6bb52">
+    <name>АвтоматическиУчитыватьОбеденноеВремяПриРасчетеЗатраченногоВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматически учитывать обеденное время при расчете затраченного времени</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0a7d6f2d-0e66-4b2a-b7db-1b2ad2855ff1">
+    <name>ОставлятьТекущуюЗадачуАктивнойПриБлокировкеКомпьютера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оставлять текущую задачу активной при блокировке компьютера</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Если при блокировке компьютера какая-то задача находится в работе, то она не будет приостанавливаться.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="bd781c0c-1f6a-4a80-bbb2-0d47e1f10b4a">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь или внешний пользователь</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

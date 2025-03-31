@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="359020e5-95f2-49de-a4db-1635adc83257">
+  <producedTypes>
+    <objectType typeId="17ee602f-5d77-47af-a732-af0afd071b74" valueTypeId="533c8e0d-42d6-4ad8-86f6-ada9b5e047f0"/>
+    <refType typeId="9758d962-ba54-43b3-a33a-c34de7e7b627" valueTypeId="c1907770-c663-4d28-bd39-96397c169b31"/>
+    <selectionType typeId="604142ee-e203-4abc-b727-0c238f66199f" valueTypeId="0acd7235-8e9b-46db-a548-8d07756598b0"/>
+    <listType typeId="25820e3f-ffdf-4f84-9249-633977f01ccb" valueTypeId="0b2ecc54-b404-4b8e-9989-565d68c44c88"/>
+    <managerType typeId="0ae46fae-00fd-4b36-a99e-cc9e3ec1cdd6" valueTypeId="cc2e8e45-c3ac-49e6-96fc-4d664ef92712"/>
+  </producedTypes>
+  <name>СтруктураПредприятия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Структура предприятия</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтруктураПредприятия.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СтруктураПредприятия.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Подразделение</value>
+  </objectPresentation>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>6</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="1843aa28-6027-4e25-aad0-6dcf32334bd4">
+      <name>ИсторияПредприятия</name>
+      <description>История предприятия</description>
+      <code xsi:type="core:StringValue">
+        <value>000001</value>
+      </code>
+    </items>
+    <items id="3bf1d3b4-6a4a-454b-b168-5ce302508025">
+      <name>СлужебнаяПапка</name>
+      <description>Служебная папка</description>
+      <code xsi:type="core:StringValue">
+        <value>000003</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СтруктураПредприятия.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.СтруктураПредприятия.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="1d5505fe-61da-4e3f-ae68-6a8d88ea0bc8">
+    <name>ВключеноОбновлениеСпискаБаз1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включено обновление списка баз 1С</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Авторегулировка параметров происходит на уровне персонального скрипта пользователя, 
+который срабатывает при входе в Windows</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="310cc22d-f7ff-47e2-8401-53592c34ba0e">
+    <name>ГруппаAD</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа AD</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fcdbf77e-3464-49c4-aa17-f28fd8536d7b">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b9a31198-40b3-4bdd-af00-34f184e220ce">
+    <name>ПутьККаталогуПодразделения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к каталогу подразделения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Служебный каталог</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0e428d33-79ac-4853-9ac3-2f50065a3002">
+    <name>ДобавлятьПользователейАвтоИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавлять пользователей автоматически в ИБ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="4ceeecc4-43be-409f-b4be-250b37a3d53c">
+    <producedTypes>
+      <objectType typeId="ecb6e3db-41d1-4d83-b906-1ca52c26bb82" valueTypeId="c4c8b4da-2b10-477c-834f-6f4cb91b8889"/>
+      <rowType typeId="f9316804-75da-4f4c-8b28-a6cd7099380d" valueTypeId="53979a75-b76c-4a11-bd10-8d70339b2bc6"/>
+    </producedTypes>
+    <name>СоответствиеСтруктуреAD</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соответствие структуре AD</value>
+    </synonym>
+    <attributes uuid="526d1a45-7b7d-4030-9473-15815896026d">
+      <name>ИмяРеквизита</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя реквизита</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="70baec35-d10c-4289-8651-72969601430e">
+      <name>ТипРеквизита</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип реквизита</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ТипРеквизитаAD</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="5c4be4b6-04d4-40d5-8b1d-431723f77a22">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b8a0a53c-d997-4047-9ce2-17015b1f2625">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="305270d0-9a92-4fa7-9e58-c64445cc214f">
+    <name>ВыборГруппыAD</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор группы AD</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f1eb1490-34c2-48dd-a084-ed5f443a22fe">
+    <name>СозданиеПользователяБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание пользователя базы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="e66e0377-793c-4836-9050-cd5df4ad5088">
+    <name>СкриптНазначенияПравКаталогамПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скрипт назначения прав каталогам пользователя</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="b8d448ce-d08e-42cc-ae44-456e53b9ca68">
+    <name>СкриптДляЗапускаПодПользователем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скрипт для запуска под пользователем</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="37b5235a-fbd8-413e-8b2a-931099e7d359">
+    <name>СкриптОбнуленияПравПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скрипт обнуления прав пользователя</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="7558f7f7-2a99-4ff5-a5ce-dba0d6ebe079">
+    <name>СкриптНазначенияПравНаОдинОпределенныйКаталогПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скрипт назначения прав на один определенный каталог пользователя</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="f75f0704-6af5-4a6c-b741-14114f72c857">
+    <name>СкриптВстраиваемыйВГрупповуюПолитику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скрипт встраиваемый в групповую политику (при авторизации пользователя)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:Catalog>

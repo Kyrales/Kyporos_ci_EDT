@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d96358b-f7bc-4f42-a62f-3da45c6cb55a">
+  <name>AccessControl</name>
+  <synonym>
+    <key>ru</key>
+    <value>Access control</value>
+  </synonym>
+  <comment>Управление доступом внешних ИС</comment>
+  <namespace>https://kpkrs.site/AccessControl</namespace>
+  <xdtoPackages xsi:type="core:ReferenceValue">
+    <value>XDTOPackage.AccessControlData</value>
+  </xdtoPackages>
+  <descriptorFileName>AccessControl.1cws</descriptorFileName>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="8a2e74fb-e5ba-4566-909d-d2e1b2ca7256">
+    <name>Ping</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ping</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>boolean</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>Ping</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+  </operations>
+  <operations uuid="48985d67-ef5f-43ef-b448-a6b0053ff25b">
+    <name>GetActiveUsers</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get active users</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>ResponseActiveUsers</name>
+      <nsUri>https://kpkrs.site/AccessControl</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetActiveUsers</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="0700a8df-3ef7-4c3d-8fdc-3df86d4db714">
+      <name>ID_System</name>
+      <synonym>
+        <key>ru</key>
+        <value>ID system</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="42f389cd-5bf0-4bcd-9234-cc1db05d6854">
+    <name>Version</name>
+    <synonym>
+      <key>ru</key>
+      <value>Version</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>Version</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+  </operations>
+  <operations uuid="f0ab7b2e-201b-4f0a-b4d4-f346b6408b29">
+    <name>PutAccessPatterns</name>
+    <synonym>
+      <key>ru</key>
+      <value>Put access patterns</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>ResponseAccessPatterns</name>
+      <nsUri>https://kpkrs.site/AccessControl</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>PutAccessPatterns</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="d02476fe-5554-4999-a338-5e8db6a575a8">
+      <name>ID_System</name>
+      <synonym>
+        <key>ru</key>
+        <value>ID system</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="e89b40d7-79e1-445f-9e9d-0139589a52cf">
+      <name>AccessPatterns</name>
+      <synonym>
+        <key>ru</key>
+        <value>Access patterns</value>
+      </synonym>
+      <xdtoValueType>
+        <name>AccessPatterns</name>
+        <nsUri>https://kpkrs.site/AccessControl</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="4db66e7b-3c25-4217-8b57-2194351eeb34">
+    <name>GetAccessRights</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get access rights</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>ResponseAccessRights</name>
+      <nsUri>https://kpkrs.site/AccessControl</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetAccessRights</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="099f3177-a392-4b8f-a05d-4b0b923e9bfb">
+      <name>ID_System</name>
+      <synonym>
+        <key>ru</key>
+        <value>ID system</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+</mdclass:WebService>

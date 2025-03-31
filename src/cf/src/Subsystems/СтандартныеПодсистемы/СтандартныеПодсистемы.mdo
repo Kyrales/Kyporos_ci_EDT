@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0421b67e-ed26-491d-ab98-ec59002ed4ce">
+  <name>СтандартныеПодсистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стандартные подсистемы</value>
+  </synonym>
+  <subsystems>АдресныйКлассификатор</subsystems>
+  <subsystems>БазоваяФункциональность</subsystems>
+  <subsystems>Банки</subsystems>
+  <subsystems>БизнесПроцессыИЗадачи</subsystems>
+  <subsystems>Валюты</subsystems>
+  <subsystems>ВариантыОтчетов</subsystems>
+  <subsystems>ВерсионированиеОбъектов</subsystems>
+  <subsystems>ГенерацияШтрихкода</subsystems>
+  <subsystems>ДополнительныеОтчетыИОбработки</subsystems>
+  <subsystems>ЗавершениеРаботыПользователей</subsystems>
+  <subsystems>ЗапретРедактированияРеквизитовОбъектов</subsystems>
+  <subsystems>КалендарныеГрафики</subsystems>
+  <subsystems>КонструкторФормул</subsystems>
+  <subsystems>КонтактнаяИнформация</subsystems>
+  <subsystems>Мультиязычность</subsystems>
+  <subsystems>НапоминанияПользователя</subsystems>
+  <subsystems>НастройкаПорядкаЭлементов</subsystems>
+  <subsystems>НастройкиПрограммы</subsystems>
+  <subsystems>ОбменДанными</subsystems>
+  <subsystems>ОбновлениеВерсииИБ</subsystems>
+  <subsystems>ОбновлениеКонфигурации</subsystems>
+  <subsystems>Организации</subsystems>
+  <subsystems>Печать</subsystems>
+  <subsystems>ПодключаемыеКоманды</subsystems>
+  <subsystems>ПолнотекстовыйПоиск</subsystems>
+  <subsystems>ПолучениеФайловИзИнтернета</subsystems>
+  <subsystems>Пользователи</subsystems>
+  <subsystems>ПрефиксацияОбъектов</subsystems>
+  <subsystems>ПроверкаЛегальностиПолученияОбновления</subsystems>
+  <subsystems>РаботаСПочтовымиСообщениями</subsystems>
+  <subsystems>РаботаСФайлами</subsystems>
+  <subsystems>РассылкаОтчетов</subsystems>
+  <subsystems>РегламентныеЗадания</subsystems>
+  <subsystems>Свойства</subsystems>
+  <subsystems>СтруктураПодчиненности</subsystems>
+  <subsystems>УдалениеПомеченныхОбъектов</subsystems>
+  <subsystems>УправлениеДоступом</subsystems>
+  <subsystems>ШаблоныСообщений</subsystems>
+  <subsystems>ЭлектроннаяПодпись</subsystems>
+</mdclass:Subsystem>

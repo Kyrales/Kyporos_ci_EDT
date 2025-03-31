@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="426c2b16-28da-43e4-92f5-4b4653394275">
+  <producedTypes>
+    <selectionType typeId="6c9949d1-a89f-449d-b03b-5a0a1a1237db" valueTypeId="35cdb1db-fb6a-4cfb-b135-e8b67dab29e7"/>
+    <listType typeId="7e6e781d-8be3-41d8-9c17-510ad457e9e7" valueTypeId="0fd010ed-a38d-4cf3-8313-27ab7b01a7e8"/>
+    <managerType typeId="7f18ab2d-d5ef-4264-b20c-57873cfee0bf" valueTypeId="484b0516-0cd9-4f89-a5c7-3a37431e5e35"/>
+    <recordSetType typeId="8da0501b-f1f0-49f8-8052-9d45febf1da8" valueTypeId="b31deae3-bd20-4f75-82ca-62c4a9c38017"/>
+    <recordKeyType typeId="1bb82c45-bd1e-4cc9-b7e4-7eb5792fddff" valueTypeId="78f214a7-1b08-415c-8626-c5faa2327c6a"/>
+    <recordType typeId="96bd9a8e-c88c-4da0-92c9-e277358b00a5" valueTypeId="771fe222-c013-4a19-8787-44011248074c"/>
+    <recordManagerType typeId="319567de-4bf8-48ed-a67c-0be4dad8ebf1" valueTypeId="bd18179a-9c37-4740-a64e-8cb4e0d5962c"/>
+  </producedTypes>
+  <name>ПараметрыПодсистемыПланированиеЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры подсистемы &quot;Планирование задач&quot;</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ПараметрыПодсистемыПланированиеЗадач.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ПараметрыПодсистемыПланированиеЗадач.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="bacba4f6-d199-430d-a7fe-7aa39231e870">
+    <name>ОсновнойПрофильРаспределенияРабочегоВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной профиль распределения рабочего времени</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПрофилиРаспределенияРабочегоВремени</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="59788c5a-b7d4-432c-92c8-96b761917918">
+    <name>ПроизводственныйКалендарь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производственный календарь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПроизводственныеКалендари</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9202fe6c-a88a-43e7-bfb3-420c1277af06">
+    <name>ОсновнойГрафикРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной график работы</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГрафикиРаботыСотрудников</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c6423ac1-8f35-4318-9271-8aa0fb496983">
+    <name>КоличествоЧасовДляПланированияВДень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество часов для планирования в день</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <scale>1</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество часов, которое будет планироваться на день при использовании профилей с признаком &quot;Распределение по проценту времени&quot;.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <forms uuid="837d2daa-557a-422d-af01-5dfe39c99dde">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ddad73ed-f799-4499-a1a0-b1a10313bade">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="096ee0fb-3a7b-4cac-a370-bb2bed191440">
+    <name>ПараметрыПодсистемыПланированиеЗадач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открыть параметры подсистемы &quot;Планирование задач&quot;</value>
+    </synonym>
+    <group>NavigationPanelSeeAlso</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

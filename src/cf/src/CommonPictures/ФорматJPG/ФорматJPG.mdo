@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6570a055-d5bb-42af-a996-b994a54b16d6">
+  <name>ФорматJPG</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формат JPG</value>
+  </synonym>
+</mdclass:CommonPicture>

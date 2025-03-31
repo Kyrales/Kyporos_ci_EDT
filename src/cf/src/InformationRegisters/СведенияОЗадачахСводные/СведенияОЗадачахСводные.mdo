@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8a9b18c-3c32-46b4-b2dd-62fcdd940d41">
+  <producedTypes>
+    <selectionType typeId="cde68e59-07c6-4fa4-9382-139304b7cc57" valueTypeId="e730b15c-f627-465d-aa5f-cdfc555b2e27"/>
+    <listType typeId="95d3487f-2f1b-487a-bb78-33bedc034670" valueTypeId="6326bbe6-2c5b-4266-8b8c-4319cb2010d6"/>
+    <managerType typeId="fc6a609b-1c4d-479d-b693-2fd28f666173" valueTypeId="b641d1da-73bf-40a1-a516-40cbf6243924"/>
+    <recordSetType typeId="61f67ae8-2faf-4f56-979c-f2eae1bfe4c3" valueTypeId="d18afa20-1e92-499b-adb6-bf79dcbf9ef5"/>
+    <recordKeyType typeId="ced3fc71-60cf-475b-8fd6-e35a2c391b88" valueTypeId="f5994dad-a58d-47ae-8c63-11776c994f9e"/>
+    <recordType typeId="f06a4c06-4def-47c6-80bc-2979bafdaff4" valueTypeId="923db015-fe0a-4e95-902c-02faa8591afe"/>
+    <recordManagerType typeId="8105ca7f-43f6-4737-9151-69c3bd18193d" valueTypeId="54fdde3c-4302-4b5a-8f64-809a6ccd7651"/>
+  </producedTypes>
+  <name>СведенияОЗадачахСводные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сведения о задачах сводные</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="fbbc22ec-46dd-44f8-a9a7-7cf0dc540c53">
+    <name>Затрачено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Затрачено</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="ff58f1f8-6f11-41e4-83b2-840cf5e1dcfc">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <comment>АПК:1208 Считаем корректным имя в Купорос</comment>
+    <type>
+      <types>TaskRef.ЗадачиПользователя</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="36ab0f6f-4e3d-484a-a511-30fbd5096280">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

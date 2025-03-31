@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="288d9632-1bd9-4649-8c96-5430995b7815">
+  <name>ИспользоватьStoryMap</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать StoryMap</value>
+  </synonym>
+  <location>Constant.ИспользоватьStoryMap</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.УчетКонфигураций</content>
+  <content>Catalog.ВерсииКонфигураций</content>
+  <content>Catalog.Конфигурации</content>
+  <content>Catalog.КонфигурацииПрисоединенныеФайлы</content>
+  <content>Catalog.ОбъектыМетаданныхКонфигураций</content>
+  <content>InformationRegister.УчетВерсийКонфигурации</content>
+  <content>DataProcessor.ФормированиеШапкиМодуля</content>
+  <content>Subsystem.ПользовательскиеИстории</content>
+  <content>Catalog.ИсторииТема</content>
+  <content>Catalog.ИсторииТребования</content>
+  <content>Catalog.ПользовательскиеИстории</content>
+  <content>Catalog.ИсторииРоль</content>
+  <content>Report.КартаПользовательскихИсторий</content>
+</mdclass:FunctionalOption>

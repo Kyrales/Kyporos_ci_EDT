@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd38d698-752b-4350-a458-c2e789547f86">
+  <name>БазовыеПраваКупорос</name>
+  <synonym>
+    <key>ru</key>
+    <value>Базовые права Купорос</value>
+  </synonym>
+</mdclass:Role>

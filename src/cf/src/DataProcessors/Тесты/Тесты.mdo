@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40847442-3220-4e78-a108-22958f058a18">
+  <producedTypes>
+    <objectType typeId="76e6a77d-7c09-48e0-b9b4-8d209a37cee1" valueTypeId="f6c422d5-b6fe-4e8a-8410-3e0f1ff54577"/>
+    <managerType typeId="6dd26b9a-a4f6-48d2-b476-1deeed244f38" valueTypeId="2ca56e78-f863-40a9-b7f9-89f11885375f"/>
+  </producedTypes>
+  <name>Тесты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тесты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Тесты.Form.Форма</defaultForm>
+  <attributes uuid="fa5fad37-8d1f-4dd0-b8bc-a6e0f786aa48">
+    <name>ТестироватьСоединениеЧерезПрокси</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестировать соединение через прокси</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e23acd9b-7292-4e30-ad2c-e044e5536584">
+    <name>Логин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логин</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="85b59c7c-9d72-45ff-9278-ac48467b4b46">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e9d08ea9-a498-4baf-ac27-3be36058383a">
+    <name>ПроксиСервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прокси сервер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="32adc66a-aa09-49ca-83eb-71fdd9e255d3">
+    <name>ПроксиПорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прокси порт</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a45d6641-460d-4417-8794-a064a3a31a55">
+    <name>ТестироватьПолучениеСпискаРелизовВСайта1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестировать получение списка релизов в сайта 1С</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2799b952-3fe5-4095-8062-41d75bb8397a">
+    <name>ИдентификаторКлючаДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор ключа доступа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3834826f-473e-4839-8ae2-03f9716e13cf">
+    <name>СекретныйКлюч</name>
+    <synonym>
+      <key>ru</key>
+      <value>Секретный ключ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c1ae50ff-01c1-42ca-be19-2e8d9fd44a46">
+    <name>Регион</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регион</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c407027e-f795-4059-93e4-b73b6b3048dc">
+    <name>ТестироватьАутентификациюAWS4_HMAC_SHA256</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестировать аутентификацию AWS4-HMAC-SHA256</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0725852a-454f-4a32-971e-e1e7f22b9932">
+    <name>Очередь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Очередь</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1c003c12-bf07-4950-bc81-c6cb6106169e">
+    <name>ТестироватьПовторы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестировать повторы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="508b78ba-d0cb-483f-b2a2-8994753c0229">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

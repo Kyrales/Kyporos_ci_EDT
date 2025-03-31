@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="176006ec-2a18-4705-b8de-92e4788d04c1">
+  <producedTypes>
+    <refType typeId="10b0f8b9-f352-4f8f-851f-e3bc60116846" valueTypeId="202304ab-ef9d-4102-9024-4081c9ed171f"/>
+    <listType typeId="456852ba-4b58-46f6-b8fc-c7deb369a52b" valueTypeId="9248687c-5031-48f7-aab0-697864a207ec"/>
+    <managerType typeId="fd234d8b-a64a-4b60-80d9-17b89bdd9a4c" valueTypeId="56c12531-dba1-4f69-9a88-19dbdbbb27f3"/>
+  </producedTypes>
+  <name>ТелеграмВидыСравнения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм: виды сравнения</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Виды сравнения</value>
+  </listPresentation>
+  <enumValues uuid="7b438ef9-398c-4074-86ad-7779e875c228">
+    <name>Больше</name>
+    <synonym>
+      <key>ru</key>
+      <value>Больше</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fa27b726-e1c7-41e5-91a4-303a252cfd22">
+    <name>БольшеИлиРавно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Больше или равно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e2fc72fe-0b92-4061-8cbe-9551f078c06f">
+    <name>Заполнено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f70a17cb-6e1e-4524-b25d-64eb8f230c39">
+    <name>Меньше</name>
+    <synonym>
+      <key>ru</key>
+      <value>Меньше</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c2e180e8-5861-4ff0-a821-acf56469c78f">
+    <name>МеньшеИлиРавно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Меньше или равно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a6c9dbcc-3679-450b-afff-d7d28ce2bd0a">
+    <name>НачинаетсяС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начинается с</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e571c511-e4f3-4e2d-af98-e212873fb548">
+    <name>НеЗаполнено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не заполнено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="feddcecd-be82-43a0-a2fd-04e1a48753c7">
+    <name>НеНачинаетсяС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не начинается с</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="db6119d6-e092-4041-a8fe-8bdc74182f2b">
+    <name>НеПодобно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не подобно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5c78378c-4008-48ef-a7f4-6dc369158aa4">
+    <name>НеРавно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не равно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="69d34506-8bf5-4288-82a9-97b514f547a2">
+    <name>НеСодержит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не содержит</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0ce4c25c-d968-4a28-8446-bae62ff53df0">
+    <name>Подобно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подобно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="538bb557-b3c1-44ff-910c-87411ba1af8d">
+    <name>Равно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Равно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c4cb8d45-4e44-4d8b-94d9-44aa114ca294">
+    <name>Содержит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Содержит</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="40c6bba4-4728-4833-8635-93fc337c7e63">
+    <name>СоответствуетШаблону</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соответствует шаблону</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

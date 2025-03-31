@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73749827-a06e-4633-a3d5-7e40d3e4b66a">
+  <name>Обсуждения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обсуждения</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Constant.ИспользоватьОбсуждения</content>
+  <content>FunctionalOption.ИспользоватьОбсуждения</content>
+  <content>CommonModule.РаботаСОбсуждениями</content>
+  <content>CommonModule.РаботаСОбсуждениямиВызовСервера</content>
+  <content>CommonModule.РаботаСОбсуждениямиКлиент</content>
+  <content>CommonModule.РаботаСОбсуждениямиКлиентСервер</content>
+  <content>Catalog.ТемыОбсуждений</content>
+  <content>Catalog.СообщенияОбсуждений</content>
+  <content>Catalog.ПапкиФорума</content>
+  <content>InformationRegister.СведенияОТемахОбсуждений</content>
+  <content>InformationRegister.СведенияОГолосовании</content>
+  <content>InformationRegister.СведенияОПрочтении</content>
+  <content>Catalog.СообщенияОбсужденийПрисоединенныеФайлы</content>
+  <content>CommonModule.РаботаСПрочтениямиВызовСервера</content>
+  <content>CommonModule.РаботаСПрочтениямиКлиент</content>
+  <content>Enum.ВариантыОтображенияОбластиЧтения</content>
+  <content>Enum.ВидыПросмотраСпискаОбъектов</content>
+  <content>EventSubscription.УстановитьПометкуУдаленияОбсуждения</content>
+  <content>CommonTemplate.КомпонентаПолученияКартинкиИзБуфера</content>
+  <content>Role.ПодсистемаУчетЗадачПользователей</content>
+  <parentSubsystem>Subsystem.УчетЗадачПользователей</parentSubsystem>
+</mdclass:Subsystem>

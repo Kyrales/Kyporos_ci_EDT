@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="815e16c2-b7df-450e-a9c4-84a5b960808f">
+  <name>Набор_ТВ</name>
+  <synonym>
+    <key>ru</key>
+    <value>ТВ</value>
+  </synonym>
+</mdclass:CommonPicture>

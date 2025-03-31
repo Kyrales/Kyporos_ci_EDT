@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f35e1981-9f3e-479d-8e6e-7f032f1ff6b7">
+  <name>НастройкиКупорос</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки Купорос</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.ВыполняторКода</content>
+  <content>CommonModule.ОбщегоНазначенияКупоросКлиент</content>
+  <content>CommonForm.НастройкаСистемы</content>
+  <content>CommonModule.ОбщегоНазначенияКупоросВызовСервера</content>
+  <content>CommonForm.НастройкиПрограммы</content>
+  <content>CommonCommand.ДополнительныеОбработкиАдминистрирование</content>
+  <content>CommonModule.ОбновлениеИнформационнойБазыКупорос</content>
+  <content>CommonModule.ОбщегоНазначенияКупоросСервер</content>
+  <content>CommonModule.ОбщегоНазначенияКупоросКлиентСервер</content>
+  <content>Catalog.УчетныеЗаписиЭлектроннойПочты</content>
+  <content>Catalog.Организации</content>
+  <content>InformationRegister.ПараметрыКупорос</content>
+  <content>DataProcessor.ПанельАдминистрирования</content>
+  <content>DataProcessor.ГенераторКода</content>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>

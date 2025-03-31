@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de720597-64c7-4289-9b34-74795daaecba">
+  <producedTypes>
+    <selectionType typeId="4c102d14-4048-4f24-a287-a7e003690e0a" valueTypeId="3a700b48-9f49-43f6-b61c-a3b068408efd"/>
+    <listType typeId="370b81b7-65f7-4bab-8ad6-044f545d09e2" valueTypeId="0101c06f-ead7-46c0-bed6-b93a4bda5097"/>
+    <managerType typeId="2f5b07b8-f3aa-4167-a300-94cbb860258b" valueTypeId="2f4df8c0-4a57-4b23-b5cf-2b1f79c4827e"/>
+    <recordSetType typeId="61b40478-b9f9-4515-b2f1-003856e51efb" valueTypeId="b3f57e40-534e-44a7-9aba-31eeaaa7080a"/>
+    <recordKeyType typeId="73f2e78d-2935-4ca3-9efe-25f23242d375" valueTypeId="aa60bbd3-c726-47ae-8957-6e9ebd594713"/>
+    <recordType typeId="8c40d763-b5b7-48e0-ae59-f25e0aa0a279" valueTypeId="fbcf843a-2e6e-4f4a-b96a-404d5ceadd46"/>
+    <recordManagerType typeId="9a9b85bf-7fc8-4e40-b10e-396d502b2bec" valueTypeId="dae357df-c468-46d6-b118-effd2a01c5ec"/>
+  </producedTypes>
+  <name>СведенияОГолосовании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сведения о голосовании</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ee845354-91d7-4a6d-a967-a7c4d7c2c2a6">
+    <name>ВариантОтвета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант ответа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вариант ответа пользователя</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="2f8ccc03-6749-4e30-a9c9-80aaf4d89102">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, к которому относятся сведения о голосовании</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="fd41aa0e-5abb-4650-ae30-eb13fa1c584c">
+    <name>Сообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СообщенияОбсуждений</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сообщение, к которому относятся сведения о голосовании</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

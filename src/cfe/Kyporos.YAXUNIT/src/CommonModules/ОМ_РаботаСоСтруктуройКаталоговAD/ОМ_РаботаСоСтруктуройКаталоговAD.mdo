@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d3bc7a4-c98f-4bda-b72b-a5454c4de84a">
+  <name>ОМ_РаботаСоСтруктуройКаталоговAD</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа со структурой каталогов AD</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

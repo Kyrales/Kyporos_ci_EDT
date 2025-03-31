@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2a65875-24d0-43bf-a959-eeb93c440208">
+  <producedTypes>
+    <objectType typeId="11416c68-ca61-46a9-a773-f415c84604ab" valueTypeId="629ff775-6d35-4a8e-bda7-801a80954368"/>
+    <managerType typeId="88708132-8eb2-4116-92ec-84f3791c4793" valueTypeId="0280ef32-7194-4ca3-b226-8375125e2c23"/>
+  </producedTypes>
+  <name>ПланированиеВыполненияЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планирование выполнения задач</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПланированиеВыполненияЗадач.Form.Форма</defaultForm>
+  <forms uuid="cecfc287-82f0-42c7-94fb-b764e09458a6">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="26398d88-deaa-41af-a842-847d7c3435c1">
+    <name>ВыборДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор действия</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

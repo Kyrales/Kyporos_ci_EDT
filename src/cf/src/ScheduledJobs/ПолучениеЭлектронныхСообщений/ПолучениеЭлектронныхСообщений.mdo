@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf34482c-415c-433b-8650-4f390bd1548a">
+  <name>ПолучениеЭлектронныхСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получение электронных сообщений</value>
+  </synonym>
+  <comment>#ВходящиеЭлектронныеПисьма</comment>
+  <methodName>CommonModule.ОбщегоНазначенияКупоросСервер.ПолучениеЭлектронныхСообщений</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

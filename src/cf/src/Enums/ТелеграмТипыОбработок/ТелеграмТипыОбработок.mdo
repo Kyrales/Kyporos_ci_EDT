@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3a14115-e627-4225-8d4a-5358925eb4f4">
+  <producedTypes>
+    <refType typeId="3d41fc63-0495-4e0d-8eff-4d4477750072" valueTypeId="2617b8ff-1e9c-45ee-8559-7bc129c3e997"/>
+    <listType typeId="0c5a2968-5d41-4444-8fdf-0fa230f5e65a" valueTypeId="776ffbff-598a-4858-8549-b9e79fbee1df"/>
+    <managerType typeId="64d6d014-33f9-4046-844f-82046ab21dd9" valueTypeId="2347fa0e-6c8b-4434-bdf0-f014ceaf5083"/>
+  </producedTypes>
+  <name>ТелеграмТипыОбработок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм: типы обработок</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Типы обработок</value>
+  </listPresentation>
+  <enumValues uuid="6c85b8f7-b887-48f1-a4f6-937c56816977">
+    <name>Стандартная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандартная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ca227a3f-f29a-412a-afe7-a028fb05fc3c">
+    <name>Исключение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исключение</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

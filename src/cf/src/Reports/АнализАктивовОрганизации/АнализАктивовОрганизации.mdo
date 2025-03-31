@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fbddd39b-6236-4cac-ba94-29b6c696aeb0">
+  <producedTypes>
+    <objectType typeId="86b7faed-f06e-4cdb-8f50-8a10d526b952" valueTypeId="1c1149e6-31e4-492a-ba74-5bc8ec60ec6f"/>
+    <managerType typeId="cb28ff19-ef73-4650-abc3-abb85099c08c" valueTypeId="67910be0-d2cd-4e0a-a4e6-4b677a5232e0"/>
+  </producedTypes>
+  <name>АнализАктивовОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ активов организации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.АнализАктивовОрганизации.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="630663a5-a026-47e1-9a7c-828b27c98590">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

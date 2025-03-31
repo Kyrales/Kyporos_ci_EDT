@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="976948f9-c671-4c56-ad41-a7923cf5e3f3">
+  <producedTypes>
+    <objectType typeId="310988d0-8de3-42d5-94ac-40795928caa2" valueTypeId="708c4d75-cab1-4fe3-b4c5-86a0647e2c5d"/>
+    <refType typeId="72d224ea-c7f6-4279-a6c3-2b337376042e" valueTypeId="dd6c49e8-04e2-41f6-b739-eac665ac9db3"/>
+    <selectionType typeId="109cfa59-5e97-47fa-b04f-c9c4e4965866" valueTypeId="11559614-3db6-49ad-b288-e00f2b878f76"/>
+    <listType typeId="fdfdda56-a40b-40b4-9196-2e9b40739dde" valueTypeId="23e4d938-7eb5-40ff-94aa-323adf30b527"/>
+    <managerType typeId="0fb76086-f458-4809-ad9e-b4a16f8eca6d" valueTypeId="c8e7d785-cbc7-42ce-a40c-b7f25140822d"/>
+  </producedTypes>
+  <name>ВерсииКонфигураций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версии конфигураций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВерсииКонфигураций.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВерсииКонфигураций.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Конфигурации</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВерсииКонфигураций.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ВерсииКонфигураций.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ВерсииКонфигураций.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="325ad6b0-3f9d-4358-ae9e-0219be87a81b">
+    <name>ДатаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="505bb0d1-d97f-40fa-8f00-ae4b6a5f0c42">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="3dd3032d-6da3-42c9-a1e6-341ec9d43d3b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b8f27c3b-e9eb-432e-a37b-cedfdae75455">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9d791f7e-fd48-4a97-a0d5-07d7c082954e">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

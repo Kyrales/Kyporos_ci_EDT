@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03877f9e-68dd-46df-a350-11817777aaee">
+  <producedTypes>
+    <objectType typeId="a2abfb3d-b8ab-4365-9c4c-08302a8114e0" valueTypeId="040cdbbd-c0c1-4b3f-9e48-d16fb89e6fab"/>
+    <managerType typeId="3ceb3466-9f7e-404f-860c-118f0d1787c9" valueTypeId="d0c3f3dc-abb3-48a5-a6e8-cdbc86a6839e"/>
+  </producedTypes>
+  <name>КартаПользовательскихИсторий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Карта пользовательских историй</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.КартаПользовательскихИсторий.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="d1ef78ed-595d-4bed-8365-e7733c38d572">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

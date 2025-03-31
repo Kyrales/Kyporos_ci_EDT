@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eed71e9b-deb3-486b-bb1f-27147bb61aca">
+  <producedTypes>
+    <objectType typeId="e130928f-8abe-4046-86b6-1f973478e725" valueTypeId="44c73fa4-bc17-4b11-a349-6f0f004e0503"/>
+    <refType typeId="2128d18f-685e-4da6-8a3b-5ff05f165116" valueTypeId="0913ba6f-d096-492d-9ad8-9673c4a28c29"/>
+    <selectionType typeId="c927a52b-d4e5-402a-9bc9-bdc5b5eb61b1" valueTypeId="7e4473c3-bd9b-4d85-92c9-739f9620c0ea"/>
+    <listType typeId="5e56528b-fafe-42f2-b973-bd195701c4be" valueTypeId="7b00b624-69bd-4efc-9e5f-3fc86f8afa2d"/>
+    <managerType typeId="bda81a3d-1b70-4cd3-a883-e023ffe2f1fe" valueTypeId="d6ead067-9186-4ab8-8036-974f9affb02d"/>
+  </producedTypes>
+  <name>СостоянияЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния задач</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СостоянияЗадач.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>80</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="3e7997f1-a386-4d13-b59f-8df2e749592b">
+      <name>ВРаботе</name>
+      <description>В работе</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b6e6e53c-2399-476a-b188-ca2a43746f66">
+      <name>Выполнена</name>
+      <description>Выполнена</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a15586f1-fe9c-4101-a0db-6a763df141a2">
+      <name>Зарегистрирована</name>
+      <description>Зарегистрирована</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a2fdd753-a659-4fea-bbd6-da15f59fb96e">
+      <name>НаБизнесТестировании</name>
+      <description>На бизнес-тестировании</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ec7eafc3-0a73-45be-968a-c8bf800e7dc0">
+      <name>НаУточнении</name>
+      <description>На уточнении</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f55333b3-0e70-453a-b832-a6d75e1c9822">
+      <name>НоваяЗадача</name>
+      <description>Новая задача</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f9cb1840-2359-4b69-be9e-94111cbc74f7">
+      <name>ОжиданиеПереносаИзменений</name>
+      <description>Ожидание переноса изменений в продуктив</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b46dab92-e83a-4c7f-acd1-39657c621c36">
+      <name>ОтмененоВыполнение</name>
+      <description>Отменено выполнение</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="3a219e45-1e49-4bee-b7a8-91afaa6555f9">
+      <name>Приостановлена</name>
+      <description>Приостановлена</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0b8b7e85-2726-4f35-b9bf-97f4db6e2800">
+      <name>Согласование</name>
+      <description>Согласование</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b1700a7e-d8f5-44dc-8205-859655d42c8f">
+      <name>ФормированиеТехническогоРешения</name>
+      <description>Формирование тех. решения</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СостоянияЗадач.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.СостоянияЗадач.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.СостоянияЗадач.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="beb2975b-88e3-4619-8570-a31a6293d968">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b5660ff8-552b-47e7-9977-bd8e884a544c">
+    <name>ОбязателенСрокСостояния</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обязателен срок состояния</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9ee9deb0-9edb-4bcf-9fc6-ad6039eade67">
+    <name>ОбязательнаПричинаИзмененияСостояния</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обязательна причина изменения состояния</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Будет дополнительно после изменения состояния открывать окно с новым сообщением в &quot;Общении&quot;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="331ed1db-e161-44cb-8c79-d5000d5d1cb8">
+    <name>ПроцентВыполнения100</name>
+    <synonym>
+      <key>ru</key>
+      <value>Устанавливать процент выполнения задачи в 100%</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Устанавливается процент завершения 100% только при ручном изменении поля &quot;Состояние&quot;. Исключения, в которых не будет срабатывать: Зарегестрировано, Выполнено, Отменено выполнение</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="691b3d7e-0f7d-459d-bff5-026e736083bf">
+    <name>РеквизитДопУпорядочивания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Используется для упорядочивания (служебный)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5836ff7e-720c-4f6b-b960-7907300c991c">
+    <name>УчитыватьПриРасчетеВремениВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учитывать при расчете времени выполнения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bf51410a-b068-4877-8bf1-e5b89d741441">
+    <name>ЦветФонаСостояния</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет фона состояния</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dd114ab0-61f0-477c-bb49-aea7bc243662">
+    <name>ИзменятьТекстЦвета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменять текст цвета (а не фона)</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="9a63419b-1890-4faf-8199-84bf7dd6b2b9">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e29f6465-6885-4c28-94d8-ec3c26375eca">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a9512330-e97f-43a7-975a-dc9c79b9be00">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

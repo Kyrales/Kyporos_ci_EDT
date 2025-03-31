@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba13c2af-1824-47e3-b1ef-e8240725f0eb">
+  <producedTypes>
+    <objectType typeId="551a134e-5989-4ef9-a4a5-726ce9305f1c" valueTypeId="0d213063-d35f-4c22-831d-11077b87162e"/>
+    <refType typeId="5aa942f3-9539-4d40-a627-cd6c037b2631" valueTypeId="deccb356-797a-4b79-bda0-4e38abf4c91a"/>
+    <selectionType typeId="640c867e-314f-460d-9ae0-5a6b0230c0c2" valueTypeId="2777b3c0-c60c-41d8-86b1-fb7b5180b569"/>
+    <listType typeId="c3f4c881-87d5-45bf-b5bc-622eac901f43" valueTypeId="36d49c1a-cd8e-47e1-bcea-11e892508c60"/>
+    <managerType typeId="93fe6fd3-ea17-4600-9b80-6ca7a919e3bd" valueTypeId="a01a9563-f276-49e3-8e3c-cd1251f6d49a"/>
+  </producedTypes>
+  <name>РазделыОбновленийКонфигураций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разделы обновлений конфигураций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РазделыОбновленийКонфигураций.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.РазделыОбновленийКонфигураций.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>6</codeLength>
+  <descriptionLength>80</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

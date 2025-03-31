@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6a9fc5b-b0a9-46c4-bc58-3f27ef677d2d">
+  <name>ПроверитьНомерПоОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверить номер по организации</value>
+  </synonym>
+  <source>
+    <types>TaskObject.ЗадачиПользователя</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ПрефиксацияОбъектовСобытия.ПроверитьНомерСправочникаПоОрганизации</handler>
+</mdclass:EventSubscription>

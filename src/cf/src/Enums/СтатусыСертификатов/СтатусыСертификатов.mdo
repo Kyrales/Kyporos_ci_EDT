@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da883a34-3522-4189-91ff-5a412e654155">
+  <producedTypes>
+    <refType typeId="e5fdc874-3df0-4e51-a721-901359998e5e" valueTypeId="a65b8431-5f2c-49fb-bf79-0842514abf1f"/>
+    <listType typeId="490bb2c5-6e89-4071-9511-c017762631f7" valueTypeId="1611b45b-ffa9-4924-928c-bc6b6190c3aa"/>
+    <managerType typeId="7ca25906-9302-4b34-a73a-668f1e725dfb" valueTypeId="b8eeba40-4314-4ba4-8e07-15fadfa9398e"/>
+  </producedTypes>
+  <name>СтатусыСертификатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы сертификатов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="78a36705-5fdc-4c68-b027-6b03d7523efc">
+    <name>Активный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="605d96d0-c77f-4da1-a644-2b4d7550c48b">
+    <name>Просрочен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просрочен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bc1fddc6-d85d-4461-bfdc-1c426ca33e34">
+    <name>Неактуален</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неактуален</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="890704db-e043-4ebf-8eaa-2cbcaa13471a">
+    <name>ВПроцессеАктивации</name>
+    <synonym>
+      <key>ru</key>
+      <value>В процессе активации</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28c272cf-d658-4300-8fbf-33d2ed78f47f">
+  <name>ТелеграмЛоготип</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм: логотип</value>
+  </synonym>
+</mdclass:CommonPicture>

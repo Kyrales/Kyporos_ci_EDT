@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7222be10-f15d-4b2b-957a-228fa21b1616">
+  <producedTypes>
+    <objectType typeId="3b6e75ae-f926-4c62-aa60-263a7590b6f2" valueTypeId="032aae7d-1d86-42f7-a63e-446699a864e4"/>
+    <refType typeId="3b892966-24d2-43e0-8cac-8058c8995f0c" valueTypeId="fac3491a-07e0-4586-a550-d1cbc00243f9"/>
+    <selectionType typeId="7b99144e-f727-4876-8948-59549e9b9b91" valueTypeId="f6829b68-a812-4a33-b511-fc002aa7562d"/>
+    <listType typeId="d7208188-9681-4142-9b4f-2a38e644eeb0" valueTypeId="cc99f70f-833f-4b46-92b4-cf1af77e7ef6"/>
+    <managerType typeId="b2fe4662-3880-4ed9-8853-54be083b5463" valueTypeId="4016975d-841d-4d41-a500-8cf7f5ce5a96"/>
+  </producedTypes>
+  <name>ТипОбъектаМетаданных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип объекта метаданных</value>
+  </synonym>
+  <inputByString>Catalog.ТипОбъектаМетаданных.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипОбъектаМетаданных.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>60</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="63270c5f-ef1d-436f-a5a2-3376b4fdb095">
+      <name>МодульВнешнегоСоединения</name>
+      <description>01. Модуль внешнего соединения</description>
+      <code xsi:type="core:StringValue">
+        <value>000000031</value>
+      </code>
+    </items>
+    <items id="504371bf-69e0-419a-a4e4-4ed031c6442b">
+      <name>МодульОбычногоРежима</name>
+      <description>01. Модуль обычного режима</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="3f4651f9-51c2-46d9-8fff-59f9e9be8c49">
+      <name>МодульСеанса</name>
+      <description>01. Модуль сеанса</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="9450ac2b-0abe-4205-a53b-ed47a1aadc54">
+      <name>МодульУправляемогоРежима</name>
+      <description>01. Модуль управляемого режима</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="64c33540-08c5-4714-8e8e-eae231678cdf">
+      <name>ОбщийМодуль</name>
+      <description>02. Общий модуль</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="b5e9f4cd-41e0-4a6b-a9da-dec8a1ec6af0">
+      <name>ОбщийРеквизит</name>
+      <description>02. Общий реквизит</description>
+      <code xsi:type="core:StringValue">
+        <value>000000029</value>
+      </code>
+    </items>
+    <items id="126b3f70-7bf7-4a8d-9547-672448322e96">
+      <name>Роль</name>
+      <description>03. Роль</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="dc7627ed-4de5-4308-a56c-41395c5ae29d">
+      <name>ПланОбмена</name>
+      <description>04. План обмена</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="2c87a381-295a-4804-afc2-b12035b485f0">
+      <name>КритерийОтбора</name>
+      <description>05. Критерий отбора</description>
+      <code xsi:type="core:StringValue">
+        <value>000000033</value>
+      </code>
+    </items>
+    <items id="8cbc4b1b-7996-4765-945f-5f13f3d24508">
+      <name>ПодпискаНаСобытие</name>
+      <description>05. Подписка на событие</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="4084bb8b-5976-41b6-805b-c957abcf06b1">
+      <name>РегламентноеЗадание</name>
+      <description>06. Регламентное задание</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="9bace82c-ea64-47ab-918b-7572d968ebfd">
+      <name>ОбщаяФорма</name>
+      <description>07. Общая форма</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+    <items id="9665ea52-b193-49f8-8f3d-4c57373087e3">
+      <name>ОбщаяКоманда</name>
+      <description>08. Общая команда</description>
+      <code xsi:type="core:StringValue">
+        <value>000000010</value>
+      </code>
+    </items>
+    <items id="635b2a79-4ff8-4728-aa85-9db1ab996f97">
+      <name>ОбщийМакет</name>
+      <description>09. Общий макет</description>
+      <code xsi:type="core:StringValue">
+        <value>000000011</value>
+      </code>
+    </items>
+    <items id="8159794b-3dea-473c-9819-a9564651576a">
+      <name>ОбщаяКартинка</name>
+      <description>10. Общая картинка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000012</value>
+      </code>
+    </items>
+    <items id="c3379293-e20b-4bfd-9076-f12af2800991">
+      <name>Константа</name>
+      <description>11. Константа</description>
+      <code xsi:type="core:StringValue">
+        <value>000000014</value>
+      </code>
+    </items>
+    <items id="6f20d5f2-cc04-4dda-8cbd-37deda191a1c">
+      <name>Справочник</name>
+      <description>12. Справочник</description>
+      <code xsi:type="core:StringValue">
+        <value>000000015</value>
+      </code>
+    </items>
+    <items id="088c08af-4d41-47d5-8765-3c2a826701d0">
+      <name>Документ</name>
+      <description>13. Документ</description>
+      <code xsi:type="core:StringValue">
+        <value>000000016</value>
+      </code>
+    </items>
+    <items id="b602514e-7d45-4820-a64a-1a6117456b64">
+      <name>Перечисление</name>
+      <description>14. Перечисление</description>
+      <code xsi:type="core:StringValue">
+        <value>000000017</value>
+      </code>
+    </items>
+    <items id="011d9646-c6c4-4449-8b39-7830eacbc4f4">
+      <name>Отчет</name>
+      <description>15. Отчет</description>
+      <code xsi:type="core:StringValue">
+        <value>000000018</value>
+      </code>
+    </items>
+    <items id="c84924a7-2f2c-4fdc-ab4b-1313583913e6">
+      <name>Обработка</name>
+      <description>16. Обработка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000019</value>
+      </code>
+    </items>
+    <items id="c2256e5b-07a2-4a0f-a287-be6ce9d3bd95">
+      <name>ПланВидовХарактеристик</name>
+      <description>17. План видов характеристик</description>
+      <code xsi:type="core:StringValue">
+        <value>000000020</value>
+      </code>
+    </items>
+    <items id="a48f99c5-6ddf-469e-8d05-cfa353ab65c3">
+      <name>ПланСчетов</name>
+      <description>18. План счетов</description>
+      <code xsi:type="core:StringValue">
+        <value>000000021</value>
+      </code>
+    </items>
+    <items id="12faa824-d318-412d-9000-e4b86b68fec6">
+      <name>ПланВидовРасчета</name>
+      <description>19. План видов расчета</description>
+      <code xsi:type="core:StringValue">
+        <value>000000022</value>
+      </code>
+    </items>
+    <items id="dec5a240-3653-4149-b8d3-fbb3f7ed822a">
+      <name>РегистрСведений</name>
+      <description>20. Регистр сведений</description>
+      <code xsi:type="core:StringValue">
+        <value>000000023</value>
+      </code>
+    </items>
+    <items id="05abd21f-8afc-4f86-a90e-3948c614a4de">
+      <name>РегистрНакопления</name>
+      <description>21. Регистр накопления</description>
+      <code xsi:type="core:StringValue">
+        <value>000000024</value>
+      </code>
+    </items>
+    <items id="73c8532d-b61d-40bf-80f8-396f4cfe8c01">
+      <name>РегистрБухгалтерии</name>
+      <description>22. Регистр бухгалтерии</description>
+      <code xsi:type="core:StringValue">
+        <value>000000025</value>
+      </code>
+    </items>
+    <items id="5cc05fd5-9807-4dd3-b990-4325720b37fd">
+      <name>РегистрРасчета</name>
+      <description>23. Регистр расчета</description>
+      <code xsi:type="core:StringValue">
+        <value>000000026</value>
+      </code>
+    </items>
+    <items id="a2d8304b-9a04-4933-b081-12f5e0b6bbbd">
+      <name>БизнесПроцесс</name>
+      <description>24. Бизнес-процесс</description>
+      <code xsi:type="core:StringValue">
+        <value>000000027</value>
+      </code>
+    </items>
+    <items id="959d32cf-4d5c-497d-9e7e-e55f8b394182">
+      <name>Задача</name>
+      <description>25. Задача</description>
+      <code xsi:type="core:StringValue">
+        <value>000000028</value>
+      </code>
+    </items>
+    <items id="5f847769-406e-41c5-b543-6806cdff7e08">
+      <name>WebСервисы</name>
+      <description>Web-сервисы</description>
+      <code xsi:type="core:StringValue">
+        <value>000000032</value>
+      </code>
+    </items>
+    <items id="1bee287e-70e0-4202-a8d1-0c814411aa51">
+      <name>XDTO_пакет</name>
+      <description>XDTO пакет</description>
+      <code xsi:type="core:StringValue">
+        <value>000000013</value>
+      </code>
+    </items>
+    <items id="4a402590-9a83-4a09-b58e-8437ae92b420">
+      <name>ЖурналДокументов</name>
+      <description>Журнал документов</description>
+      <code xsi:type="core:StringValue">
+        <value>000000030</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="6f137afb-e22c-4343-8d78-b7a17cb6c80f">
+    <name>СоответствиеМодулю</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соответствие модулю</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>80</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d52bd0f5-7deb-48b5-8f77-3eff7d0e4fe8">
+    <name>СоответствиеМодулюАнгл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соответствие модулю (англ)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>80</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="a2bb37ab-fab0-466d-897b-b47f482fd18e">
+    <producedTypes>
+      <objectType typeId="94072bb1-aee2-4bd3-a454-a09208b8ec4f" valueTypeId="84399824-342d-4fb1-892f-363c9bc7dcdd"/>
+      <rowType typeId="54a6694a-3f64-455b-8330-0e2dfd65478a" valueTypeId="b5cd0d55-9787-4b67-b669-4b5b0584d707"/>
+    </producedTypes>
+    <name>ТипыМодулейПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Типы модулей по умолчанию</value>
+    </synonym>
+    <attributes uuid="39c891ae-8617-42c9-b457-3c81875c1b77">
+      <name>ТипМодуля</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип модуля</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ТипыМодулей</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

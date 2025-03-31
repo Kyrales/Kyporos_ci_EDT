@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0cf7cc86-3e79-49e3-a593-c26204892dd1">
+  <producedTypes>
+    <managerType typeId="0b30975a-8881-49a7-8163-7a8329930a8b" valueTypeId="eb5f749e-f79c-4bac-8827-28b315ce7200"/>
+    <valueManagerType typeId="d78092a6-5b6e-4271-8deb-8b2ed5f699b4" valueTypeId="c3745afd-fac6-4c89-850d-166a8d2cde1e"/>
+    <valueKeyType typeId="4e1b6144-e414-5f3f-900d-3a06039734d6" valueTypeId="0fff6253-e704-5154-938e-3bac51b8e866"/>
+  </producedTypes>
+  <name>ЗагружатьПользователейИзAD</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загружать пользователей из AD</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

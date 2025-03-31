@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f80169e-5540-4fe6-82b0-595f3ba5e7f6">
+  <producedTypes>
+    <selectionType typeId="6dfaa0e0-a143-4c12-81f8-742741bd8ac4" valueTypeId="74b0dc47-0683-4675-b227-fb05d1850b09"/>
+    <listType typeId="2662bae4-9bf2-40c2-9db5-2b9eb30d48f8" valueTypeId="6ec8cdf1-d496-4b4e-a886-2e2cfbec6dc5"/>
+    <managerType typeId="c9a8d4a4-635e-4126-a3a4-65636add6d6a" valueTypeId="90727804-786f-45ce-b278-a370dd73db27"/>
+    <recordSetType typeId="eedb46be-7b93-46ac-abdc-f3c36fb9dbcb" valueTypeId="34fca5ba-4b71-4a17-918d-3f06eb40dc74"/>
+    <recordKeyType typeId="1c54a93e-134c-4251-a999-37f9f797fdd4" valueTypeId="6076dce5-6738-4a51-888a-2fe46fd510ae"/>
+    <recordType typeId="eb9fae9a-3d9f-4160-9e08-d632afec9b30" valueTypeId="71f6a4c3-410b-4454-8102-2230cadac057"/>
+  </producedTypes>
+  <name>ВзаиморасчетыСОрганизациями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаиморасчеты с организациями</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="d39f4d47-afea-47cd-9d24-614b18e07985">
+    <name>ФактическаяТрудоемкость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фактическая трудоемкость, часов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="e730e627-0ac1-43e2-9861-71fba7b33545">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="6ca41d73-5dc8-49c0-a219-6ab408c67354">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <comment>АПК:1208 Считаем корректным имя в Купорос</comment>
+    <type>
+      <types>TaskRef.ЗадачиПользователя</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="e9e3c43e-4ddd-4f7a-bfeb-4f07f1bd0cd7">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

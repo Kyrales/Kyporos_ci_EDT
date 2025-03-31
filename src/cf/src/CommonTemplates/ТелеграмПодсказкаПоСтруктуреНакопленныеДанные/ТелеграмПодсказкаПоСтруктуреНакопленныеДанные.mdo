@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8fbb64f-f044-4396-b806-6b80a5f05f39">
+  <name>ТелеграмПодсказкаПоСтруктуреНакопленныеДанные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм: подсказка по структуре накопленные данные</value>
+  </synonym>
+  <comment>Используется при выводе подсказки по структуре НакопленныеДанные</comment>
+  <templateType>TextDocument</templateType>
+</mdclass:CommonTemplate>

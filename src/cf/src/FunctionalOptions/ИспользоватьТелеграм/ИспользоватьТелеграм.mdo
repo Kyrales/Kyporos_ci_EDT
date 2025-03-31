@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df58a36e-b93a-4a8c-8bf2-a6281f2b37b4">
+  <name>ИспользоватьТелеграм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать Телеграм</value>
+  </synonym>
+  <location>Constant.ИспользоватьТелеграм</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.Телеграм</content>
+  <content>Catalog.ТелеграмБоты</content>
+  <content>Catalog.ТелеграмКлавиатуры</content>
+  <content>Catalog.ТелеграмНаборУсловий</content>
+  <content>Catalog.ТелеграмОбработка</content>
+  <content>Catalog.ТелеграмСервис</content>
+  <content>Catalog.ТелеграмЭмодзи</content>
+  <content>DataProcessor.ТелеграмЭмодзи</content>
+  <content>InformationRegister.ТелеграмЖурнал</content>
+  <content>InformationRegister.ТелеграмКонтекстСеансов</content>
+  <content>InformationRegister.ТелеграмМетоды</content>
+  <content>InformationRegister.ТелеграмНастройкиБотов</content>
+  <content>InformationRegister.ТелеграмНастройкиПользователей</content>
+  <content>InformationRegister.ТелеграмСобеседники</content>
+  <content>DataProcessor.ТелеграмЭмодзи.Command.КоллекцияЭмодзи</content>
+  <content>ChartOfCharacteristicTypes.ТелеграмПараметрыКонтекста</content>
+  <content>ChartOfCharacteristicTypes.ТелеграмПараметрыВходящегоСообщения</content>
+  <content>Catalog.СообщенияОбсуждений.Attribute.ОтправитьНаТелеграм</content>
+  <content>DataProcessor.МессенджерТелеграм</content>
+  <content>InformationRegister.СообщенияЧатБота</content>
+  <content>InformationRegister.НапоминанияПользователя.Attribute.УведомлятьПоТелеграм</content>
+  <content>InformationRegister.НапоминанияПользователя.Attribute.ВыполненоУведомлениеПоТелеграм</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a87489a5-cb22-4fee-b69a-dbdc77072e4c">
+  <producedTypes>
+    <selectionType typeId="9c524ed3-aaba-4f97-85b6-4e2e22bec0f3" valueTypeId="a2fc7632-5252-4e2c-a57f-600f97e4f8b6"/>
+    <listType typeId="bb25e0fb-1c42-404b-9c77-f4f35949a213" valueTypeId="8b8a7d9a-9f0d-4db2-a08c-3b5072b10c90"/>
+    <managerType typeId="aba31e77-fc56-4f19-96a2-24134f46de25" valueTypeId="88abe5ee-6943-40ec-9b51-c3cc9ad116a6"/>
+    <recordSetType typeId="4ae37922-8c65-4ad8-be11-e0149635f090" valueTypeId="a3edcaae-3a6f-438f-8312-5938bb041869"/>
+    <recordKeyType typeId="86a121cd-77bc-4e62-853b-c8b0b3559797" valueTypeId="6911bfb6-ebcd-4d0f-8f3f-7225f7731d9d"/>
+    <recordType typeId="9118f9a1-2b5d-42c4-b2b6-68aba6a286c4" valueTypeId="6470a902-7204-428c-8edd-87de1619c4c2"/>
+    <recordManagerType typeId="23abb360-e236-4412-b079-daf52c438cef" valueTypeId="e7d74ed6-beec-4d55-916f-6f8760aa5ded"/>
+  </producedTypes>
+  <name>ТекущиеСостоянияЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текущие состояния задач</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="3fd0167a-7c6a-4ee0-a575-cab29d6744b1">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СостоянияЗадач</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="44251632-f28e-4388-8630-310ce9c92d54">
+    <name>СтатусОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус обработки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатусыОбработкиЗадач</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.ТекущиеСостоянияЗадач.Resource.Состояние</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="25bccf96-be84-4059-9c94-6ca2768745c4">
+    <name>СрокСостояния</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок состояния</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="aa14cd43-ccba-43d6-8a51-211df24a6578">
+    <name>ПричинаСостояния</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина состояния</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <attributes uuid="9e2c1fb7-c102-49cd-966a-eda66dfebbc3">
+    <name>Установил</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установил</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="792a9aaf-9934-40cd-b72a-c0b6551732e8">
+    <name>ДатаУстановки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата установки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="a985744b-8238-4670-a42e-028db5c33685">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <comment>АПК:1208 Считаем корректным имя в Купорос</comment>
+    <type>
+      <types>TaskRef.ЗадачиПользователя</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

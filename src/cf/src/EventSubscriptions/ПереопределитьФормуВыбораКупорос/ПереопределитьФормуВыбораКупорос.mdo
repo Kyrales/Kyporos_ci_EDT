@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e3b5e0a-2fe1-49ef-80a9-254a25f79e9e">
+  <name>ПереопределитьФормуВыбораКупорос</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переопределить форму выбора (Купорос)</value>
+  </synonym>
+  <comment>Возможность использования форм списка и как форм выбора</comment>
+  <source>
+    <types>CatalogManager.РабочиеМеста</types>
+    <types>CatalogManager.Сертификаты</types>
+    <types>CatalogManager.Проекты</types>
+  </source>
+  <event>FormGetProcessing</event>
+  <handler>CommonModule.ОбщегоНазначенияКупоросКлиентСервер.ПереопределитьФормуВыбораКупоросОбработкаПолученияФормы</handler>
+</mdclass:EventSubscription>

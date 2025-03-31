@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5adfcaaa-6a36-48c9-8eae-3eca0129e81d">
+  <name>ОбменДаннымиСобытияКупоросВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен данными события Купорос вызов сервера</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

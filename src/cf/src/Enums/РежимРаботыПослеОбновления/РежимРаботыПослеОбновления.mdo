@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2a46b63-6228-481a-8b7e-6c339c91d863">
+  <producedTypes>
+    <refType typeId="74f72a6b-383f-4f53-9431-02ed4f1be1a7" valueTypeId="8c09542c-b423-46fe-b4f8-b16622b1774b"/>
+    <listType typeId="623a5b8e-a210-44f4-8a72-4bd44465136a" valueTypeId="010dc818-7f3b-4349-a7cf-8986d934a598"/>
+    <managerType typeId="a5dee5ae-013f-4aa8-b77d-9f6eb2c233d0" valueTypeId="59bd7b40-da8b-49f2-aebf-1fe57e4a8468"/>
+  </producedTypes>
+  <name>РежимРаботыПослеОбновления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режим работы после обновления</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5ed782f0-c4f4-45aa-ae13-770874546b1a">
+    <name>ИзмененияНеТребуются</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменения не требуются</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5e91ed68-2a7a-4f77-b74e-dedd2b6a004e">
+    <name>ПереписатьНашиИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переписать наши изменения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="49ff56c5-be16-43f1-bb6e-0fcfd6b0ef5f">
+    <name>ДополнитьИзменения1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнить изменения 1С к нашим</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dbdc5cb5-dd0c-4122-b89e-411044c880b3">
+    <name>ВзятьИзменения1СПолностью</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взять изменения 1С полностью</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4390b6be-db3e-4087-a004-2ca36b1fdc0e">
+    <name>ИндивидуальныеНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индивидуальные настройки</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab0b6824-99ba-4b8d-857d-ed8ef017d499">
+  <name>ИспользоватьНесколькоОрганизаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать несколько организаций</value>
+  </synonym>
+  <location>Constant.ИспользоватьНесколькоОрганизаций</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.Организации.Command.Организации</content>
+</mdclass:FunctionalOption>

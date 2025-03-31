@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5956c5d-2c69-43d8-b2dc-25dffdf440ad">
+  <producedTypes>
+    <objectType typeId="c89d101c-5fb9-4c55-a08e-f2c5acdf8135" valueTypeId="f651a83f-b5e8-423d-a078-6605f3191590"/>
+    <refType typeId="475c5ef9-f989-414b-b395-a846f95cdb8b" valueTypeId="40dec993-06aa-4bf0-9b8c-2d80f4e5cc0d"/>
+    <selectionType typeId="a3e0d047-3c03-4ee4-bd20-c7e303802d01" valueTypeId="2afed0b8-68b6-456d-9377-526980a0ba4c"/>
+    <listType typeId="375f1bb5-0572-4470-946a-6aa96a79502e" valueTypeId="a7757b68-31fb-4162-814f-2045f4f2d24e"/>
+    <managerType typeId="cf432e59-d1bf-4513-98b7-5b9910fb5e38" valueTypeId="fbde08ea-4096-4b43-9ae1-9db3555a2fb1"/>
+  </producedTypes>
+  <name>СценарииОбработкиЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сценарии обработки задач</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СценарииОбработкиЗадач.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СценарииОбработкиЗадач.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>11</codeLength>
+  <descriptionLength>80</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="8688ad51-b87c-4c8f-8415-4b83cf2d054f">
+      <name>БазовыйСценарийЗадач</name>
+      <description>Базовый сценарий задач</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СценарииОбработкиЗадач.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="9ef54ba7-6521-4523-8f66-7b33a15ae730">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7d7f4472-e442-4302-af55-82a69b6027cb">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="a8cf2656-631b-4e11-84ab-764d5d2b4ac2">
+    <producedTypes>
+      <objectType typeId="93220b44-346b-4956-982d-62b9a454d369" valueTypeId="8c4b85d7-b4df-4557-aec0-4ae6116da017"/>
+      <rowType typeId="27fa10bc-4b30-41ee-9849-1df3773cebbf" valueTypeId="ffe31300-0141-4451-8e5e-a6befaa16893"/>
+    </producedTypes>
+    <name>ЭтапыСостояний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этапы состояний</value>
+    </synonym>
+    <attributes uuid="2dc96177-70c2-4225-8881-332292343b77">
+      <name>Состояние</name>
+      <synonym>
+        <key>ru</key>
+        <value>Состояние</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СостоянияЗадач</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="07698e31-119b-4782-ae0f-006db3b8ad2a">
+      <name>НачальноеПоУмолчанию</name>
+      <synonym>
+        <key>ru</key>
+        <value>Начальное по умолчанию</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="d1e02c3e-6aa2-4962-8a0d-f7bd6997bb75">
+    <producedTypes>
+      <objectType typeId="b4546a74-613f-4880-8744-b79d5dab5a64" valueTypeId="ef0111c8-ddb5-4a81-9e5d-80771217ae9c"/>
+      <rowType typeId="a36d60d3-741f-49d7-9369-46e3c85b038e" valueTypeId="1b65e944-bcaf-4dab-970d-94ce5636dd88"/>
+    </producedTypes>
+    <name>ПереходыПоСостояниям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переходы по состояниям</value>
+    </synonym>
+    <attributes uuid="6489324a-9cde-48ce-acff-029dacbe10d6">
+      <name>Состояние</name>
+      <synonym>
+        <key>ru</key>
+        <value>Состояние</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СостоянияЗадач</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1644cd03-69d5-49fe-bb35-8e5d62a4030a">
+      <name>СостояниеПерехода</name>
+      <synonym>
+        <key>ru</key>
+        <value>Состояние перехода</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СостоянияЗадач</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4b323a48-df42-40d0-b27d-92fb5df35663">
+      <name>ОсновнойПереход</name>
+      <synonym>
+        <key>ru</key>
+        <value>Основной переход</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="25d721ee-4247-49cd-9f12-a7369f9104c0">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="aafc7217-4e25-47f2-86f8-d7b42b6ebd6e">
+    <name>ЗаполнениеПереходаПоСостоянию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение перехода по состоянию</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

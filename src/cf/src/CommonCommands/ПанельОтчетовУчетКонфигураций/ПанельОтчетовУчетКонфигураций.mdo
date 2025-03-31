@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3373eeff-d7ea-4106-be24-2fe5ba109c9d">
+  <name>ПанельОтчетовУчетКонфигураций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты по учету конфигураций</value>
+  </synonym>
+  <group>ActionsPanelReports</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Отчеты по учету конфигураций</value>
+  </toolTip>
+</mdclass:CommonCommand>

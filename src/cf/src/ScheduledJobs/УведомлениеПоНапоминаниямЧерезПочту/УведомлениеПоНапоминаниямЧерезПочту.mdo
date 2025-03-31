@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c289aee4-98ce-4bbe-ac2a-24eb64cf1b9c">
+  <name>УведомлениеПоНапоминаниямЧерезПочту</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомление по напоминаниям через почту</value>
+  </synonym>
+  <methodName>CommonModule.ОбщегоНазначенияКупоросСервер.УведомлениеПоНапоминаниямЧерезПочту</methodName>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

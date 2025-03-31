@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3bf4d5bc-5e50-44f2-82b1-2ebf54a4450a">
+  <name>ИспользоватьОценкуЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать оценку задач</value>
+  </synonym>
+  <location>Constant.ИспользоватьОценкуЗадач</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Task.ЗадачиПользователя.Attribute.ОценкаЗадачи</content>
+  <content>Task.ЗадачиПользователя.Command.ОценкаЗадач</content>
+  <content>Task.ЗадачиПользователя.Attribute.ДатаОценкиЗадачи</content>
+</mdclass:FunctionalOption>

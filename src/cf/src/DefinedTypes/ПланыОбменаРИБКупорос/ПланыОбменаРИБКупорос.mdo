@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed37d2a6-a24c-4da0-af4f-ca622b826bb9">
+  <producedTypes>
+    <containerType typeId="7e4a4ab0-3386-44dc-b548-56db756965bb" valueTypeId="2f56b054-10b4-4a8b-9354-55b93316e919"/>
+  </producedTypes>
+  <name>ПланыОбменаРИБКупорос</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планы обмена РИБ Купорос</value>
+  </synonym>
+  <type>
+    <types>ExchangePlanRef.ОбменВРаспределеннойИнформационнойБазе</types>
+  </type>
+</mdclass:DefinedType>

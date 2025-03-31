@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd40e6e6-a90b-4354-834e-049ca6d95615">
+  <producedTypes>
+    <refType typeId="0aae5a81-f91b-4503-83b3-9a9d7c0e54b0" valueTypeId="fa6e30c4-c3e8-4a5b-b9df-8bd1e0223930"/>
+    <listType typeId="0b8c9c4e-5621-4409-8dad-37704166c23c" valueTypeId="9576af1a-1523-4485-acdc-a799d9e0ada3"/>
+    <managerType typeId="146eee7f-86b3-4477-8094-e0af96cf9690" valueTypeId="ac07aaf0-596f-48bd-ad12-1ca613c3406d"/>
+  </producedTypes>
+  <name>СпособыАутентификации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы аутентификации</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ff265487-998b-46f9-a5ca-7652e70a9857">
+    <name>Windows</name>
+    <synonym>
+      <key>ru</key>
+      <value>Windows</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6e3c6369-213d-4546-b0ee-9b59f121208f">
+    <name>SQLServer</name>
+    <synonym>
+      <key>ru</key>
+      <value>SQL Server</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

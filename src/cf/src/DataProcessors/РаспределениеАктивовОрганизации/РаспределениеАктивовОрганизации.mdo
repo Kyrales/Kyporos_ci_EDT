@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="766b01a2-2f3b-4b1d-84b4-fed322272d00">
+  <producedTypes>
+    <objectType typeId="3582b95c-3754-4177-a6c3-04c22667bd4d" valueTypeId="66162c2a-f32a-45b2-9eb2-c1057f9fb779"/>
+    <managerType typeId="531ab81f-6032-494e-9e6c-2ec2a481c0ee" valueTypeId="4dacdaef-fb27-4d83-844b-f6bfadd88d57"/>
+  </producedTypes>
+  <name>РаспределениеАктивовОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Распределение активов организации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РаспределениеАктивовОрганизации.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="0d54ce9f-beb5-45cc-81b3-6eeb2def4799">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b71268fe-9af3-4386-ad3a-822bcbf93edd">
+    <name>ВидНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид номенклатуры</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c5b25fc2-9193-4dc1-b26a-df19d36311a4">
+    <name>ИнформацияПоАктивам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация по активам</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="e2579fdb-83c7-41a0-87c4-f3b5deb081c3">
+    <producedTypes>
+      <objectType typeId="d635d2c2-a1e1-41d0-900d-f9f699479c0b" valueTypeId="396d95b3-8e63-4eb4-a16c-0a14a6e5134b"/>
+      <rowType typeId="67adcfab-9f20-41c0-aca4-852bb5dc0555" valueTypeId="dae2241b-cdb4-4213-aa69-358e6a20b0d9"/>
+    </producedTypes>
+    <name>СписокРабочихМест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список рабочих мест</value>
+    </synonym>
+    <attributes uuid="c6ed1d07-3a0a-42ea-945a-aee38054151a">
+      <name>РабочееМесто</name>
+      <synonym>
+        <key>ru</key>
+        <value>Рабочее место</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.РабочиеМеста</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="23d4eafd-367e-4142-b300-60200e799033">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.ВидНоменклатуры</name>
+        <field>DataProcessor.РаспределениеАктивовОрганизации.Attribute.ВидНоменклатуры</field>
+      </choiceParameterLinks>
+      <choiceForm>Catalog.Номенклатура.Form.ФормаСпискаБезГрупп</choiceForm>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="872f18e9-cda8-4198-8e0e-d4fc920d7e1e">
+      <name>Используется</name>
+      <synonym>
+        <key>ru</key>
+        <value>Используется</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="0bed54bc-fcab-4868-a5d2-e3eb82ca0b08">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

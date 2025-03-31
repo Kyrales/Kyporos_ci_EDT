@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="365961a2-eafb-41f3-80ca-d1f38155a5f8">
+  <producedTypes>
+    <objectType typeId="7d323248-eccf-47a6-b3ea-50b7627b8f31" valueTypeId="08d2d5cf-d41f-4fea-91ac-93f4c73e39d3"/>
+    <refType typeId="c09c8a42-9014-407d-a895-0be98d94c517" valueTypeId="b8bf57c5-c946-4edd-8cca-f501bfd49a30"/>
+    <selectionType typeId="78bebd7d-af25-4e8e-aea3-a43dc9e50c90" valueTypeId="c4427a62-f467-4871-a762-6b019714d4b9"/>
+    <listType typeId="078efd81-564a-4456-8507-67b7c2f51ae7" valueTypeId="8dd5da2c-8cd0-49f6-a7a8-a868d189ee64"/>
+    <managerType typeId="253a3896-ce84-4584-bb79-d55a781d8f3d" valueTypeId="823ab92d-8e21-4358-8130-5035b2912add"/>
+  </producedTypes>
+  <name>ТелеграмСервис</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм: сервисы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТелеграмСервис.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТелеграмСервис.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родитель</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.ТелеграмСервис.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Сервис телеграм</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Сервисы телеграм</value>
+  </listPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ТелеграмСервис.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.ТелеграмСервис.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.ТелеграмСервис.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="5e4a6fde-5de9-40db-a973-a6a541a69957">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТелеграмСтатусыИспользования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ТелеграмСтатусыИспользования.EnumValue.Используется</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3853be81-2435-4959-89ed-abe7d15c9850">
+    <name>Бот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бот</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТелеграмБоты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="33a89a02-2b96-48e0-8b84-efef7b35b718">
+    <name>ВидВходящегоОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид входящего обновления</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТелеграмВидыВходящихОбновлений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ТелеграмВидыВходящихОбновлений.EnumValue.Сообщение</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0d7147bf-e2a9-473b-88fb-9a511f2c5b51">
+    <name>Сортировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сортировка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="af2dae10-5c6c-485a-87f3-851158ff49b9">
+    <name>ВходящийТекстАвто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входящий текст или данные</value>
+    </synonym>
+    <comment>Заполняется автоматически</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f658aad4-4e45-486e-a3ae-f631800f84a7">
+    <name>НаборыУсловийАвто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наборы условий</value>
+    </synonym>
+    <comment>Заполняется автоматически</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5a568591-86de-439c-8036-a6f929a415e5">
+    <name>ОбработкиАвто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработки</value>
+    </synonym>
+    <comment>Заполняется автоматически</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b07bf87c-45d0-457f-bb1b-f57bf85d7530">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ef12878e-3b3e-46b0-937e-4ec85e99cce2">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="30f32912-c307-482b-a898-0a9302fc72ab">
+    <producedTypes>
+      <objectType typeId="0d3a0b00-5454-49eb-ba88-1a522ef3210b" valueTypeId="217e8d58-143c-48ce-9038-5a8e1de47e7b"/>
+      <rowType typeId="f21e7c37-d24a-452d-98a5-6de25d68bd86" valueTypeId="47529c20-a2c4-47bd-8d50-6db12d4281c8"/>
+    </producedTypes>
+    <name>ВходящийТекст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входящий текст</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="98c7a827-b55b-46d1-a519-4c9d0bc72cbf">
+      <name>ВидСравнения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид сравнения</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ТелеграмВидыСравнения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Назначение</name>
+        <value xsi:type="core:StringValue">
+          <value>ВходящийТекст</value>
+        </value>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e35694e8-e536-4af3-a7bc-28da6a5abcd5">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="d04b9df8-c8ce-4722-addb-e09ab3e306aa">
+    <producedTypes>
+      <objectType typeId="0f21158c-9f43-4740-a170-c2b20006ffee" valueTypeId="ae172de6-92b1-471a-b966-7262ee98ff0a"/>
+      <rowType typeId="afaece9d-27fa-4070-94f7-1069dd3c262a" valueTypeId="e83d5bda-0e15-474d-b762-3fdec7d84243"/>
+    </producedTypes>
+    <name>ВходящиеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входящие данные</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="8ef00baf-3bff-479a-8d28-a2aaafa63e5c">
+      <name>ВидСравнения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид сравнения</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ТелеграмВидыСравнения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Назначение</name>
+        <value xsi:type="core:StringValue">
+          <value>ВходящиеДанные</value>
+        </value>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="10ea3e55-eaa8-4256-acf3-a69cfc21d3da">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="5ce13f30-f7bc-4e4c-84f6-2308624d3c50">
+    <producedTypes>
+      <objectType typeId="d2396351-8389-4b95-86bf-409bc1b4244a" valueTypeId="88ebc6cc-092d-4fd6-a1d0-b11e78bd8672"/>
+      <rowType typeId="8e48b4d3-d589-486a-b823-56246a1a98a6" valueTypeId="dd504ca2-08b3-4a12-8f1a-fa9419047768"/>
+    </producedTypes>
+    <name>НаборыУсловий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наборы условий</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="fb0cb496-de8b-4b68-95e9-06c2c6409d11">
+      <name>НаборУсловий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Набор условий</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ТелеграмНаборУсловий</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="4a61d817-76e2-489b-8419-8c1566c1e858">
+    <producedTypes>
+      <objectType typeId="a6d4c79b-6572-4125-b307-39d5a4bd9999" valueTypeId="67548522-d37d-4d12-ba18-79924395c084"/>
+      <rowType typeId="4f21d70b-5133-457f-9a05-84f877542aec" valueTypeId="08d07fe8-5a3b-4bc3-8033-792a04c402d9"/>
+    </producedTypes>
+    <name>Обработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработки</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="84431b3c-dcd8-4ab5-bd40-96fff5b78a56">
+      <name>Обработка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Обработка</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ТелеграмОбработка</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9fe6af1f-394c-464d-8237-a3d4097167d9">
+      <name>НаборУсловий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Набор условий</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ТелеграмНаборУсловий</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="975fe3f4-b4d1-43b0-bdf6-08920958dd7b">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1a39cfb2-bf1e-46b8-8943-6aef1c47bdc0">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="248cdeca-dc3f-4864-9446-0c4d89f7e610">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7fb98f59-507d-41a2-a00b-1a939088facc">
+  <producedTypes>
+    <containerType typeId="a13a3238-b847-419f-ab26-c9b3ff43833d" valueTypeId="36b8a988-7466-4e91-89ff-8fb019b52f48"/>
+  </producedTypes>
+  <name>ТрудоемкостьЧасовНеотрицательная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Трудоемкость часов неотрицательная</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>6</precision>
+      <scale>2</scale>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+</mdclass:DefinedType>

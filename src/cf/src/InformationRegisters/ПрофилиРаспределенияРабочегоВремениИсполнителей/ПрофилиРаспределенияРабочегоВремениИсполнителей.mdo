@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53743c21-854b-43fc-ae59-7a588598ed87">
+  <producedTypes>
+    <selectionType typeId="755f4528-8955-4e9f-b9e0-63c27f7aa269" valueTypeId="8dc41658-939b-4faf-87bf-02a0ff3e7661"/>
+    <listType typeId="758bb2b8-cb8c-4709-91c5-ce5d0c21eea9" valueTypeId="44e23398-9f92-4ffb-9212-7e7ac08ef1d4"/>
+    <managerType typeId="d5ac76f4-8904-4dce-bc1f-28a8cf18e04e" valueTypeId="8603c7df-6d8a-4edf-87d6-874174e0be3d"/>
+    <recordSetType typeId="473050f4-aaa3-4d2e-ab17-d08374bc4b62" valueTypeId="55f892bc-4372-42da-a5a4-56b42f2d7748"/>
+    <recordKeyType typeId="0d02986d-d234-479d-b052-c22b64194084" valueTypeId="01faf32f-03c7-4716-96c0-05e397cc654b"/>
+    <recordType typeId="a42d4dfc-09bc-4e49-aa59-b5f95c755aba" valueTypeId="9468caeb-cda2-4ec0-96ff-0032d13b37d1"/>
+    <recordManagerType typeId="2cc2f567-c592-4347-93c3-3474b6765126" valueTypeId="874eae1d-d288-4a61-a9ab-1e6a39fcd656"/>
+  </producedTypes>
+  <name>ПрофилиРаспределенияРабочегоВремениИсполнителей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Профили распределения рабочего времени исполнителей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="28b2f415-c58f-4998-b1ad-f0b165ec0101">
+    <name>Профиль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профиль</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПрофилиРаспределенияРабочегоВремени</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Исполнитель</name>
+      <field>InformationRegister.ПрофилиРаспределенияРабочегоВремениИсполнителей.Dimension.Исполнитель</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="0471e79d-81d3-47bc-a14f-f345db2c0804">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

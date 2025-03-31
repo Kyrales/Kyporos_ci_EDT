@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0647e891-a4b4-409c-9870-2144899cca87">
+  <producedTypes>
+    <refType typeId="b0636598-ae3c-4f58-84db-88b03b190b20" valueTypeId="47af8fa5-8b0c-450b-8463-2a723c46bb8b"/>
+    <listType typeId="81ca5e44-fa16-4ca4-9035-4c56dab3551b" valueTypeId="07706af7-4bc6-4a34-b5c1-53c6c623b64b"/>
+    <managerType typeId="b57a28b0-b558-4a83-afc2-4eca20532b4a" valueTypeId="9ae70019-9081-42ae-bf96-509e2a858341"/>
+  </producedTypes>
+  <name>ТипРеквизитаAD</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип реквизита AD</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="87c5ebc2-cbda-4b5c-b199-a4659be8dd6a">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="385493cf-d2c5-450c-bc1c-a660f502d466">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ef3240f0-7f09-4a5c-bc32-6d257879c268">
+    <name>УчетнаяЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная запись</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

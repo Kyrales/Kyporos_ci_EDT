@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cccf1d3f-4ed7-407f-bf04-bb57ae3b57b2">
+  <name>ВидыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды номенклатуры</value>
+  </synonym>
+  <transparentPixel>
+    <x>398</x>
+    <y>2</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

@@ -1,0 +1,169 @@
+Dim WshNetwork, WshShell, oFSO
+
+On Error Resume Next
+Set WshNetwork = WScript.CreateObject("WScript.Network")
+Set WshShell = WScript.CreateObject("WScript.Shell") 
+Set oFSO = CreateObject("Scripting.FileSystemObject")
+
+'-----------------------------------Вызов функции монтирования сетевых дисков---------------------------------
+If &IsFileServise Then 
+	Call MapDrive()	
+End If
+
+'-----------------------------------Вызов функции работы с файлами 1С---------------------------------
+
+If &IsUpd1C Then
+	Call BaseList()
+End If
+
+'-----------------------------------Функция монтирования сетевых дисков---------------------------------
+
+Function MapDrive()	
+On Error Resume Next
+		WSHNetwork.RemoveNetworkDrive "P:",True,True
+		WshNetwork.MapNetworkDrive "P:", 'UserFolder, true
+		WSHNetwork.RemoveNetworkDrive "R:",True,True
+		WshNetwork.MapNetworkDrive "R:", 'RootFolder, true
+End Function
+
+'-----------------------------------Функционал работы с файлами 1С---------------------------------
+Function BaseList()
+
+		' Путь к настройкам 1C учетной записи. Пример: \\krekfs\NewObmenService$\OKarataevCfg1C.cfg
+		PathFileCfg1C = &PathFileCfg1C		
+
+		' Производить очистку файла информационных баз . Пример: IsClearv8i = true		
+		IsClearv8i = &IsClearv8i		
+		
+		Folder1 = "c:\users\" & WshNetwork.UserName & "\AppData\Roaming\1C\1CEStart\"
+		
+		'Очистка 1CEStart.cfg в локальном каталоге
+		If (oFSO.FileExists(Folder1 & "1CEStart.cfg")) Then
+
+			Call ClearLine(Folder1 & "1CEStart.cfg","GPIBList.cfg")
+
+			Call ClearLine(Folder1 & "1CEStart.cfg","CommonInfoBases")
+			
+			Call ClearLine(Folder1 & "1CEStart.cfg","CommonCfgLocation")
+	
+			Call AddLine(Folder1 & "1CEStart.cfg", "CommonCfgLocation","CommonCfgLocation=" & PathFileCfg1C)
+			
+			'Очистка ibases.v8i
+			If IsClearv8i and (oFSO.FileExists(Folder1 & "ibases.v8i")) Then
+				Call ClearFile(Folder1, "ibases.v8i")
+			End If
+
+		End if
+
+		
+		' Переносной профиль
+		
+		IsMoveProfile = &IsMoveProfile
+		
+		'FoldersRemove
+		
+End Function
+
+'-----------------------------------Функция очистки определенной строки файла---------------------------------
+
+Function ClearLine(File1CEStart, TextDelete)
+
+If (oFSO.FileExists(File1CEStart)) Then
+
+'Читаем из файла в массив
+Set obj1CEStart=oFSO.OpenTextFile(File1CEStart, 1,false,-1)
+rewr_fail = false
+i=0
+Do Until obj1CEStart.AtEndOfStream
+	
+	Redim Preserve ReadStr(i)
+	strNextLine = obj1CEStart.Readline
+	'Проверяем ненужные строки , если есть то пропускаем
+	If Instr(1,strNextLine,TextDelete)=0 then
+		ReadStr(i) = strNextLine
+		i=i+1
+	Else
+		rewr_fail = true
+	End if
+		
+Loop
+
+obj1CEStart.Close
+
+If rewr_fail then
+	'Записываем из массива в файл
+	Set obj1CEStart=oFSO.OpenTextFile(File1CEStart, 2,true,-1)
+
+	For k=0 to i-1
+		obj1CEStart.WriteLine ReadStr(k)
+	Next
+	obj1CEStart.Close
+End if
+
+
+End If
+	
+End Function
+
+'-----------------------------------Функция добавления определенной строки файла, с проверкой на дубли---------------------------------
+
+Function AddLine(File1CEStart, TextTest, TextAdd)
+
+If (oFSO.FileExists(File1CEStart)) Then
+
+'Читаем из файла в массив
+Set obj1CEStart=oFSO.OpenTextFile(File1CEStart, 1,false,-1)
+rewr_fail = true
+i=0
+
+Do Until obj1CEStart.AtEndOfStream
+	strNextLine = obj1CEStart.Readline
+	If Instr(1,strNextLine,TextTest)=1 then
+		rewr_fail = false
+		Exit Do
+	End if
+	
+	Redim Preserve ReadStr(i)
+	ReadStr(i) = strNextLine
+	i=i+1
+	
+Loop
+
+obj1CEStart.Close
+
+If rewr_fail then
+	'Записываем из массива в файл
+	Redim Preserve ReadStr(i)
+	ReadStr(i) = TextAdd
+
+	Set obj1CEStart=oFSO.OpenTextFile(File1CEStart, 2,true,-1)
+
+	For k=0 to i
+		obj1CEStart.WriteLine ReadStr(k)
+	Next
+	obj1CEStart.Close
+End if
+
+
+End If
+	
+End Function
+
+'-----------------------------------Функция очистки файла ibases.v8i---------------------------------
+Function ClearFile(Folder, LookFile)
+
+On Error Resume Next
+	
+	Set Readfile = oFSO.OpenTextFile(Folder & LookFile, 1,TristateTrue) 
+	AllLine = Readfile.ReadAll
+	Readfile.Close
+		
+	Buffer = Replace(AllLine, AllLine, "")
+	oFSO.CopyFile Folder & LookFile, Folder & LookFile & ".bak"
+	
+	Set Readfile = oFSO.OpenTextFile(Folder & LookFile, 2) 
+	Readfile.Write Buffer
+	Readfile.Close
+
+End Function
+		

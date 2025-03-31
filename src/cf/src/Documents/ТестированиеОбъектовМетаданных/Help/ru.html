@@ -1,0 +1,671 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html><head><meta content="text/html; charset=utf-8" http-equiv="Content-Type"></meta><link rel="stylesheet" type="text/css" href="v8help://service_book/service_style"></link><meta name="GENERATOR" content="MSHTML 9.00.8112.16455"></meta></head><body>
+<h1>Факторы, определяющие сценарий тестирования</h1>
+<p>Сценарий тестирования доработки определяется следующей совокупностью факторов:</p>
+<ol><li>Алгоритмами расчета 
+</li>
+<li>Соответствием приложениям технического задания 
+</li>
+<li>Набором объектов метаданных, использованных разработчиком 
+</li>
+<li>Быстродействием и отсутствием избыточных блокировок</li></ol><p><span style="FONT-SIZE: large"><strong><font size="4">Совокупности ошибок и их признаки</font></strong></span></p>
+<ol><li><strong>Ошибки выполнения кода</strong>. При тестировании при полных правах появляется окно отладки в конфигураторе, или информация с указанием позиции кода в служебных сообщениях. 
+</li>
+<li><strong>Ошибки неправильной реализации технического задания</strong>. Выявляются при проверке технического задания, в ходе тестирования. Характеризуются неправильной работой заложенных алгоритмов, несоответствием приложениям клиента, медленной работой и блокировками, неудобным интерфейсом работы. 
+</li>
+<li><strong>Ошибки прав доступа</strong>. Выявляются уже после тестирования консультанта и официальной приемки доработки у программиста. Происходит это все в реальной базе при настройке прав, характеризуются либо появлением окна отладки в конфигураторе, либо информация с указанием позиции кода в служебных сообщениях.</li></ol><h1></h1>
+<h1>Подготовка к тестированию</h1>
+<p>Что входит в подготовку тестирования доработки</p>
+<ol><li>Обязательно клиент-серверная база данных для тестирования доработок 
+</li>
+<li>Подтверждение от разработчика о реализации последней версии доработки в базе данных 
+</li>
+<li>Список объектов метаданных, использованных в доработке разработчиком 
+</li>
+<li>Распечатанный экземпляр технического задания 
+</li>
+<li>Тестирование под фокус-пользователем</li></ol><h1>Разбиение доработки на блоки проверки</h1>
+<p>Доработку имеет смысл разделить на нескольких блоков и определить их последовательность. Это можно сделать в ходе первой проверки. Одни блоки могут базироваться на данных других блоков, а могут быть независимы друг от друга. Поэтому последовательность проверки блоков доработки не нужно повторять он начала и до конца после каждого исправления, а требуется строить согласно зависимости блоков друг от друга. Например, если есть исправляемый блок, то при повторной проверке необходимо проверить только его и зависящие от него блоки верхнего уровня (блоки, которые базируются на его данных).</p>
+<h1>Сценарии тестирования доработок</h1>
+<p>Теперь более подробно рассмотрим сценарии тестирования доработок, определяющиеся выше описанными факторами. Ниже будут приведены принципы тестирования и описаны некоторые приемы проверки доработки.</p>
+<h2>Проверка алгоритмов расчета</h2>
+<p>Для описания алгоритмов расчета в техническом задании рекомендуется использовать формулы. Вычисления формул проверяются с помощью таблиц трассировки. Это обычные таблицы, в которых: в строках указаны шаги алгоритма расчета, а в столбцах значения переменных алгоритма на данном шаге.</p>
+<p>Выглядят такие таблицы примерно так:</p>
+<table border="1" cellspacing="0" cellpadding="0"><tbody><tr><td valign="top" width="151">
+<p><strong>Шаг / Переменная </strong></p></td>
+<td valign="top" width="111">
+<p><strong>Комментарий к шагу</strong></p></td>
+<td valign="top" width="88">
+<p><strong>Параметр1</strong></p></td>
+<td valign="top" width="94">
+<p><strong>Параметр2</strong></p></td>
+<td valign="top" width="38">
+<p><strong>...</strong></p></td>
+<td valign="top" width="102">
+<p><strong>Параметр</strong><strong>N</strong></p></td></tr><tr><td valign="top" width="151">
+<p><strong>Начальные данные</strong></p></td>
+<td valign="top" width="111">
+<p>Инициализация параметров</p></td>
+<td valign="top" width="88">
+<p></p></td>
+<td valign="top" width="94">
+<p></p></td>
+<td valign="top" width="38">
+<p></p></td>
+<td valign="top" width="102">
+<p></p></td></tr><tr><td valign="top" width="151">
+<p><strong>Шаг </strong><strong>1</strong></p></td>
+<td valign="top" width="111">
+<p>Расчет параметра X1</p></td>
+<td valign="top" width="88">
+<p></p></td>
+<td valign="top" width="94">
+<p></p></td>
+<td valign="top" width="38">
+<p></p></td>
+<td valign="top" width="102">
+<p></p></td></tr><tr><td valign="top" width="151">
+<p><strong>....</strong></p></td>
+<td valign="top" width="111">
+<p></p></td>
+<td valign="top" width="88">
+<p></p></td>
+<td valign="top" width="94">
+<p></p></td>
+<td valign="top" width="38">
+<p></p></td>
+<td valign="top" width="102">
+<p></p></td></tr><tr><td valign="top" width="151">
+<p><strong>Шаг </strong><strong>i</strong></p></td>
+<td valign="top" width="111">
+<p>Расчет параметра Xi</p></td>
+<td valign="top" width="88">
+<p></p></td>
+<td valign="top" width="94">
+<p></p></td>
+<td valign="top" width="38">
+<p></p></td>
+<td valign="top" width="102">
+<p></p></td></tr><tr><td valign="top" width="151">
+<p><strong>.....</strong></p></td>
+<td valign="top" width="111">
+<p></p></td>
+<td valign="top" width="88">
+<p></p></td>
+<td valign="top" width="94">
+<p></p></td>
+<td valign="top" width="38">
+<p></p></td>
+<td valign="top" width="102">
+<p></p></td></tr><tr><td valign="top" width="151">
+<p><strong>Шаг </strong><strong>m</strong><strong>: </strong></p></td>
+<td valign="top" width="111">
+<p>Расчет параметра Xm</p></td>
+<td valign="top" width="88">
+<p></p></td>
+<td valign="top" width="94">
+<p></p></td>
+<td valign="top" width="38">
+<p></p></td>
+<td valign="top" width="102">
+<p></p></td></tr><tr><td valign="top" width="151">
+<p><strong>Итоговые данные</strong></p></td>
+<td valign="top" width="111">
+<p>Выводимые в форму данные</p></td>
+<td valign="top" width="88">
+<p></p></td>
+<td valign="top" width="94">
+<p></p></td>
+<td valign="top" width="38">
+<p></p></td>
+<td valign="top" width="102">
+<p></p></td></tr></tbody></table><p>Построить данную таблицу можно легко, практически в любом редакторе.</p>
+<p>В комментарии к шагу нужно указать краткое описание действий, происходящих в базе данных. Значения переменных могут быть любым числом или текстом.</p>
+<p>Таблицы требуются для нахождения общего языка с разработчиком в случае совместной проверки. Использование таблиц ускоряет получение пояснений по результатам расчета и облегчают выявление ошибок.</p>
+<p></p>
+<p><strong>Частые ошибки:</strong></p>
+<table border="1" cellspacing="0" cellpadding="0"><tbody><tr><td valign="top" width="36">
+<p><strong>№</strong></p></td>
+<td valign="top" width="302">
+<p><strong>Ошибка</strong></p></td>
+<td valign="top" width="300">
+<p><strong>Комментарий по проверке</strong></p></td></tr><tr><td valign="top" width="36">
+<p><strong>1</strong></p></td>
+<td valign="top" width="302">
+<p>Деление на ноль</p></td>
+<td valign="top" width="300">
+<p>Ввести в систему нулевые данные, являющиеся делителем в формулах</p></td></tr><tr><td valign="top" width="36">
+<p><strong>2</strong></p></td>
+<td valign="top" width="302">
+<p>Погрешность вычислений</p></td>
+<td valign="top" width="300">
+<p>Ввести минимальные, средние и максимальные значения вычислений. Таким образом, чтобы они давали небольшой результат вычислений или слишком большой результат вычислений. Проверяется в этом случае общий итог по табличной части, и верное отображение в строке данных в числовых колонках. Например в колонке "Сумма" в 1С не будет отображаться значение 0,004. В колонке количество не будет отображаться значение 0,0004.</p></td></tr><tr><td valign="top" width="36">
+<p><strong>3</strong></p></td>
+<td valign="top" width="302">
+<p>Неверная формула</p></td>
+<td valign="top" width="300">
+<p>Ввести таблицу трассировки и проверить расчеты</p></td></tr><tr><td valign="top" width="36">
+<p><strong>4</strong></p></td>
+<td valign="top" width="302">
+<p>Использование недопустимых значений</p></td>
+<td valign="top" width="300">
+<p>Если значение переменных формулы должны быть только положительные или только отрицательные, или входить в интервал от А до Б и т.п.. То нужно проверить на значения не входящие в область определения. Например, если 0 &lt; Коэффициент</p></td></tr></tbody></table><p></p>
+<h2>Проверка соответствию приложениям технического задания</h2>
+<p>Обычно это касается внутренних печатных форм или отчетов, использующихся у Заказчика. Проверяется визуально на соответствие шрифтов, картинок, наличия всех областей формы, оформление.</p>
+<p><strong>Частые ошибки:</strong></p>
+<table border="1" cellspacing="0" cellpadding="0"><tbody><tr><td valign="top" width="36">
+<p><strong>№</strong></p></td>
+<td valign="top" width="302">
+<p><strong>Ошибка</strong></p></td>
+<td valign="top" width="300">
+<p><strong>Комментарий по проверке</strong></p></td></tr><tr><td valign="top" width="36">
+<p><strong>1</strong></p></td>
+<td valign="top" width="302">
+<p>Не соблюдены шрифты</p></td>
+<td valign="top" width="300">
+<p>Если это критично, то выводиться печатная форма. Выделяется ячейка и по кнопке свойства проверяются шрифты.</p></td></tr><tr><td valign="top" width="36">
+<p><strong>2</strong></p></td>
+<td valign="top" width="302">
+<p>Не соблюден состав и названия колонок</p></td>
+<td valign="top" width="300">
+<p></p></td></tr><tr><td valign="top" width="36">
+<p><strong>3</strong></p></td>
+<td valign="top" width="302">
+<p>Не соблюден состав блоков печатной формы</p></td>
+<td valign="top" width="300">
+<p></p></td></tr></tbody></table><p></p>
+<h2>Проверка объектов метаданных, использованных разработчиком</h2>
+<p>Опишем каждый объект и этапы его проверки</p>
+<h3>Справочник</h3>
+<table border="1" cellspacing="0" cellpadding="0"><tbody><tr><td valign="top" width="36">
+<p><strong>№</strong></p></td>
+<td valign="top" width="302">
+<p><strong>Действие по проверке</strong></p></td>
+<td valign="top" width="300">
+<p><strong>Комментарий по проверке</strong></p></td></tr><tr><td valign="top" width="36">
+<p><strong>1</strong></p></td>
+<td valign="top" width="302">
+<p>Открытие в интерфейсе с набором ролей фокус-пользователя</p></td>
+<td valign="top" width="300">
+<p>Заходим под фокус-пользователем, находим в его интерфейсе объект, открываем</p></td></tr><tr><td valign="top" width="36">
+<p><strong>2</strong></p></td>
+<td valign="top" width="302">
+<p>Проверить наличие всех необходимых колонок в форме списка</p></td>
+<td valign="top" width="300">
+<p></p></td></tr><tr><td valign="top" width="36">
+<p><strong>3</strong></p></td>
+<td valign="top" width="302">
+<p>Проверить наличие всех необходимых реквизитов в форме элемента</p></td>
+<td valign="top" width="300">
+<p>Проверить Владелец, Родитель, Код, Наименование</p></td></tr><tr><td valign="top" width="36">
+<p><strong>4</strong></p></td>
+<td valign="top" width="302">
+<p>Соблюдена похожесть форм на типовые справочники 1С</p></td>
+<td valign="top" width="300">
+<p>Код, наименование, владелец, родитель сверху, все остальные реквизиты ниже</p></td></tr><tr><td valign="top" width="36">
+<p><strong>5</strong></p></td>
+<td valign="top" width="302">
+<p>Пометить на удаление, Снять пометку на удалений, Скопировать. Не должно быть доступно интерактивное удаление.</p></td>
+<td valign="top" width="300">
+<p>Проверить для элемента и группы. Часто бывает ошибка при создании Группы, так как в коде прописаны проверки реквизитов элемента, а они недоступны для группы.</p></td></tr><tr><td valign="top" width="36">
+<p><strong>6</strong></p></td>
+<td valign="top" width="302">
+<p>Должна быть доступна кнопка "Перейти" к связанным объектам.</p></td>
+<td valign="top" width="300">
+<p>Должна быть в формах верхних командных панелях форм</p></td></tr><tr><td valign="top" width="36">
+<p><strong>7</strong></p></td>
+<td valign="top" width="302">
+<p>Наличие справки</p></td>
+<td valign="top" width="300">
+<p></p></td></tr></tbody></table><p></p>
+<h3>Независимый регистр сведений</h3>
+<table border="1" cellspacing="0" cellpadding="0"><tbody><tr><td valign="top" width="36">
+<p><strong>№</strong></p></td>
+<td valign="top" width="350">
+<p><strong>Действие по проверке</strong></p></td>
+<td valign="top" width="253">
+<p><strong>Комментарий по проверке</strong></p></td></tr><tr><td valign="top" width="36">
+<p><strong>1</strong></p></td>
+<td valign="top" width="350">
+<p>Открытие в интерфейсе с набором ролей фокус-пользователя</p></td>
+<td valign="top" width="253">
+<p>Заходим под фокус-пользователем, находим в его интерфейсе объект, открываем</p></td></tr><tr><td valign="top" width="36">
+<p><strong>3</strong></p></td>
+<td valign="top" width="350">
+<p>Периодичность регистра (год, месяц, день)</p></td>
+<td valign="top" width="253">
+<p>Попробовать ввести несколько записей на разные даты в рамках одного интервала периодичности.</p></td></tr><tr><td valign="top" width="36">
+<p><strong>4</strong></p></td>
+<td valign="top" width="350">
+<p>Состав измерений</p></td>
+<td valign="top" width="253">
+<p>Уникальность записи, нельзя создать более одной записи с одни набором измерений.</p>
+<p>1) Проверить, что если, например, в тех задании указана детализация регистра по Организации, Подразделению и Номенклатуре, то нельзя ввести более одной записи с таким сочетанием измерений (т.е. отсутствует 4 измерение).</p>
+<p>2) Проверить, что можно ввести, например 2 записи с одинаковой Организацией, Подразделением, но разными номенклатурами.</p></td></tr><tr><td valign="top" width="36">
+<p><strong>5</strong></p></td>
+<td valign="top" width="350">
+<p>Состав ресурсов</p></td>
+<td valign="top" width="253">
+<p>Вычисляемые поля</p></td></tr><tr><td valign="top" width="36">
+<p><strong>6</strong></p></td>
+<td valign="top" width="350">
+<p>Состав реквизитов</p></td>
+<td valign="top" width="253">
+<p>Дополнительные реквизиты</p></td></tr><tr><td valign="top" width="36">
+<p><strong>7</strong></p></td>
+<td valign="top" width="350">
+<p>Наличие всех необходимых полей в форме списка</p></td>
+<td valign="top" width="253">
+<p></p></td></tr><tr><td valign="top" width="36">
+<p><strong>8</strong></p></td>
+<td valign="top" width="350">
+<p>Наличие всех необходимых полей в форме элемента</p></td>
+<td valign="top" width="253">
+<p></p></td></tr><tr><td valign="top" width="36">
+<p><strong>9</strong></p></td>
+<td valign="top" width="350">
+<p>Наличие справки</p></td>
+<td valign="top" width="253">
+<p></p></td></tr></tbody></table><p></p>
+<p><strong>Частые ошибки и недочеты:</strong></p>
+<table border="1" cellspacing="0" cellpadding="0"><tbody><tr><td valign="top" width="36">
+<p><strong>№</strong></p></td>
+<td valign="top" width="399">
+<p><strong>Ошибка</strong></p></td>
+<td valign="top" width="203">
+<p><strong>Комментарий</strong></p></td></tr><tr><td valign="top" width="36">
+<p><strong>1</strong></p></td>
+<td valign="top" width="399">
+<p>Не выведен в интерфейс</p></td>
+<td valign="top" width="203">
+<p></p></td></tr><tr><td valign="top" width="36">
+<p><strong>2</strong></p></td>
+<td valign="top" width="399">
+<p>Не дано право фокус-пользователю на работу с объектом</p></td>
+<td valign="top" width="203">
+<p>Нет возможности создания и удаления записи регистра</p></td></tr><tr><td valign="top" width="36">
+<p><strong>3</strong></p></td>
+<td valign="top" width="399">
+<p>Не соблюдается периодичность справочника</p></td>
+<td valign="top" width="203">
+<p></p></td></tr><tr><td valign="top" width="36">
+<p><strong>4</strong></p></td>
+<td valign="top" width="399">
+<p>Неверно определен состав измерений</p></td>
+<td valign="top" width="203">
+<p></p></td></tr><tr><td valign="top" width="36">
+<p><strong>5</strong></p></td>
+<td valign="top" width="399">
+<p>При удалении элемента, указанного в измерении запись в регистре не удаляется.</p></td>
+<td valign="top" width="203">
+<p>У измерения должен назначаться признак Ведущий</p></td></tr><tr><td valign="top" width="36">
+<p><strong>6</strong></p></td>
+<td valign="top" width="399">
+<p>Справка от другого регистра сведений</p></td>
+<td valign="top" width="203">
+<p></p></td></tr></tbody></table><p></p>
+<h3>Документ</h3>
+<table border="1" cellspacing="0" cellpadding="0"><tbody><tr><td valign="top" width="36">
+<p><strong>№</strong></p></td>
+<td valign="top" width="331">
+<p><strong>Действие</strong></p></td>
+<td valign="top" width="272">
+<p><strong>Комментарий</strong></p></td></tr><tr><td valign="top" width="36">
+<p><strong>1</strong></p></td>
+<td valign="top" width="331">
+<p>Открытие в интерфейсе с набором ролей фокус-пользователя</p></td>
+<td valign="top" width="272">
+<p>Заходим под фокус-пользователем, находим в его интерфейсе объект, открываем</p></td></tr><tr><td valign="top" width="36">
+<p><strong>2</strong></p></td>
+<td valign="top" width="331">
+<p><strong>Форма списка, Форма выбора</strong></p></td>
+<td valign="top" width="272">
+<p><strong></strong></p></td></tr><tr><td valign="top" width="36">
+<p><strong></strong></p></td>
+<td valign="top" width="331">
+<p>В списке документов, должны отображаться все необходимые колонки. Список должен быть удобочитаем.</p></td>
+<td valign="top" width="272">
+<p></p></td></tr><tr><td valign="top" width="36">
+<p><strong></strong></p></td>
+<td valign="top" width="331">
+<p>В списке пробуем действия создание документа, копирование, пометка на удаление, снятие пометки на удаление, проведение, отмена проведения, повторное проведение</p></td>
+<td valign="top" width="272">
+<p>Не должно быть возможности интерактивного удаления документа. Выводятся сообщения в окно служебных сообщений. Не должны выводиться вопросы и предупреждения.</p></td></tr><tr><td valign="top" width="36">
+<p><strong></strong></p></td>
+<td valign="top" width="331">
+<p>В списке должно быть доступно по кнопке "Перейти" структура подчиненности и движения документа.</p></td>
+<td valign="top" width="272">
+<p></p></td></tr><tr><td valign="top" width="36">
+<p><strong></strong></p></td>
+<td valign="top" width="331">
+<p>При копировании документа должен очищаться ответственный и ссылки на подчиненные документы, созданные исходным документом.</p></td>
+<td valign="top" width="272">
+<p><strong></strong></p></td></tr><tr><td valign="top" width="36">
+<p><strong></strong></p></td>
+<td valign="top" width="331">
+<p>При установке пометки на удаление, снятии пометки на удаление, проведении или отмене проведения, такие же действия должны происходить с подчиненными документами, создаваемыми на основании текущего.</p></td>
+<td valign="top" width="272">
+<p><strong></strong></p></td></tr><tr><td valign="top" width="36">
+<p><strong>3</strong></p></td>
+<td valign="top" width="331">
+<p><strong>Форма документа</strong></p></td>
+<td valign="top" width="272">
+<p><strong></strong></p></td></tr><tr><td valign="top" width="36">
+<p><strong></strong></p></td>
+<td valign="top" width="331">
+<p>При создании нового документа, должны заполниться реквизиты по умолчанию. Например, организация из настроек пользователя по умолчанию. Также должен заполниться ответственный из текущего пользователя.</p></td>
+<td valign="top" width="272">
+<p></p></td></tr><tr><td valign="top" width="36">
+<p><strong></strong></p></td>
+<td valign="top" width="331">
+<p>Форма должна иметь вид приближенный к типовым формам 1С документов. Т.е. сверху вниз: Командная панель действий формы, Номер и Дата документа, реквизиты шапки, панель с табличными частями, итоги, ответственный и комментарий, Основная панель формы с кнопками печати, записи, проведения и закрытия.</p></td>
+<td valign="top" width="272">
+<p></p></td></tr><tr><td valign="top" width="36">
+<p><strong></strong></p></td>
+<td valign="top" width="331">
+<p>В командной панели действий формы должно быть доступно по кнопке "Перейти" структура</p></td>
+<td valign="top" width="272">
+<p></p></td></tr><tr><td valign="top" width="36">
+<p><strong></strong></p></td>
+<td valign="top" width="331">
+<p>На форме должны заполняться основные значения, например основной договор при выборе контрагента или основной банковский счет. Формы выбора зависимых реквизитов должны открываться с отборами по владельцам и логике операции (например, в Реализации договоры с покупателем - в Поступлении договоры с поставщиком)</p></td>
+<td valign="top" width="272">
+<p></p></td></tr><tr><td valign="top" width="36">
+<p><strong></strong></p></td>
+<td valign="top" width="331">
+<p>Возможность изменения табличной части: добавление, удаление строк, настройка списка колонок, вывод списка, сортировка, отбор..</p></td>
+<td valign="top" width="272">
+<p></p></td></tr><tr><td valign="top" width="36">
+<p><strong></strong></p></td>
+<td valign="top" width="331">
+<p>Обязательные для заполнения реквизиты документа должны иметь характерное красное подчеркивание внутри поля.</p></td>
+<td valign="top" width="272">
+<p></p></td></tr><tr><td valign="top" width="36">
+<p><strong></strong></p></td>
+<td valign="top" width="331">
+<p>У полей реквизитов должны быть стандартные кнопки открытия и выбора. Кнопка очистки необязательна, лучше чтобы отсутствовала.</p></td>
+<td valign="top" width="272">
+<p></p></td></tr><tr><td valign="top" width="36">
+<p><strong></strong></p></td>
+<td valign="top" width="331">
+<p>Обработки заполнения табличной части выведены в командную панель ТЧ в подменю заполнить, либо отдельными кнопками.</p></td>
+<td valign="top" width="272">
+<p></p></td></tr><tr><td valign="top" width="36">
+<p><strong>4</strong></p></td>
+<td valign="top" width="331">
+<p><strong>Печатные формы</strong></p></td>
+<td valign="top" width="272">
+<p><strong></strong></p></td></tr><tr><td valign="top" width="36">
+<p><strong></strong></p></td>
+<td valign="top" width="331">
+<p>Не должны формироваться для модифицированного документа. Документ должен быть проведен или записан, в зависимости от контекста задачи.</p></td>
+<td valign="top" width="272">
+<p>Изменить существующий документ и попробовать распечатать</p></td></tr><tr><td valign="top" width="36">
+<p><strong></strong></p></td>
+<td valign="top" width="331">
+<p>Печатная форма должна соответствовать приложению к тех заданию</p></td>
+<td valign="top" width="272">
+<p>Визуально сравнить с приложением тех задания</p></td></tr><tr><td valign="top" width="36">
+<p><strong></strong></p></td>
+<td valign="top" width="331">
+<p>Должен быть выдержан шрифт и оформление согласно тех заданию</p></td>
+<td valign="top" width="272">
+<p>Сравнить свойства шрифта печатной формы и приложения. Важно при печати этикеток или других специальных форм на принтеры не являющиеся А4.</p></td></tr><tr><td valign="top" width="36">
+<p><strong></strong></p></td>
+<td valign="top" width="331">
+<p>Все нужные поля должны быть заполнены исходя из данных документа.</p></td>
+<td valign="top" width="272">
+<p>Проверить заполнение полей согласно тех заданию. Проверить верно ли они взяты из документа.</p></td></tr><tr><td valign="top" width="36">
+<p><strong></strong></p></td>
+<td valign="top" width="331">
+<p>Сохранение параметров печати</p></td>
+<td valign="top" width="272">
+<p>Нажать кнопку Файл - Параметры печати, настроить параметры, сделать предварительный просмотр.</p>
+<p>Далее закрыть документ. Открыть и снова сформировать печатную форму. Если пришлось заново настраивать параметры печати, то это ошибка.</p></td></tr><tr><td valign="top" width="36">
+<p><strong></strong></p></td>
+<td valign="top" width="331">
+<p></p></td>
+<td valign="top" width="272">
+<p></p></td></tr><tr><td valign="top" width="36">
+<p><strong>5</strong></p></td>
+<td valign="top" width="331">
+<p><strong>Проведение документа</strong></p></td>
+<td valign="top" width="272">
+<p><strong></strong></p></td></tr><tr><td valign="top" width="36">
+<p><strong></strong></p></td>
+<td valign="top" width="331">
+<p>При проведении документа должна происходить проверка обязательно заполненных полей</p></td>
+<td valign="top" width="272">
+<p>Выводятся сообщения в окно служебных сообщений.</p></td></tr><tr><td valign="top" width="36">
+<p><strong></strong></p></td>
+<td valign="top" width="331">
+<p>Движения документа должны удаляться при отмене проведения документа</p></td>
+<td valign="top" width="272">
+<p></p></td></tr><tr><td valign="top" width="36">
+<p><strong></strong></p></td>
+<td valign="top" width="331">
+<p>Движения документа должны меняться при проведении документа</p></td>
+<td valign="top" width="272">
+<p>Попробовать изменить количество строк, состав полей. Сравнить</p></td></tr><tr><td valign="top" width="36">
+<p><strong></strong></p></td>
+<td valign="top" width="331">
+<p>При нажатии кнопки "Записать" проведенного документа, должны переформировываться движения документа</p></td>
+<td valign="top" width="272">
+<p>Если при разработке не поставить флаг перепроводить при записи у формы документа, то изменив состав документа и нажав записать в форме документа Движения не изменяться.</p></td></tr><tr><td valign="top" width="36">
+<p><strong>6</strong></p></td>
+<td valign="top" width="331">
+<p><strong>Ввод на основании</strong></p></td>
+<td valign="top" width="272">
+<p><strong></strong></p></td></tr><tr><td valign="top" width="36">
+<p><strong></strong></p></td>
+<td valign="top" width="331">
+<p>Проверить создание документа на основании других документов</p></td>
+<td valign="top" width="272">
+<p>Могут быть синтаксические ошибки кода, вылетающие в конфигуратор- это недопустимо.</p></td></tr><tr><td valign="top" width="36">
+<p><strong></strong></p></td>
+<td valign="top" width="331">
+<p>Проверить создание других документов на основании текущего</p></td>
+<td valign="top" width="272">
+<p>Могут быть синтаксические ошибки кода, вылетающие в конфигуратор- это недопустимо.</p></td></tr><tr><td valign="top" width="36">
+<p><strong></strong></p></td>
+<td valign="top" width="331">
+<p></p></td>
+<td valign="top" width="272">
+<p></p></td></tr></tbody></table><p></p>
+<h3>Отчет</h3>
+<p>Действия по тестированию:</p>
+<table border="1" cellspacing="0" cellpadding="0"><tbody><tr><td valign="top" width="36">
+<p><strong>№</strong></p></td>
+<td valign="top" width="399">
+<p><strong>Действие</strong></p></td>
+<td valign="top" width="203">
+<p><strong>Комментарий</strong></p></td></tr><tr><td valign="top" width="36">
+<p><strong>1</strong></p></td>
+<td valign="top" width="399">
+<p>Открытие в интерфейсе с набором ролей фокус-пользователя</p></td>
+<td valign="top" width="203">
+<p>Заходим под фокус-пользователем, находим в его интерфейсе объект, открываем</p></td></tr><tr><td valign="top" width="36">
+<p><strong>2</strong></p></td>
+<td valign="top" width="399">
+<p>Сохранение и восстановление настроек с возможностью, использования настроек с разных компьютеров</p></td>
+<td valign="top" width="203">
+<p>Есть два варианта сохранения настроек: 1) Доступные только на это м компьютере только под данным пользователем в данной базе 2) Доступные всем пользователям в данной базе на разных компьютерах</p></td></tr><tr><td valign="top" width="36">
+<p><strong>3</strong></p></td>
+<td valign="top" width="399">
+<p>Наличие в форме отчета всех полей, описанных в тех задании</p></td>
+<td valign="top" width="203">
+<p>Тестирование на совпадение с приложениями.</p></td></tr><tr><td valign="top" width="36">
+<p><strong>4</strong></p></td>
+<td valign="top" width="399">
+<p>Установка параметров</p></td>
+<td valign="top" width="203">
+<p>При открытии должна заполняться организация и период</p></td></tr><tr><td valign="top" width="36">
+<p><strong>5</strong></p></td>
+<td valign="top" width="399">
+<p>Группировки</p></td>
+<td valign="top" width="203">
+<p>Все группировки учеты. Например от организации до документа движения.</p></td></tr><tr><td valign="top" width="36">
+<p><strong>6</strong></p></td>
+<td valign="top" width="399">
+<p>Сортировка</p></td>
+<td valign="top" width="203">
+<p>Переформировать с другой сортировкой</p></td></tr><tr><td valign="top" width="36">
+<p><strong>7</strong></p></td>
+<td valign="top" width="399">
+<p>Отборы</p></td>
+<td valign="top" width="203">
+<p>Переформировать с другими отборами</p></td></tr><tr><td valign="top" width="36">
+<p><strong>8</strong></p></td>
+<td valign="top" width="399">
+<p>Просчитать данные в строке отчета на примере разных вариантов поведения, описанных в техническом задании</p></td>
+<td valign="top" width="203">
+<p>Это тестирование алгоритмов, см выше.</p></td></tr><tr><td valign="top" width="36">
+<p><strong>9</strong></p></td>
+<td valign="top" width="399">
+<p>Проверить формат вывода чисел или других полей</p></td>
+<td valign="top" width="203">
+<p>Например, суммы выводятся с двумя знаками после запятой.</p></td></tr><tr><td valign="top" width="36">
+<p><strong>10</strong></p></td>
+<td valign="top" width="399">
+<p>Проверить наличие и правильную работу расшифровки отчета</p></td>
+<td valign="top" width="203">
+<p>Правой клавишей на строке, сформировать расшифровку</p></td></tr><tr><td valign="top" width="36">
+<p><strong>11</strong></p></td>
+<td valign="top" width="399">
+<p>Наличие справки</p></td>
+<td valign="top" width="203">
+<p></p></td></tr></tbody></table><p></p>
+<p>Частые ошибки и недочеты:</p>
+<table border="1" cellspacing="0" cellpadding="0"><tbody><tr><td valign="top" width="36">
+<p><strong>№</strong></p></td>
+<td valign="top" width="399">
+<p><strong>Ошибка</strong></p></td>
+<td valign="top" width="203">
+<p><strong>Комментарий</strong></p></td></tr><tr><td valign="top" width="36">
+<p><strong>1</strong></p></td>
+<td valign="top" width="399">
+<p>Не выведен в интерфейс</p></td>
+<td valign="top" width="203">
+<p></p></td></tr><tr><td valign="top" width="36">
+<p><strong>2</strong></p></td>
+<td valign="top" width="399">
+<p>Не дано право фокус-пользователю на работу с объектом и\или объектами, к которым с запросами обращается отчет.</p></td>
+<td valign="top" width="203">
+<p></p></td></tr><tr><td valign="top" width="36">
+<p><strong>3</strong></p></td>
+<td valign="top" width="399">
+<p>Не сохраняются настройки или сохраняются только на данном компьютере, без возможности использовать на остальных</p></td>
+<td valign="top" width="203">
+<p></p></td></tr><tr><td valign="top" width="36">
+<p><strong>4</strong></p></td>
+<td valign="top" width="399">
+<p>Не происходит установки параметров при первом открытии</p></td>
+<td valign="top" width="203">
+<p></p></td></tr><tr><td valign="top" width="36">
+<p><strong>5</strong></p></td>
+<td valign="top" width="399">
+<p>Изменение параметров не влияет на результат отчета</p></td>
+<td valign="top" width="203">
+<p>Параметры выведены на форму, но не передаются в запросы, которые использует отчет</p></td></tr><tr><td valign="top" width="36">
+<p><strong>6</strong></p></td>
+<td valign="top" width="399">
+<p>Не выдержаны форматы оформления полей Округления</p></td>
+<td valign="top" width="203">
+<p>В полях могут быть числа с большим количеством знаков после запятой</p></td></tr><tr><td valign="top" width="36">
+<p><strong>7</strong></p></td>
+<td valign="top" width="399">
+<p>Данным в поле не хватает места и они не видны</p></td>
+<td valign="top" width="203">
+<p>Не установлен перенос строк или для поля установлена маленькая длина.</p></td></tr><tr><td valign="top" width="36">
+<p><strong>8</strong></p></td>
+<td valign="top" width="399">
+<p>Отображаются неверные остатки на дату отчета, или не зависят от изменения данных отчета</p></td>
+<td valign="top" width="203">
+<p></p></td></tr><tr><td valign="top" width="36">
+<p><strong>9 </strong></p></td>
+<td valign="top" width="399">
+<p>Отсутствует справка к объекту</p></td>
+<td valign="top" width="203">
+<p></p></td></tr><tr><td valign="top" width="36">
+<p><strong>10</strong></p></td>
+<td valign="top" width="399">
+<p>Отсутствует расшифровка или неверная или выдает ошибку</p></td>
+<td valign="top" width="203">
+<p></p></td></tr><tr><td valign="top" width="36">
+<p><strong>11</strong></p></td>
+<td valign="top" width="399">
+<p>Не выводиться какая-либо из группировок, описанных в тех задании</p></td>
+<td valign="top" width="203">
+<p></p></td></tr><tr><td valign="top" width="36">
+<p><strong>12</strong></p></td>
+<td valign="top" width="399">
+<p>Отчет формируется очень долго</p></td>
+<td valign="top" width="203">
+<p>Неправильна я схема реализации запроса</p></td></tr><tr><td valign="top" width="36">
+<p><strong>13</strong></p></td>
+<td valign="top" width="399">
+<p>Отсутствуют некоторые колонки отчета</p></td>
+<td valign="top" width="203">
+<p></p></td></tr><tr><td valign="top" width="36">
+<p><strong>14</strong></p></td>
+<td valign="top" width="399">
+<p>Колонки называются не как в тех задании</p></td>
+<td valign="top" width="203">
+<p>Возможно не хватает места для вывода отчета на одном экране без прокрутки</p></td></tr><tr><td valign="top" width="36">
+<p><strong>15</strong></p></td>
+<td valign="top" width="399">
+<p>Описание в справке от другого отчета</p></td>
+<td valign="top" width="203">
+<p>Копируют другие отчеты</p></td></tr><tr><td valign="top" width="36">
+<p><strong>16</strong></p></td>
+<td valign="top" width="399">
+<p>Неправильное наименование отчета в форме</p></td>
+<td valign="top" width="203">
+<p></p></td></tr></tbody></table><p></p>
+<h3>Обработка</h3>
+<p>Действия по тестированию:</p>
+<table border="1" cellspacing="0" cellpadding="0"><tbody><tr><td valign="top" width="36">
+<p><strong>№</strong></p></td>
+<td valign="top" width="399">
+<p><strong>Действие</strong></p></td>
+<td valign="top" width="203">
+<p><strong>Комментарий</strong></p></td></tr><tr><td valign="top" width="36">
+<p><strong>1</strong></p></td>
+<td valign="top" width="399">
+<p>Открытие в интерфейсе с набором ролей фокус-пользователя</p></td>
+<td valign="top" width="203">
+<p>Заходим под фокус-пользователем, находим в его интерфейсе объект, открываем</p></td></tr><tr><td valign="top" width="36">
+<p><strong>2</strong></p></td>
+<td valign="top" width="399">
+<p>Аналогично отчету должна иметь сохраняемые настройки</p></td>
+<td valign="top" width="203">
+<p></p></td></tr><tr><td valign="top" width="36">
+<p><strong>3</strong></p></td>
+<td valign="top" width="399">
+<p>Справка</p></td>
+<td valign="top" width="203">
+<p></p></td></tr><tr><td valign="top" width="36">
+<p><strong>4</strong></p></td>
+<td valign="top" width="399">
+<p>Пользовательское оформление</p></td>
+<td valign="top" width="203">
+<p>Удобное управление пользователем без лишних действий и переходов в другие окна.</p></td></tr><tr><td valign="top" width="36">
+<p><strong>5</strong></p></td>
+<td valign="top" width="399">
+<p>Изменять данные системы корректно, повторно, не вываливаться в конфигуратор</p></td>
+<td valign="top" width="203">
+<p></p></td></tr><tr><td valign="top" width="36">
+<p><strong>6</strong></p></td>
+<td valign="top" width="399">
+<p>Пользователю даны права доступа на сам объект и объекты используемые обработкой</p></td>
+<td valign="top" width="203">
+<p>Под полными правами это все доступно, но под конкретным пользователем данные могут быть недоступны, что приведет к ошибке вываливающейся в конфигуратор.</p></td></tr><tr><td valign="top" width="36">
+<p><strong></strong></p></td>
+<td valign="top" width="399">
+<p></p></td>
+<td valign="top" width="203">
+<p></p></td></tr></tbody></table><p></p>
+<h2>Проверка быстродействия и отсутствия избыточных блокировок</h2>
+<p>Программы 1С приобретаются Заказчиком для использования в коммерческих целях. Поэтому работа с базой данных должна быть коммерчески обоснованна, что предполагает, что Заказчик в праве получить результат-ответ от программы быстро или в обоснованный и ограниченный промежуток времени.</p>
+<p>Например, если заказчику требуется каждый день формировать отчет, а отчет в программе формируется более 24 часов - то данный отчет Заказчику не подойдет.</p>
+<p>Или например, пользователь-оператор должен за рабочий день 8 часов, оформить 80 документов. Т.е. по 10 документов в час, т.е. по 1 документу в 6 минут. Если это по каким, то причинам не удается (долго заполнять документ или долгое проведение документа), то данный документ коммерчески не обоснован - Заказчику не подойдет.</p>
+<p>Проверять доработку нужно на моменты выполнения функционала в программе в разумные сроки, обоснованные конкретными особенностями деятельности пользователей Заказчика.</p></body></html>

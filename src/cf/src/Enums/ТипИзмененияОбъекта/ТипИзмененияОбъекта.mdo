@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2290b4d-0272-4882-a94e-f95916c8e61d">
+  <producedTypes>
+    <refType typeId="177c59ae-e71e-47f6-b7d8-c189e8c1af31" valueTypeId="8514d677-f0fe-4d3a-bb90-d2da41ba11bf"/>
+    <listType typeId="195d666d-38f4-409e-b1ea-0bc562e3e149" valueTypeId="ca6b9410-3b61-47ec-811d-9d63477b3f8c"/>
+    <managerType typeId="e955fd97-a8ae-4953-9814-e7714e72aebf" valueTypeId="26b3eae8-0c25-4d30-b076-7cc352adf9f9"/>
+  </producedTypes>
+  <name>ТипИзмененияОбъекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип изменения объекта</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d01a24f9-7e95-4bd6-9e42-4555ed9ddbb5">
+    <name>НовыйОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый объект</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="305f2834-eae3-41c7-87c3-5d2f309781ab">
+    <name>ИзменениеОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение объекта</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

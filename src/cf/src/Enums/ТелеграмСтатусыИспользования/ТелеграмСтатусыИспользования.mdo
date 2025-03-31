@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56b09ce3-77df-43fc-901c-7026b8121dad">
+  <producedTypes>
+    <refType typeId="f269ec13-f609-46df-ba5c-7e6a1558c17d" valueTypeId="7eb63aca-2c71-4600-b9b9-4b1eff241300"/>
+    <listType typeId="a5c1cf9f-5b61-48bb-8fea-3963b040a82e" valueTypeId="d986aa13-f608-4439-941a-dec3bbfeee06"/>
+    <managerType typeId="f4a85169-0087-4a3f-907d-d3c1cf89816d" valueTypeId="f6e6d884-9c2e-477b-a932-d9472035a6cf"/>
+  </producedTypes>
+  <name>ТелеграмСтатусыИспользования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм: статусы использования</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Статусы использования</value>
+  </listPresentation>
+  <enumValues uuid="c55e103d-3b68-419a-926f-ec6fe9839fb0">
+    <name>Используется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b0d177d4-fa54-479e-9386-374c325a5262">
+    <name>Выключен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выключен(о)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

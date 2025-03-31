@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59c8e1a6-5449-434d-80d1-d9d39bb8db4f">
+  <producedTypes>
+    <objectType typeId="62dd0562-51cc-4209-a777-0d3b38d54a9c" valueTypeId="9e2b2ca7-ca5e-4dd3-9b4a-cbbfbdc24a61"/>
+    <managerType typeId="5ebfdd75-c677-4a0d-b164-0c71b4af63a0" valueTypeId="15b18191-cce6-4769-8a59-f14b126b9761"/>
+  </producedTypes>
+  <name>СтатистикаВыполненияЗадачПоМесяцам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статистика выполнения задач по месяцам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СтатистикаВыполненияЗадачПоМесяцам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="b9378340-5443-490b-99f9-10b303b31ac2">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

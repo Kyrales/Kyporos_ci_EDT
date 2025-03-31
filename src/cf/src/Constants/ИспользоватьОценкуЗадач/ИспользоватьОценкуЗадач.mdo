@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aca97a6b-738c-42cc-8a59-2eda5a865201">
+  <producedTypes>
+    <managerType typeId="82efc828-50b7-40c4-8657-99361bdd0e18" valueTypeId="857dbb23-c326-434c-ba42-f972d4f350f0"/>
+    <valueManagerType typeId="696395ab-9979-415e-b043-4ce002389178" valueTypeId="4f3ec4ec-7b87-4767-924d-bcb6657047ca"/>
+    <valueKeyType typeId="dc597a34-225c-4ab7-ae9b-35e2840c56ce" valueTypeId="fcc11e75-ebe8-492b-9d68-4cc63758d8c8"/>
+  </producedTypes>
+  <name>ИспользоватьОценкуЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать оценку задач</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

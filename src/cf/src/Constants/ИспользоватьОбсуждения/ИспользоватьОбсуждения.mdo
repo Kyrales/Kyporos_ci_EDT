@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2387e9c3-3e15-4058-a342-7da823369dee">
+  <producedTypes>
+    <managerType typeId="43e9acdb-59e6-44d6-aacd-cbcbde683016" valueTypeId="298f7fc8-3f33-4068-8ea4-a0bf8e3c954e"/>
+    <valueManagerType typeId="d3916000-eb6a-4736-b535-cf169efecd49" valueTypeId="44f0455d-cbb1-46df-a647-21fce06d8a37"/>
+    <valueKeyType typeId="e8aeaad0-89ca-54c8-8579-8d06c544be66" valueTypeId="baaabd4a-e050-5b88-9166-43c62eba011e"/>
+  </producedTypes>
+  <name>ИспользоватьОбсуждения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать обсуждения/форум</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

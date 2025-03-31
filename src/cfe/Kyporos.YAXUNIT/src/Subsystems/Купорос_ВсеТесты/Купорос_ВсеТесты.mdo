@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e98a9b2c-d802-4926-a7ad-349988ecab1a">
+  <name>Купорос_ВсеТесты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Купорос все тесты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ОМ_ОбщегоНазначения</content>
+  <content>CommonModule.Зад_ЗадачиПользователя</content>
+  <content>CommonModule.Док_АктыВыполненныхРабот</content>
+  <content>CommonModule.ОМ_ТочкиИнтеграцииСервер</content>
+  <content>CommonModule.ОМ_ТочкиИнтеграцииМоделиС4</content>
+  <content>CommonModule.ОМ_РаботаСоСтруктуройКаталоговAD</content>
+  <content>CommonModule.РаботаСоСтруктуройКаталоговAD</content>
+  <content>CommonModule.ОМ_УправлениеДаннымиВнешнихСистем</content>
+  <content>CommonModule.РС_УчетВерсийКонфигурации</content>
+  <content>CommonModule.Обр_ГенераторКода</content>
+  <content>CommonModule.Обр_ГенерацияUMLДиаграмм</content>
+  <content>CommonTemplate.ЮТ_ТестовыеДанныеШаблоновДоступа</content>
+</mdclass:Subsystem>

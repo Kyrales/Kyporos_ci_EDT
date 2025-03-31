@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0ee9ae7-edf3-48b7-8160-cc145bc8c863">
+  <producedTypes>
+    <selectionType typeId="6b54c7b0-3295-416b-b3d6-902771ec7a09" valueTypeId="1865dcf8-d734-418d-b053-65b312b18b63"/>
+    <listType typeId="3d061b45-21e6-40f2-836d-2e7984772264" valueTypeId="72625bfe-1d5e-4024-8ec2-7dfb8c3cff2b"/>
+    <managerType typeId="4ea5fc14-e400-45d2-8ffd-217b8040d3ed" valueTypeId="709115db-af32-404d-a94f-b39577a257eb"/>
+    <recordSetType typeId="1b295617-7892-47fa-8a96-d56266ef48e5" valueTypeId="d4c3e7c6-1ea4-4151-a56d-8a83a3b73548"/>
+    <recordKeyType typeId="5d06a94e-0a1f-42f4-9d62-8b25f9f2a94d" valueTypeId="6f83798c-45e5-4819-861c-145da6967101"/>
+    <recordType typeId="2a1ff14f-76ab-46bd-ab13-de021ae33bb3" valueTypeId="b739c307-fb4d-45e8-84c0-f0f5007d76fd"/>
+    <recordManagerType typeId="be3f953e-17d8-44d8-af38-a50f99908ebe" valueTypeId="c65b335a-dd97-4ea4-ab15-d8ca38373840"/>
+  </producedTypes>
+  <name>ТелеграмНастройкиПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм: настройки пользователей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Настройка пользователя</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Настройки пользователей</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Настройки пользователей</value>
+  </extendedListPresentation>
+  <resources uuid="09decf6d-053a-4a01-8329-af1c35e28b30">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2bb730d4-eace-4e05-9a30-fe6acf40905f">
+    <name>ПраваДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Права доступа</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыПользователейЗадач</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="94042041-7f85-475a-a810-d5600b50385b">
+    <name>Бот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бот</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТелеграмБоты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8f59e682-b41e-4413-acce-580506ecd755">
+    <name>ИдентификаторЧата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор чата</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>20</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

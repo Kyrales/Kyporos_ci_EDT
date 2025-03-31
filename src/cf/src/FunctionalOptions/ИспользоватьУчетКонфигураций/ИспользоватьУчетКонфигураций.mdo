@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ee333bf-2571-4207-98e2-81896d095dfa">
+  <name>ИспользоватьУчетКонфигураций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать учет конфигураций</value>
+  </synonym>
+  <location>Constant.ИспользоватьУчетКонфигураций</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.УчетКонфигураций</content>
+  <content>Catalog.ВерсииКонфигураций</content>
+  <content>Catalog.Конфигурации</content>
+  <content>Catalog.КонфигурацииПрисоединенныеФайлы</content>
+  <content>Catalog.ОбъектыМетаданныхКонфигураций</content>
+  <content>InformationRegister.УчетВерсийКонфигурации</content>
+  <content>DataProcessor.ФормированиеШапкиМодуля</content>
+</mdclass:FunctionalOption>

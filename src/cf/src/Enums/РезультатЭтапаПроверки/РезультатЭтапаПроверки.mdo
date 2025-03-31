@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="057ebc26-6fcc-4066-95f6-8a182dd41536">
+  <producedTypes>
+    <refType typeId="f669632d-88d6-483f-a94d-daeb076300e8" valueTypeId="f9803747-0697-4017-9bff-0998936297f9"/>
+    <listType typeId="1a094ff7-f29a-4ae7-8545-f12bac6170db" valueTypeId="34d3e706-d868-420f-9e77-c343fc3957f7"/>
+    <managerType typeId="74449be2-e65b-47d8-a81b-3a51bf1d0f59" valueTypeId="28c6be59-fa6e-4e28-b3bc-52aa948f749d"/>
+  </producedTypes>
+  <name>РезультатЭтапаПроверки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результат этапа проверки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="08d5363a-75a9-4234-b15c-574ead19361f">
+    <name>Принято</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принято</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7dffcb43-e94e-465f-98a0-b8b1d55d814f">
+    <name>НеПринято</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не принято</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

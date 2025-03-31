@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="997f3b23-6cfc-4f81-91a2-88a53e840e76">
+  <producedTypes>
+    <objectType typeId="a5fba1b5-c854-4c90-b22e-35324da412af" valueTypeId="41483bec-1ee3-4740-a9a0-4173543bbd95"/>
+    <managerType typeId="bf322278-879d-455e-8f8f-45fc5c036f28" valueTypeId="9ed8848e-9710-464e-807e-52e4330e4828"/>
+  </producedTypes>
+  <name>АнализВерсийКонфигураций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ версий конфигураций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.АнализВерсийКонфигураций.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="5afc6cae-53a0-4560-ada7-8ac36d6a1d72">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

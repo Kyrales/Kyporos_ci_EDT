@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f55240b-120c-4ac2-9295-ba6c3aff8ae2">
+  <name>СохранениеВводимыхЗначенийКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сохранение вводимых значений клиент</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

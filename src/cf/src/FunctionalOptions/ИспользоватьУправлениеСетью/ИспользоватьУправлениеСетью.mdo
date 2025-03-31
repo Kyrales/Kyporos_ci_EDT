@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b93b4cc1-6870-4116-ac77-65e708ed07bc">
+  <name>ИспользоватьУправлениеСетью</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать управление сетью</value>
+  </synonym>
+  <location>Constant.ИспользоватьУправлениеСетью</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Constant.ДоменПредприятия</content>
+  <content>Enum.ТипРеквизитаAD</content>
+  <content>Enum.ТипыРасположенияИмениВActiveDirectory</content>
+  <content>Enum.ТипыСерверовSQL</content>
+  <content>Catalog.ИменаПользователей</content>
+  <content>Catalog.СтруктураПредприятия</content>
+  <content>Enum.СпособыАутентификации</content>
+  <content>Catalog.СписокИнформационныхБаз1С</content>
+  <content>Catalog.СерверыSQL</content>
+  <content>Constant.ИспользоватьКонтрольСпискаБаз1С</content>
+  <content>Constant.ЗагружатьПользователейИзAD</content>
+  <content>Catalog.СписокОбщихБазПользователей</content>
+  <content>InformationRegister.ПараметрыКупорос.Resource.ДатаОбновленияСпискаБазПользователей</content>
+  <content>Constant.ТипРасположенияИмениВActiveDirectory</content>
+  <content>Catalog.ГруппыПользователейAD</content>
+</mdclass:FunctionalOption>

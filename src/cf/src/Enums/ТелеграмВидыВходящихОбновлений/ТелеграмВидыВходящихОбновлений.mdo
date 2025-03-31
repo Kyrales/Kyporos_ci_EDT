@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1bcc655a-1d9f-43ce-aff0-34c8f53aefd8">
+  <producedTypes>
+    <refType typeId="9c359faf-6d2c-4a2f-843e-7009d58f1b7f" valueTypeId="3c73862f-84e4-4e2a-962b-8df57320139d"/>
+    <listType typeId="6bce566c-65a3-4e91-b1da-b01bdc6dd215" valueTypeId="90e8f4ba-d9d4-4aeb-bdf3-0de2d7cb017f"/>
+    <managerType typeId="95e2cfad-0ef8-4101-ab8d-51358bc16b0e" valueTypeId="5be3ac72-4c16-448f-8d85-09b58bb23f26"/>
+  </producedTypes>
+  <name>ТелеграмВидыВходящихОбновлений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм: виды входящих обновлений</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Виды входящих обновлений</value>
+  </listPresentation>
+  <enumValues uuid="d8b1b96b-5411-492a-839a-a8a01b1ce789">
+    <name>Сообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="be5c7fda-6894-40fe-aa3d-d5bfb6d8c187">
+    <name>ОтветКонтекстнойКлавиатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответ контекстной клавиатуры</value>
+    </synonym>
+    <comment>CallbackQuery</comment>
+  </enumValues>
+  <enumValues uuid="ad4e30ca-a154-4c58-b45d-3cb69cdfe9fe">
+    <name>ВстроенныйЗапрос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Встроенный запрос</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="25130de5-0ec9-4aa5-9774-acb6af39cb9b">
+    <name>ВыбранныйЛинейныйРезультат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбранный линейный результат</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

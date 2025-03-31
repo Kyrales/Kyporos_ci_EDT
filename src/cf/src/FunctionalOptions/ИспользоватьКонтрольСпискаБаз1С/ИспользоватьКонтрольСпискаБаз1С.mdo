@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28fd6ae3-88b3-47bf-878a-a5b5d7ea61e4">
+  <name>ИспользоватьКонтрольСпискаБаз1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать контроль списка баз 1С</value>
+  </synonym>
+  <location>Constant.ИспользоватьКонтрольСпискаБаз1С</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.СписокИнформационныхБаз1С</content>
+  <content>Catalog.СтруктураПредприятия.Attribute.ВключеноОбновлениеСпискаБаз1С</content>
+  <content>Catalog.ИменаПользователей</content>
+  <content>Catalog.СерверыSQL</content>
+</mdclass:FunctionalOption>

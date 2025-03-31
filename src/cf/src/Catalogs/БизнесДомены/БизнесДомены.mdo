@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8f8658e-7131-4c49-b0ad-ed0053c70f90">
+  <producedTypes>
+    <objectType typeId="ebdbc2be-0c64-4e93-98d0-4aee28fd26d4" valueTypeId="078cb0d7-ca9a-4320-bbdd-45bb762e9d80"/>
+    <refType typeId="9478baa6-fb23-4dff-b4b8-7380a7f29af9" valueTypeId="26007b24-4a27-4600-875d-826c4950d0dc"/>
+    <selectionType typeId="3214918b-381e-46ea-8d2c-17d1131e7f0e" valueTypeId="44e543b4-5129-4167-abb2-ca9d2faa1304"/>
+    <listType typeId="46f74772-4f34-43d2-a495-ef834807d0b7" valueTypeId="17e4f113-be16-4a9b-afe5-22b3d3183dbc"/>
+    <managerType typeId="1b5d85fb-2ae5-4d71-9542-580d83c2ccb1" valueTypeId="de7f62e2-2820-438d-9b60-42f89280883d"/>
+  </producedTypes>
+  <name>БизнесДомены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бизнес-домены</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.БизнесДомены.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.БизнесДомены.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.ИнформационныеСистемы</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.БизнесДомены.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.БизнесДомены.Form.ФормаСписка</defaultChoiceForm>
+  <attributes uuid="e18c4df5-b8c0-46d0-b53b-f114cf289892">
+    <name>СтатусЗапуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус запуска</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусБизнесДомена</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Влияет на выделение разными цветами статусов в схеме C4</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.СтатусБизнесДомена.EnumValue.Проект</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e98884e7-17b5-4b4c-ba69-b6f096702186">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fa1885b3-2b02-441d-85a6-e34778e31d86">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="2820d718-c641-49cf-bb50-dd9c3845f93b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

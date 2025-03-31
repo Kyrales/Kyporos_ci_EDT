@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa157ce6-4846-445b-949b-342c174bfab4">
+  <producedTypes>
+    <objectType typeId="51b9857b-5257-4347-98bf-e749de0de6eb" valueTypeId="6dd81f8f-495d-42f2-8453-53d87ff11a5a"/>
+    <refType typeId="679abc74-b24b-460a-99ee-6af4eab0066f" valueTypeId="e707bf90-6478-4180-aa67-033c842d68e1"/>
+    <selectionType typeId="78ec9627-3af8-415d-9a80-110b79e9c56a" valueTypeId="c15494ad-b5c4-4aa8-bdd5-f14d1dd3551b"/>
+    <listType typeId="c0e083b7-0802-4c90-84a0-eb42c88d1c08" valueTypeId="99d38261-cf83-4ae0-a5e9-a79be193d59e"/>
+    <managerType typeId="71a8b6e9-f8d9-415d-a883-c9f1c98ab90d" valueTypeId="a272d718-d97c-4399-8021-87fc9ef7c208"/>
+  </producedTypes>
+  <name>Конфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конфигурации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Конфигурации.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Конфигурации.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>80</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Конфигурации.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="5b74b154-fa9f-47c9-8e2f-e829db8afdac">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8a9c0109-0a21-406f-91eb-5ab7f817f9c0">
+    <name>ФайлКартинки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл картинки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КонфигурацииПрисоединенныеФайлы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7728bb47-97d9-40c7-b03e-fd4c37f66be1">
+    <name>ДатаВнедрения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата внедрения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="712e364f-8e93-4c1a-a1a5-11d1056ea4c3">
+    <name>Редакция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редакция</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="0530471b-8fe9-406c-877f-a698cc27e52a">
+    <producedTypes>
+      <objectType typeId="7ed55ffb-675c-4daf-9df7-4e3566cd6c46" valueTypeId="7a00ef67-d548-40e9-872d-f817f8b2c2c1"/>
+      <rowType typeId="2965604a-f9cf-4f32-a584-e0bc5fbd8852" valueTypeId="62627a5c-a61c-4e9f-b24d-b3139c9ca1ea"/>
+    </producedTypes>
+    <name>ИспользуемыеПроекты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используемые проекты</value>
+    </synonym>
+    <attributes uuid="e4a7e7c3-bb0e-472f-9104-08158cb8f097">
+      <name>Проект</name>
+      <synonym>
+        <key>ru</key>
+        <value>Проект</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Проекты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="4d8298c6-2188-4016-9bd7-6cc1ed3d3ac0">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

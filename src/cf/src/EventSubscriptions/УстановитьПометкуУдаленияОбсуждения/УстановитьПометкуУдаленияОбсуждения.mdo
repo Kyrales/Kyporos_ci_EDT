@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3defee7-806f-4aac-8b50-1515118fe77c">
+  <name>УстановитьПометкуУдаленияОбсуждения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить пометку удаления обсуждения по задаче</value>
+  </synonym>
+  <source>
+    <types>TaskObject.ЗадачиПользователя</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.РаботаСЗадачами.УстановитьПометкуУдаленияОбсужденияПоЗадаче</handler>
+</mdclass:EventSubscription>

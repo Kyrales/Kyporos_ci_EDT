@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5abf1bd-db8f-494e-98ef-e6bbf6e1b1b2">
+  <producedTypes>
+    <objectType typeId="08fe2281-4a0e-4161-ae94-8314ccd34fa8" valueTypeId="4e5f5843-3ae3-4fc2-87a3-a001fe3caef5"/>
+    <managerType typeId="4e314b4a-7074-4b9b-8023-0b0456a62a20" valueTypeId="6f93a152-8e82-4604-bed3-a0d8d4802756"/>
+  </producedTypes>
+  <name>ТелеграмЭмодзи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм: коллекция эмодзи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ТелеграмЭмодзи.Form.Форма</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Коллекция эмодзи</value>
+  </extendedPresentation>
+  <forms uuid="dd8d9767-93d4-4ac0-8e08-d58968c76752">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="b862c5b0-337e-4e9e-b03e-eb2cc0613cf6">
+    <name>ХТМЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ХТМЛ</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <commands uuid="8481f083-e007-417c-8bda-56ab28a9afd2">
+    <name>КоллекцияЭмодзи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коллекция эмодзи</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

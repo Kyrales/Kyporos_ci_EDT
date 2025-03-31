@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8c45a9e-02c6-480d-8757-a017d74ce25b">
+  <name>АктуализацияДанныхИзActiveDirectory</name>
+  <synonym>
+    <key>ru</key>
+    <value>Актуализация данных из Active Directory</value>
+  </synonym>
+  <methodName>CommonModule.РаботаСоСтруктуройКаталоговAD.АктуализацияДанныхИзActiveDirectory</methodName>
+  <description>Актуализация данных из Active Directory</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

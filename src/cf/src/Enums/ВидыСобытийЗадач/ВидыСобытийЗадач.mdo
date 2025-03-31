@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7ddf111-2712-4aab-b3f4-d63a848c956f">
+  <producedTypes>
+    <refType typeId="0d747b92-dce7-4413-92ff-19c381efef46" valueTypeId="28fe8d2d-018c-4096-9396-13ce3e56049c"/>
+    <listType typeId="9c0d994b-79c3-4fd9-ab44-e354b7007ecc" valueTypeId="6d0026ee-715b-450a-ad9d-f438b877bab8"/>
+    <managerType typeId="38771f86-c41a-4a4c-a101-6db495293ec3" valueTypeId="f3fc8d36-abb2-4a71-89b4-47cd996cfd26"/>
+  </producedTypes>
+  <name>ВидыСобытийЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды событий задач</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0b7d190e-3b41-46bc-9108-1afd3dbfb54a">
+    <name>Выполнена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9c4b7585-8047-4c13-8c16-30afa1fef464">
+    <name>ИзмененаВажность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменена важность</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2e8f8002-43e4-4703-89b7-8bccdeccf763">
+    <name>ИзмененСрок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменен срок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9c54b328-8bf4-4f91-ac11-61b2cc976b36">
+    <name>ОткрытаКарточка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открыта карточка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0b005ebf-a26e-4fc9-89d7-980011680937">
+    <name>ОтправленоУведомление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлено уведомление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d88c3841-3b33-4ac6-963a-10cccf83ef52">
+    <name>Перенаправлена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перенаправлена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d636e898-77db-4d8f-9c9e-8d1d10abd9c9">
+    <name>ПринятаКИсполнению</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принята к исполнению</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d41c159e-4adb-4814-9b09-9655e7f58383">
+    <name>ПринятиеКИсполнениюОтменено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принятие к исполнению отменено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="58fe08e7-e98f-48c2-9e94-c5cb9740298b">
+    <name>Отменена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c29d0faf-2f87-43c7-a6f3-ddedeb46e9d8">
+    <name>ОтветИсполнителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответ исполнителя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7612cf5b-8124-4e02-b2ec-444cf2e9361b">
+    <name>ИзмененПроцентЗавершения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменен процент завершения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0dedeb4b-aca4-4971-9b33-a4581c095770">
+    <name>ДополнениеОписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнение описания</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="45d33ff8-d1c0-4b1a-9ca0-096323cacde3">
+    <name>ВозвратКИсполнению</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат к исполнению</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b0cc5988-152b-4dea-bb52-6a678eb550a0">
+    <name>ОценкаВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оценка выполнения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7bcd95eb-13c6-490e-b35b-b3c6db106d5f">
+    <name>ЗарегистрированоПоЭлектроннойПочте</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарегистрировано по электронной почте</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d0f53baf-160b-4b2a-8e6b-cd9af4a0567e">
+    <name>ИзмененоСостояниеДругое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменено состояние</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d855b6e3-b240-4c28-b6ef-b9ef4e5c3e87">
+    <name>ИзмененПолучательУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменен получатель услуг</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1b7d5733-cc0a-43c7-8e9a-f7bd5e0353ca">
+    <name>ИзмененВидЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменен вид задачи</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a62a9a70-b0f9-4c03-a69a-c659643bc588">
+    <name>ЗарегистрированоПоТелеграм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарегистрировано по телеграм</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,40 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="https://kpkrs.site/AccessControl">
+	<objectType name="OperationResult">
+		<property name="Error" type="xs:boolean"/>
+		<property name="Description" type="xs:string"/>
+	</objectType>
+	<objectType name="ActiveUser">
+		<property name="Name" type="xs:string"/>
+		<property name="AccountLogin" type="xs:string"/>
+		<property name="UserOS" type="xs:string"/>
+		<property name="Email" type="xs:string"/>
+		<property name="DataChange" type="xs:dateTime"/>
+		<property name="ID_User" type="xs:string"/>
+	</objectType>
+	<objectType name="ResponseActiveUsers">
+		<property xmlns:d3p1="https://kpkrs.site/AccessControl" name="ActiveUser" type="d3p1:ActiveUser" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="https://kpkrs.site/AccessControl" name="OperationResult" type="d3p1:OperationResult"/>
+	</objectType>
+	<objectType name="ResponseAccessPatterns">
+		<property name="Result" type="xs:boolean"/>
+		<property xmlns:d3p1="https://kpkrs.site/AccessControl" name="OperationResult" type="d3p1:OperationResult"/>
+	</objectType>
+	<objectType name="AccessPattern">
+		<property name="ID_Pattern" type="xs:string"/>
+		<property name="Name" type="xs:string"/>
+		<property name="Description" type="xs:string"/>
+		<property name="Comment" type="xs:string"/>
+	</objectType>
+	<objectType name="AccessPatterns">
+		<property xmlns:d3p1="https://kpkrs.site/AccessControl" name="AccessPattern" type="d3p1:AccessPattern" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="AccessRight">
+		<property name="ID_User" type="xs:string"/>
+		<property name="ID_Pattern" type="xs:string"/>
+		<property name="Comment" type="xs:string"/>
+	</objectType>
+	<objectType name="ResponseAccessRights">
+		<property xmlns:d3p1="https://kpkrs.site/AccessControl" name="AccessRight" type="d3p1:AccessRight" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="https://kpkrs.site/AccessControl" name="OperationResult" type="d3p1:OperationResult"/>
+	</objectType>
+</package>

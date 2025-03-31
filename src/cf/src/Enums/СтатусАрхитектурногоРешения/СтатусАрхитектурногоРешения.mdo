@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1922c94b-401f-43dc-b7de-196f977180ea">
+  <producedTypes>
+    <refType typeId="c8c85a69-087f-4673-979b-9770b5cae84e" valueTypeId="ff3d1232-bbd2-43bd-8be1-92431e635b30"/>
+    <listType typeId="bf9a0386-5c53-49ab-89ef-433ae92f298d" valueTypeId="c1acdcde-fa74-4579-b1dc-63b4ee5d4fc3"/>
+    <managerType typeId="854060c0-c108-46c6-87f2-e8a2a8736008" valueTypeId="cf793dc6-0fac-4305-b947-845140a7c3e2"/>
+  </producedTypes>
+  <name>СтатусАрхитектурногоРешения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус архитектурного решения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="57c7f13d-9bd7-4205-9502-caee4d5f9fba">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ba940fd8-15bb-48ec-a5e6-d9ee830e22ae">
+    <name>Предложен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предложен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5b8ec33c-459f-46e6-9f4d-037fa68a00df">
+    <name>Принят</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принят</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3d4a0882-54d3-4fca-b0e8-d8c275471837">
+    <name>Отклонен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7fa0552c-97d9-40bb-9152-7743882ae56a">
+    <name>Замещен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замещен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

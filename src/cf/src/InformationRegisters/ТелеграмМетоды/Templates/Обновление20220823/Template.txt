@@ -1,0 +1,13 @@
+[
+	{
+		"Метод": "sendMessage",
+		"Параметр": "parse_mode",
+		"ОсобеннаяСборка": false,
+		"Параметр1С": "ТипСообщения",
+		"ОбязательныйДляЗаполнения": false,
+		"ОбязательныйДляПередачи": true,
+		"Сортировка": 7,
+		"Тип": "Строка",
+		"Описание": "Send Markdown or HTML, if you want Telegram apps to show bold, italic, fixed-width text or inline URLs in your bot's message."
+	}
+]

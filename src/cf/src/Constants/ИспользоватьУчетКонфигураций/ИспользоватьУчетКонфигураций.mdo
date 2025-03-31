@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9e13ec4-c4dc-4416-9c9f-f7030c515c58">
+  <producedTypes>
+    <managerType typeId="f3f65e3e-a395-4af8-b26b-1c781e8a591e" valueTypeId="63866666-becf-4166-b61a-312b8fc4d0d5"/>
+    <valueManagerType typeId="353a5f86-539a-418c-9c5c-e519ff46c19b" valueTypeId="8015065e-58ca-4d87-ad7e-255aba513381"/>
+    <valueKeyType typeId="96c1dbd5-122a-570d-b20f-4e565e34b6a4" valueTypeId="922d31cc-7bd4-5555-b0c8-16361324de05"/>
+  </producedTypes>
+  <name>ИспользоватьУчетКонфигураций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать учет конфигураций</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

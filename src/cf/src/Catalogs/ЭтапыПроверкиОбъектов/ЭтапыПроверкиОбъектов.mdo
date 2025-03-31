@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="193ca6c3-9714-4b70-874c-aa309a3ef9ad">
+  <producedTypes>
+    <objectType typeId="38d41755-13c8-4bf0-9cfa-572c44580439" valueTypeId="50f3425e-2131-49ac-9f7f-a893d657b009"/>
+    <refType typeId="664882dd-8794-4436-96c3-6c9ba932900f" valueTypeId="d54428c4-c09b-48ef-9ad4-21d9e8f63172"/>
+    <selectionType typeId="292075e1-cb6f-4b36-9d45-2aa8370898ed" valueTypeId="e2fded62-0954-4b74-9941-051d4a985aad"/>
+    <listType typeId="8b49b95f-8f93-496f-ad8f-8fbf57ee5454" valueTypeId="5b21e1e8-7038-4439-a016-167ab40394d6"/>
+    <managerType typeId="d4237850-d22b-4cff-8000-7d75f7429f57" valueTypeId="f5a243c0-3690-4c8e-9407-fb92b919b097"/>
+  </producedTypes>
+  <name>ЭтапыПроверкиОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Этапы проверки объектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЭтапыПроверкиОбъектов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЭтапыПроверкиОбъектов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="edddbef3-335d-4e10-a98c-85a50975a8fe">
+    <name>ПолноеНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9636b63e-9c70-4c59-9fb2-b1d48cd2dcfb">
+    <name>КомментарийПоПроверке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий по проверке</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1d13a1ca-411c-4f05-8bf3-209065176200">
+    <name>ТипИнцидента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип инцидента</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d9fa055-27f4-4158-a422-7fced623ec2c">
+  <producedTypes>
+    <refType typeId="295533f6-e95e-44a1-8d9e-694f5c7ab587" valueTypeId="6eec6fae-3c58-47f4-a35e-14e4d051d7d0"/>
+    <listType typeId="5ebed5f2-4ad1-4c8f-89e1-845f15872e05" valueTypeId="7ed5a8db-3eef-47ad-b6f8-b9c0dbe8babf"/>
+    <managerType typeId="5cae45b4-2cf2-47b8-87a5-393a88455d18" valueTypeId="988a549d-867f-44e4-8c25-8678b61e9a80"/>
+  </producedTypes>
+  <name>СтатусСообщенийЧатБота</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус сообщений чат бота</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Статусы сообщений чат-ботов</value>
+  </listPresentation>
+  <enumValues uuid="781f451b-f611-4809-b569-2adc54e4f425">
+    <name>Отправлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="27284481-800f-4d22-975a-df87ca8f11b0">
+    <name>Принято</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принято</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bfef695e-b56f-4c10-a044-a05f1c1a2f24">
+    <name>ПубликацияФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Публикация файла</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

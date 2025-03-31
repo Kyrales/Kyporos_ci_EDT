@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4290512-8037-4935-ad9a-ffabba61a788">
+  <producedTypes>
+    <refType typeId="07d3f539-5d28-44eb-9dd6-f22fd48c05d3" valueTypeId="81416e41-70ca-4713-8279-9a2f2b152e1b"/>
+    <listType typeId="3d8cec88-3d8f-4df8-a166-cc05a7443a61" valueTypeId="2c3d5c0e-8c17-45c7-b35d-7c9406b8c775"/>
+    <managerType typeId="9adc106c-707c-458b-9f9c-d852aceb99d4" valueTypeId="6e29174a-94fd-4357-ac3c-7456b5efd668"/>
+  </producedTypes>
+  <name>СтатусБизнесДомена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус бизнес домена</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="05437a77-e706-45f4-b58d-ce19c623311b">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f4e03029-5987-4754-bf2c-c74e4ba45b7a">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="66755ba4-8f8d-48c3-aaac-03e6cb4f2ccb">
+    <name>Запланировано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запланировано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="42201379-3d2b-4be3-a6b6-c3761bd86c2b">
+    <name>Готово</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готово</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2a5c8972-4ab8-4095-bc58-2ee6c373949e">
+    <name>Отложено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отложено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9f922a4c-f9da-4d81-ac1c-0ccdfef27660">
+    <name>Отменено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменено</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

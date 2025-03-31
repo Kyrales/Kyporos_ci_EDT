@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4565fbb-de68-45d0-ad6f-354e2cdb3b40">
+  <name>ТочкиИнтеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Точки интеграции</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ТочкиИнтеграции</picture>
+  </picture>
+  <content>Catalog.ТочкиИнтеграции</content>
+  <content>Enum.ТипИнтеграции</content>
+  <content>Enum.МетодыВызова</content>
+  <content>Enum.КонтурыИнтеграции</content>
+  <content>Report.АнализТочекИнтеграции</content>
+  <content>Catalog.Интеграции</content>
+  <content>Catalog.РесурсыИнформационныхСистем</content>
+  <content>Catalog.СерверыРесурсов</content>
+  <content>Enum.НаправленияПотокаДанных</content>
+  <content>Catalog.ИнформационныеСистемы</content>
+  <content>Enum.АрхитектурыРаботыИС</content>
+  <content>Enum.ТипДанныхОбмена</content>
+  <content>Enum.СтатусыИнтеграции</content>
+  <content>DataProcessor.ГенерацияUMLДиаграмм</content>
+  <content>Role.ДобавлениеИзменениеТочекИнтеграции</content>
+  <content>Role.ПодсистемаТочкиИнтеграции</content>
+  <content>CommonPicture.ТочкиИнтеграции</content>
+  <content>Document.АрхитектурноеРешение</content>
+  <content>Enum.СтатусАрхитектурногоРешения</content>
+  <content>Enum.ДействияПоАрхитектуре</content>
+  <content>InformationRegister.СвязиБизнесДоменов</content>
+  <content>Catalog.БизнесДомены</content>
+  <content>Enum.СтатусБизнесДомена</content>
+  <content>CommonModule.ТочкиИнтеграцииМоделиС4</content>
+  <content>CommonModule.ТочкиИнтеграцииСервер</content>
+</mdclass:Subsystem>

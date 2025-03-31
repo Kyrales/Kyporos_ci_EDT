@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9820e82-5070-496e-b727-73a674e665e7">
+  <producedTypes>
+    <objectType typeId="e46ff95f-ee4d-4585-9d49-a9f4472e4597" valueTypeId="c97d9aad-61bd-42b7-b889-1d11be69f7a9"/>
+    <managerType typeId="89a0ea9f-ab6d-485f-883f-8c7a6c870e29" valueTypeId="913fd82d-f47f-48b2-a1eb-3d20f16559b8"/>
+  </producedTypes>
+  <name>ВыполняторКода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнятор кода 1С</value>
+  </synonym>
+  <comment>В модуле объекта раскраска кода для других объектов</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВыполняторКода.Form.Форма</defaultForm>
+  <forms uuid="004e12e8-77e5-435b-be81-a79fb113e3d7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="5f4ed019-3090-43e0-864a-aa0d8e2d361f">
+    <name>index</name>
+    <synonym>
+      <key>ru</key>
+      <value>Index</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="8e820122-cba4-43d8-bbae-331350ae1572">
+    <name>lib_codemirror_js</name>
+    <synonym>
+      <key>ru</key>
+      <value>Lib codemirror js</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="d02f5747-dce6-4c9a-a462-546765d01e33">
+    <name>lib_codemirror_css</name>
+    <synonym>
+      <key>ru</key>
+      <value>Lib codemirror css</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="8d807b01-5bb3-41b2-a96f-17ba7b0f5948">
+    <name>mode_1c_1c_js</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код js для 1C</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="8ea9cb91-579d-4dd3-ac4c-c6dae214746c">
+    <name>theme_1c_css</name>
+    <synonym>
+      <key>ru</key>
+      <value>Theme 1c css</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="353264ce-cf39-40ec-b287-95042c094c2f">
+    <name>addon_comment_comment_js</name>
+    <synonym>
+      <key>ru</key>
+      <value>Addon comment comment js</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

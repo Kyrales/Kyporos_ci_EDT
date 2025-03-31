@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f01ec4ab-5b6e-4a1d-8bec-bcb20cecdde3">
+  <producedTypes>
+    <selectionType typeId="a2f44055-8cf2-4cec-b8d9-ce5e0b59bbc4" valueTypeId="d5f2dd5f-c2b9-4ac2-9aa4-9e3193926fe7"/>
+    <listType typeId="dbb3975b-eb5e-4207-bc67-0eecc0abbcf0" valueTypeId="fb2ca83d-e9eb-4ff8-acd5-26c8f7664fcc"/>
+    <managerType typeId="2e9ad0b0-01e8-4177-83e9-4b85cd18c6c1" valueTypeId="43c96b10-f97b-44e4-b222-dc126f98eba1"/>
+    <recordSetType typeId="8ac82a29-188b-4fca-85aa-73d6862833ac" valueTypeId="6769d2cc-014c-422f-b401-d9900e7fa157"/>
+    <recordKeyType typeId="d67ec1cf-0d6a-4cca-820d-032497a0b2fa" valueTypeId="f283e967-cee4-4b81-90dc-88403912dbd9"/>
+    <recordType typeId="c0553489-0d1d-45cb-91cf-d91d48ab1eca" valueTypeId="3685cfd2-df1c-47bb-8d64-81b2ee62aa17"/>
+    <recordManagerType typeId="e7eafb0e-1435-4c51-8a02-9b4d1171daf7" valueTypeId="c5158d00-81ec-46b8-b27f-fdef15a1df9e"/>
+  </producedTypes>
+  <name>ХронометражРабочегоВремениПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хронометраж рабочего времени пользователей</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b1ee6822-321d-47de-b214-f10002295c2e">
+    <name>ВремяНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="361c6e7f-ee4c-48e4-9869-bb1d19f552d9">
+    <name>ВремяОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="2682f070-84e6-461f-bc48-cc02499f2bbd">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="86ac6219-9581-4426-8513-597517916c77">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>TaskRef.ЗадачиПользователя</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e9ddec0-c316-4e5e-8ff8-8ccbab61d43a">
+  <producedTypes>
+    <objectType typeId="e5156e9e-945d-40c2-be59-86c5f29b7f3c" valueTypeId="7a792aae-66c2-433e-886d-579b1b1a1865"/>
+    <refType typeId="3873c7ef-9772-4e93-9b7d-4b3cd15f7960" valueTypeId="21ece1c0-06b5-45aa-b839-731829fd6ad7"/>
+    <selectionType typeId="64a9ac91-0610-4882-ab1b-65a150ec308d" valueTypeId="fa8098d4-1471-47ab-87a7-29c41f989a4e"/>
+    <listType typeId="fba20c5d-8b46-4abe-b2c8-5ab1b34ff023" valueTypeId="5bd59f55-a756-4bef-b5b3-b690c7d4dc1b"/>
+    <managerType typeId="70232fdf-5c81-4e08-98d6-86a228fb343a" valueTypeId="19d41780-3c47-4094-ab71-93aedabfe558"/>
+  </producedTypes>
+  <name>ВидыРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды работ</value>
+  </synonym>
+  <inputByString>Catalog.ВидыРабот.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыРабот.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="82ba5675-5e97-42bf-90f2-76e62ba4d258">
+      <name>Консультация</name>
+      <description>Консультация</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="2189fe47-6b18-4b51-83ed-3b5ceef9ae34">
+      <name>ОбработкаДанных</name>
+      <description>Обработка данных</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="e2f926dc-9b42-4c61-bf33-647a8e9348bf">
+      <name>РаботаПоЗадаче</name>
+      <description>Работа по задаче</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="9ed7a395-9fb1-43f4-ad46-41113288bbf9">
+      <name>РаботаСДокументацией</name>
+      <description>Работа с документацией</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="6e6f047b-6e7e-4790-b596-1327ca3d3a87">
+      <name>Разработка</name>
+      <description>Разработка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="b4f006ec-7a16-4e31-93dc-3754d1071f62">
+      <name>Тестирование</name>
+      <description>Тестирование</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

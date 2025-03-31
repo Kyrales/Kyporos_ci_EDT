@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5dffa583-277d-4168-83f3-536aeae05ac5">
+  <producedTypes>
+    <objectType typeId="355131ed-c570-456b-9889-7eed362e5126" valueTypeId="7f2187b5-db8d-4e77-8a27-9c91294e5bbc"/>
+    <managerType typeId="83c12960-6c68-4816-b6ea-70f77020c2af" valueTypeId="2b46d03a-decd-4901-af41-b0f17813ad2f"/>
+  </producedTypes>
+  <name>ЗатраченноеВремяНаЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Затраченное время на задачи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ЗатраченноеВремяНаЗадачи.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="257a7ea7-f464-4a88-a68a-2ebd629b87e0">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

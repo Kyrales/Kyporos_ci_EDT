@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31a1dd5f-20ee-43e8-a3a3-21a0caa03b08">
+  <producedTypes>
+    <refType typeId="1bbc552e-69dc-4766-b035-47a9c8f6cb5f" valueTypeId="42690b12-8ca7-4d94-8d4e-25df5c2218c4"/>
+    <listType typeId="9dfaaae4-1355-4acc-a053-8c86545afd0b" valueTypeId="ffad4d49-ac01-4839-8461-499e17f8048a"/>
+    <managerType typeId="75700146-074f-4206-8abe-ae4ef90e54c1" valueTypeId="090748b8-1115-4c48-818c-6f08f78312df"/>
+  </producedTypes>
+  <name>ДействияПоАрхитектуре</name>
+  <synonym>
+    <key>ru</key>
+    <value>Действия по архитектуре</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0243eed6-4170-45e4-bc97-f03590d3728c">
+    <name>Новая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3e7c8cdf-3c9e-475c-a119-6b114a682000">
+    <name>Изменяется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменяется</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="348793a4-c959-4821-8ea1-30f9353400f0">
+    <name>Исключается</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исключается</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7a39d39-c3e2-4dd3-a89b-c054abc442e6">
+  <producedTypes>
+    <objectType typeId="e9690d51-415c-4df5-9a28-546b3da5d5e6" valueTypeId="ab2c932e-f00f-4f93-aafc-e706e44a7f1c"/>
+    <managerType typeId="4f2cc22b-d6e9-43be-8249-5c6a26bba606" valueTypeId="c99feeda-6428-412f-80ca-ecc5531e1483"/>
+  </producedTypes>
+  <name>ПланированиеЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планирование задач</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПланированиеЗадач.Form.Форма</defaultForm>
+  <attributes uuid="46998a22-ae29-49b9-be4e-072aa2f4b48f">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="161175ab-c7e4-43ee-bcd0-1db782e71174">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="1787fb7b-e909-42f5-a4fd-1468fd50b492">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="d64af679-664a-4777-a916-ff1d1baa815e">
+    <name>КартинкаКатегории</name>
+    <synonym>
+      <key>ru</key>
+      <value>Картинка категории</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="1fea9fba-1499-4217-b50c-c93af63b96d5">
+    <name>КартинкаАктивнойЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Картинка активной задачи</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="e16c0ecc-2ff0-4589-99a9-2fb71e701d0b">
+    <name>КартинкаПросроченнойЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Картинка просроченной задачи</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="a9ea4917-901a-43dc-ab82-edb23474e629">
+    <name>КартинкаВыполненнойЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Картинка выполненной задачи</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:DataProcessor>

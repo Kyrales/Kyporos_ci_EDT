@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80b26be1-c441-42f0-be96-1079ac003eb1">
+  <name>Набор_USB1C</name>
+  <synonym>
+    <key>ru</key>
+    <value>USB 1C</value>
+  </synonym>
+</mdclass:CommonPicture>

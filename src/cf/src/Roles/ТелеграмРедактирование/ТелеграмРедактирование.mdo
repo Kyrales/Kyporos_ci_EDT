@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1930af3b-c58d-4c21-b474-fca0e3b5d846">
+  <name>ТелеграмРедактирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм: редактирование</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17c68a8c-6759-4b36-8cd7-9f25c23f4288">
+  <name>УведомлениеСлужбыТехподдержкиОНовыхЗадачах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомление службы техподдержки о новых задачах</value>
+  </synonym>
+  <methodName>CommonModule.БизнесПроцессыИЗадачиСервер.УведомлениеСлужбыТехподдержкиОНовыхЗадачах</methodName>
+  <description>Уведомление службы техподдержки о новых задачах</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

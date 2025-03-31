@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33c019ad-3d68-4569-a938-1710891912ea">
+  <producedTypes>
+    <refType typeId="24142d70-cbf5-465a-8cdd-2724c0f30d60" valueTypeId="9ea737cf-63c0-4566-9212-892a749572d5"/>
+    <listType typeId="86bcd619-575a-45c8-a6e2-5781069913bf" valueTypeId="3d3cd2df-54a2-42fa-9f99-b93c562582f6"/>
+    <managerType typeId="18bc417f-55dc-4d30-9482-a1d95d350f98" valueTypeId="885dc9d0-4bf7-49a5-a597-9405aaf34193"/>
+  </producedTypes>
+  <name>НаправленияПотокаДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Направления потока данных</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="39ed6003-bed3-4354-9648-4a98a278540a">
+    <name>ОтИнициатора</name>
+    <synonym>
+      <key>ru</key>
+      <value>От инициатора</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5ed30edd-feee-40a0-8803-82f8157d3549">
+    <name>КИнициатору</name>
+    <synonym>
+      <key>ru</key>
+      <value>К инициатору</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8ff7c860-aa4e-4fe8-9a71-8b5f487db84f">
+    <name>ВОбаНаправления</name>
+    <synonym>
+      <key>ru</key>
+      <value>В оба направления</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

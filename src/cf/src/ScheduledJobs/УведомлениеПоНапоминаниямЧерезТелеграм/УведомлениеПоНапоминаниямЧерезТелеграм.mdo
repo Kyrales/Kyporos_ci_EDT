@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dfecc991-a1b2-4521-b6c5-ebe773d212f5">
+  <name>УведомлениеПоНапоминаниямЧерезТелеграм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомление по напоминаниям через Телеграм</value>
+  </synonym>
+  <methodName>CommonModule.ОбщегоНазначенияКупоросСервер.УведомлениеПоНапоминаниямЧерезТелеграм</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

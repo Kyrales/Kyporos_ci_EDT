@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>InformationRegister.ПараметрыКупорос.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Catalog.Организации.Command.ДобавитьОрганизацию</commands>
+      <commands>Catalog.УчетныеЗаписиЭлектроннойПочты.StandardCommand.OpenList</commands>
+      <commands>DataProcessor.ПанельАдминистрирования.Command.ПараметрыОрганизации</commands>
+      <commands>Catalog.Организации.Command.Организации</commands>
+      <commands>InformationRegister.ПараметрыКупорос.StandardCommand.OpenList</commands>
+      <commands>Catalog.Организации.Command.РеквизитыОрганизации</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>ActionsPanelTools</group>
+      <commands>CommonCommand.ДополнительныеОбработкиАдминистрирование</commands>
+      <commands>DataProcessor.ВыполняторКода.StandardCommand.Open</commands>
+      <commands>DataProcessor.ГенераторКода.StandardCommand.Open</commands>
+      <commands>CommonForm.НастройкиПрограммы.StandardCommand.Open</commands>
+      <commands>CommonForm.НастройкаСистемы.StandardCommand.Open</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7cc9193a-3630-4099-8cd0-cb8c2c6e7f30">
+  <producedTypes>
+    <refType typeId="32f94455-d9ff-4c7f-a87f-fcb5fdd74f09" valueTypeId="95ed7893-b189-46a6-99a8-199594e01235"/>
+    <listType typeId="b194c69e-3047-4598-9a16-a97cfea5b316" valueTypeId="ea745364-f25f-486a-8a15-028cafe6561e"/>
+    <managerType typeId="aff78ca3-bee4-45de-9397-59a42c2f7ffe" valueTypeId="d4747066-fa29-4d54-9210-7adc60726030"/>
+  </producedTypes>
+  <name>ВариантыОграниченияДоступаНаФорме</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты ограничения доступа на форме</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a73d4519-2a00-47a3-85f2-23875c665ef0">
+    <name>Видимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Видимость</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8abd69be-82c4-4c45-9720-b30ff030e555">
+    <name>ТолькоПросмотр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только просмотр</value>
+    </synonym>
+    <comment>Для команд доступность</comment>
+  </enumValues>
+</mdclass:Enum>

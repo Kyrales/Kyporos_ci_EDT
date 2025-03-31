@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93cfdc85-d117-4c21-915b-682459385524">
+  <producedTypes>
+    <refType typeId="d915c30b-24a9-42a1-96b4-29d070c1826d" valueTypeId="f2c09504-ac80-4808-9c11-dd0bc477cef4"/>
+    <listType typeId="1535d639-e7a7-4384-8f90-6bc02a79fbf8" valueTypeId="65749d05-84cd-4159-b0c6-8613e2e5edd3"/>
+    <managerType typeId="d424def4-be8a-4f6f-a29d-ccc53a5c904f" valueTypeId="656dbf29-ec8f-4ab9-b488-b6602aa32943"/>
+  </producedTypes>
+  <name>ДоступностьПолей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доступность полей</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b64c3562-0e04-4ccd-aa1d-795a8945dba4">
+    <name>НеНазначено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не назначено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="21e21a00-0abb-444d-9d0c-b135dfba50ff">
+    <name>Доступно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="46f2b7eb-1d68-4f7b-a3e9-92fd627fb684">
+    <name>Недоступно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Недоступно</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
