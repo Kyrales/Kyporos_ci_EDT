@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Kyrales/jenkins-lib/devkyr/resources/schema.json",
+  "$schema": "https://raw.githubusercontent.com/firstBitMarksistskaya/jenkins-lib/refs/heads/develop/resources/schema.json",
   "v8version": "8.3.25.1546",
   "edtVersion": "2024.2.4:x86_64",
   "srcDir": "src/cf",
@@ -16,7 +16,7 @@
     "sonarqube": true,
     "bdd": true,
     "syntaxCheck": true,
-    "edtValidate": false,
+    "edtValidate": true,
     "smoke": false,
     "yaxunit": true,
     "email": true,
