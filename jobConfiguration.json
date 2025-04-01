@@ -13,7 +13,7 @@
   },
   "stages": {
     "initSteps": true,
-    "sonarqube": false,
+    "sonarqube": true,
     "bdd": true,
     "syntaxCheck": true,
     "edtValidate": false,
