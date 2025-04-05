@@ -14,7 +14,6 @@
     "--pathvanessa": "C:/tools/vanessa-automation-single.epf"
   },
   "xunit": {
-    "--xddConfig": "./tools/smokeTestRunnerConf.json",
     "testsPath": "./tests/smoke",
     "--xddExitCodePath": "./build/xddExitCodePath.txt"
 }
