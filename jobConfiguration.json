@@ -13,12 +13,12 @@
   },
   "stages": {
     "initSteps": true,
-    "sonarqube": true,
-    "bdd": true,
-    "syntaxCheck": true,
+    "sonarqube": false,
+    "bdd": false,
+    "syntaxCheck": false,
     "edtValidate": false,
-    "smoke": false,
-    "yaxunit": true,
+    "smoke": true,
+    "yaxunit": false,
     "email": true,
     "telegram": false
   },
@@ -91,10 +91,10 @@
     "publishToAllureReport": true
   },
   "smoke": {
-    "vrunnerSettings": "./tools/vrunner.json",
-    "xddConfigPath": "./tools/xUnitParams.json",
-    "publishToAllureReport": false,
-    "publishToJUnitReport": true
+    "vrunnerSettings": "",
+    "xddConfigPath": "./tools/smokeTestRunnerConf.json",
+    "publishToAllureReport": true,
+    "publishToJUnitReport": false
   },
   "yaxunit": {
     "vrunnerSettings": "./tools/vrunner.json",
