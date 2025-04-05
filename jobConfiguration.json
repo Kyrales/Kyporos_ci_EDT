@@ -91,7 +91,7 @@
     "publishToAllureReport": true
   },
   "smoke": {
-    "vrunnerSettings": "",
+    "vrunnerSettings": "./tools/vrunner.json",
     "xddConfigPath": "./tools/smokeTestRunnerConf.json",
     "publishToAllureReport": true,
     "publishToJUnitReport": false
