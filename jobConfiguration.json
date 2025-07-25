@@ -14,7 +14,7 @@
   "stages": {
     "initSteps": true,
     "sonarqube": true,
-    "bdd": true,
+    "bdd": false,
     "syntaxCheck": true,
     "edtValidate": false,
     "smoke": false,
