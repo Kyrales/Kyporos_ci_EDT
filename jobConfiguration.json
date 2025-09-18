@@ -60,7 +60,7 @@
     "vrunnerSteps": [
       "vanessa --settings ./tools/vrunner.json"
     ],
-    "coverage": true,
+    "coverage": false,
     "dbgsPort": 1550
   },
   "coverage": {
@@ -101,7 +101,7 @@
     "configPath": "./tools/yaxunit.json",
     "publishToAllureReport": true,
     "publishToJUnitReport": false,
-    "coverage": true,
+    "coverage": false,
     "dbgsPort": 1551
   },
   "resultsTransform": {
