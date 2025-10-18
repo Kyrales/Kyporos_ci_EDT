@@ -19,7 +19,7 @@
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <vendor>Каратаев О.А.</vendor>
-  <version>1.3.30.2</version>
+  <version>1.3.31.1</version>
   <updateCatalogAddress>https://t.me/kuporos</updateCatalogAddress>
   <reportsVariantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</reportsVariantsStorage>
   <defaultReportForm>CommonForm.ФормаОтчета</defaultReportForm>
