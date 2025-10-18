@@ -17,6 +17,10 @@
 //
 Функция СформироватьКодДиаграммыИнтеграции(МассивИнтеграций) Экспорт
 	
+	Если Не ЗначениеЗаполнено(МассивИнтеграций) Тогда
+		Возврат "";	
+	КонецЕсли;
+	
 	Контейнеры = Новый Соответствие;
 	
 	ЕстьВнешнийСервисИсточникИлиПриемника = Ложь;
@@ -217,6 +221,7 @@
 	// Ссылка по описанию: https://github.com/plantuml-stdlib/C4-PlantUML
 	
 	ИсходныйКод = НСтр("ru = '@startuml
+                        |!NEW_C4_STYLE = 1
                         |!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
                         |
                         |!define DEVICONS https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/main/icons/devicons

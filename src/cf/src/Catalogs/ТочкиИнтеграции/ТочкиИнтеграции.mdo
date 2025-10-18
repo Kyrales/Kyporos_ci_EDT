@@ -122,7 +122,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Например: \\knfmp.net\shares\1cbasesandconfiguration\bases\
+      <value>Например: \\local.net\shares\1cbasesandconfiguration\bases\
 Или https://srv-1c-pb/pb/ws/KCM_KeyTag.1cws?wsdl</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
