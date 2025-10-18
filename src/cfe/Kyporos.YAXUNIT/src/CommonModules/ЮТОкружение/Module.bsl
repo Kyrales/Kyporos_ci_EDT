@@ -1,6 +1,6 @@
 //©///////////////////////////////////////////////////////////////////////////©//
 //
-//  Copyright 2021-2024 BIA-Technologies Limited Liability Company
+//  Copyright 2021-2025 BIA-Technologies Limited Liability Company
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
@@ -26,7 +26,7 @@
 	
 	//@skip-check constructor-function-return-section
 	ЗначениеКонтекста = ЮТКонтекстСлужебный.ЗначениеКонтекста("Окружение");
-	Если ЗначениеКонтекста = Неопределено Тогда
+	Если ЗначениеКонтекста = Неопределено Тогда // TODO Реализовать кеширование при использовании вне тестов
 		// Получаем явно окружение.
 		ЗначениеКонтекста = ЮТОкружениеСлужебныйКлиентСервер.ОписаниеОкружения();
 	КонецЕсли;
