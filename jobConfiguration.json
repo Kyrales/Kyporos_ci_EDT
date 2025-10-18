@@ -58,9 +58,7 @@
         "initMethod": "fromSource",
         "name": "УправлениеДоступомПользователей",
         "path": "./src/cfe/Kyporos.УправлениеДоступомПользователей",
-        "stages": [
-          "bdd"
-        ]
+        "stages": []
       }
     ]
   },
