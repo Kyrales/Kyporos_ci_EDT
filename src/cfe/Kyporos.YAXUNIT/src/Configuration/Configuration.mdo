@@ -162,6 +162,13 @@
   <commonModules>CommonModule.ЮТТипыДанныхСлужебный</commonModules>
   <commonModules>CommonModule.ЮТУтверждения</commonModules>
   <commonModules>CommonModule.ЮТУтвержденияИБ</commonModules>
+  <commonModules>CommonModule.ЮТФабрика</commonModules>
+  <commonModules>CommonModule.ЮТФабрикаСлужебный</commonModules>
+  <commonModules>CommonModule.ЮТФайлы</commonModules>
+  <commonModules>CommonModule.ЮТФильтрацияСлужебный</commonModules>
+  <commonModules>CommonModule.ЮТЧитательСлужебный</commonModules>
+  <commonModules>CommonModule.ЮТЧитательСлужебныйВызовСервера</commonModules>
+  <commonModules>CommonModule.ЮТЧитательСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ОМ_ОбщегоНазначения</commonModules>
   <commonModules>CommonModule.Зад_ЗадачиПользователя</commonModules>
   <commonModules>CommonModule.Док_АктыВыполненныхРабот</commonModules>
@@ -173,13 +180,6 @@
   <commonModules>CommonModule.РС_УчетВерсийКонфигурации</commonModules>
   <commonModules>CommonModule.Обр_ГенераторКода</commonModules>
   <commonModules>CommonModule.Обр_ГенерацияUMLДиаграмм</commonModules>
-  <commonModules>CommonModule.ЮТФабрика</commonModules>
-  <commonModules>CommonModule.ЮТФабрикаСлужебный</commonModules>
-  <commonModules>CommonModule.ЮТФайлы</commonModules>
-  <commonModules>CommonModule.ЮТФильтрацияСлужебный</commonModules>
-  <commonModules>CommonModule.ЮТЧитательСлужебный</commonModules>
-  <commonModules>CommonModule.ЮТЧитательСлужебныйВызовСервера</commonModules>
-  <commonModules>CommonModule.ЮТЧитательСлужебныйКлиент</commonModules>
   <dataProcessors>DataProcessor.ЮТHTTPServiceRequest</dataProcessors>
   <dataProcessors>DataProcessor.ЮТHTTPОтвет</dataProcessors>
   <dataProcessors>DataProcessor.ЮТHTTPСервисЗапрос</dataProcessors>
