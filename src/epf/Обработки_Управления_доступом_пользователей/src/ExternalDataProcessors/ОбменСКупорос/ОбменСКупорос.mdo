@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e51a81f-1586-42d8-a41f-5321fd744f64">
+  <producedTypes>
+    <objectType typeId="874a95b5-8141-4481-af96-184f03aa12c9" valueTypeId="a530d77b-0f51-4b8f-ba4c-32bcb8c6d73c"/>
+  </producedTypes>
+  <name>ОбменСКупорос</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с Купорос</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="d888dfc1-1b3b-4ffb-b0bc-28cf34ab8436"/>
+  <defaultForm>ExternalDataProcessor.ОбменСКупорос.Form.Форма</defaultForm>
+  <forms uuid="6c0533da-9a24-449d-947a-bf1533411a1e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>

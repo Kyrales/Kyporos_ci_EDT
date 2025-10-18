@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="398abc55-1a47-47e2-bc6e-6932852dd11f">
+  <name>КП_ОбменДаннымиКупорос</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен данными купорос</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

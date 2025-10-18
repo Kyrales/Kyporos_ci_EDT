@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24f3478b-b45a-422f-8b7d-4b3e77c2d69a">
+  <producedTypes>
+    <objectType typeId="d79296f9-32e9-4a86-ab03-aa26b99a41b9" valueTypeId="d8476a5b-c96d-43ed-9cb8-de19484be3b4"/>
+    <refType typeId="82c2124e-0e14-4554-8413-d415411db75d" valueTypeId="53fc02e2-2f41-4949-aa8e-5ad3962c5649"/>
+    <selectionType typeId="0c23ea5d-02b5-401b-92df-69b0fb973c3b" valueTypeId="be8bcfc8-e034-4c71-81be-91c82c52ec08"/>
+    <listType typeId="fd9f7b86-e49e-42c0-94b9-0d936e26fbb2" valueTypeId="5c96fcff-9831-4c32-85d0-0bf9d0d9ba60"/>
+    <managerType typeId="cbf79f26-800a-4018-b01c-35c18e5e0fb1" valueTypeId="fd6acad9-446b-411b-8963-f0defb256727"/>
+  </producedTypes>
+  <name>КП_ПользователиТекущейИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи текущей ИС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КП_ПользователиТекущейИС.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КП_ПользователиТекущейИС.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>8</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.КП_ПользователиТекущейИС.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="6d6aeba5-a4b9-40ee-ab22-a8a18bba7d4b">
+    <name>Email</name>
+    <synonym>
+      <key>ru</key>
+      <value>Email</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>80</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b1a5b31f-3e2e-486c-b908-8fd6743ffcf9">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="81c4fb48-18e7-4e43-ae1f-b0902de6c0a0">
+    <name>ДатаИзмененияКупорос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения Купорос</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ec159cb5-a481-433b-8752-5e2945182aee">
+    <name>ИД_Купорос</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИД Купорос</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Уникальный идентификатор в Купорос</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="59886dbf-fdb8-4aea-a42e-366a08f74ae6">
+    <name>Недействителен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Недействителен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c365cdd4-4cbe-48c4-9105-47ee3276d182">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Поиск по регламентному заданию</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e0fd004e-8ff9-446d-bcd5-d6be8c67db6a">
+    <name>ПользовательОС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь ОС</value>
+    </synonym>
+    <comment>Аутентификационная информация вида \\домен\учетная запись</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>120</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b0ae4f91-6ad3-4734-967a-2c6e7d6ef9d6">
+    <name>ТребуетсяОбновлениеПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требуется обновление пользователя</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6c66736e-3507-488d-90c7-dda098607aa3">
+    <name>ТребуетсяОбновлениеПравПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требуется обновление прав пользователя</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1cb03f77-7d2c-4dc2-a128-a89e53268e7a">
+    <name>УчетнаяЗаписьWindows</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная запись windows</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>80</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="ff1337a9-0672-440f-a7b6-b3e18ce2d1ac">
+    <producedTypes>
+      <objectType typeId="805ea2d4-71e5-41ce-a56d-b98d93ca1997" valueTypeId="8d88ca00-4994-4657-a75b-78d561eac408"/>
+      <rowType typeId="c637baaf-eb2a-41a6-9a83-39e9ca723ee0" valueTypeId="b1f80c37-aba4-4413-aec0-eb72d082674c"/>
+    </producedTypes>
+    <name>ПраваПользователяИзКупорос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Права пользователя из Купорос</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="554c9382-0ddc-4c46-ae19-810938e37e41">
+      <name>ШаблонДоступа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Шаблон доступа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КП_ШаблоныДоступаПользователей</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3b3f5ce4-d27c-4825-bdeb-f99ee7a5cdce">
+      <name>Комментарий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Комментарий</value>
+      </synonym>
+      <comment>Причина, номер запроса</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="b3de9cc8-68fb-473f-a2f3-9e87471a0ead">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

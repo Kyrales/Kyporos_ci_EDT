@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6cda8208-4d54-47b8-aaf6-08ff0bc68461">
+  <name>КП_ОбновлениеПравДоступаПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с Купорос: Обновление прав доступа пользователей (5)</value>
+  </synonym>
+  <methodName>CommonModule.КП_УправлениеПравамиДоступа.ОбновлениеПравДоступаПользователей</methodName>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ef8fc79-fa80-479a-9fa3-a84e6e52902a">
+  <name>КП_ВнешнееУправлениеДоступом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внешнее управление доступом</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.КП_ПользователиТекущейИС</content>
+  <content>InformationRegister.КП_ПараметрыСистемыУправленияДоступомПользователей</content>
+  <content>CommonModule.КП_ОбменДаннымиКупорос</content>
+  <content>CommonModule.КП_ОбщегоНазначенияКупорос</content>
+  <content>CommonModule.КП_УправлениеПравамиДоступа</content>
+  <content>CommonModule.КП_УправлениеБотомVKTeams</content>
+  <content>Role.КП_ОсновнаяРоль</content>
+  <content>Catalog.КП_ШаблоныДоступаПользователей</content>
+  <content>InformationRegister.КП_ИсключенныеПользователиИзОбработки</content>
+</mdclass:Subsystem>

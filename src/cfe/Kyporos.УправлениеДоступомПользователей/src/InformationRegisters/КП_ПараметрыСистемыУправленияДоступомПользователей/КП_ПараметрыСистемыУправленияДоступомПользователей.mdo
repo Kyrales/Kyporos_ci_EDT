@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e2d4534-e1eb-4bca-ad5c-98a8dda3208c">
+  <producedTypes>
+    <selectionType typeId="22a3c72d-58e9-481e-9316-939e2d879af7" valueTypeId="91aee634-7b69-4af9-8da6-63d6e40429a7"/>
+    <listType typeId="150f5f33-1c98-4405-9b7d-15e1b4dc1173" valueTypeId="e59392db-b17e-40cb-b532-58f9996e9e0b"/>
+    <managerType typeId="64adeeb3-7f36-4893-9cdd-9defcdc16a62" valueTypeId="083008b3-d105-4201-8667-67d20a4a1064"/>
+    <recordSetType typeId="260ed919-6ec6-4840-8707-ef5600502085" valueTypeId="3eedf217-0f08-49bb-8e72-cae583aec4c0"/>
+    <recordKeyType typeId="97ff30ef-7951-450c-be3f-d9ffb868cb79" valueTypeId="8dac443c-2f74-45f2-b9e0-de693d9487d0"/>
+    <recordType typeId="5dceffca-f43e-4d96-bfe3-2c065bca66cf" valueTypeId="45a37fe1-51a1-4add-9796-d33e9a02bf09"/>
+    <recordManagerType typeId="0afa6634-cf1a-48e9-8cb5-723ae44e419e" valueTypeId="0a7f3d95-5bf7-4325-94dd-98b8272bec93"/>
+  </producedTypes>
+  <name>КП_ПараметрыСистемыУправленияДоступомПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры системы управления доступом пользователей (Купорос)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.КП_ПараметрыСистемыУправленияДоступомПользователей.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.КП_ПараметрыСистемыУправленияДоступомПользователей.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="457bfd44-79f1-4193-9423-2d716e1c158c">
+    <name>VKTeams_АдресСервера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес сервера (VK Teams)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="235bc743-bf18-4a3c-8886-d26185afdcfb">
+    <name>VKTeams_ИспользоватьУведомления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать уведомления (VK Teams)</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4b6ecde0-2e57-4ba3-8a8d-3cbf584b4f0a">
+    <name>VKTeams_ТокенБота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен бота (VK Teams)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="d9b4bcd3-c171-40b9-bef2-d9888102387c">
+    <name>VKTeams_ЧатИД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чат ИД (VK Teams)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="d243d402-283f-4986-8134-d30444498709">
+    <name>АдресВебСервисаКупорос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес веб-сервиса Купорос</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>wsdl-ссылка</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="26162ba8-6873-421e-9708-a5a9e9fe1c50">
+    <name>Пользователь1СДляВебСервиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь 1С для веб сервиса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>80</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="4dc9a82e-71ef-48ca-8aa7-693abb3c3a28">
+    <name>Пароль1СДляВебСервиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль 1С для веб сервиса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <passwordMode>true</passwordMode>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="eb5543a6-775e-42ef-8b68-d7d5eaaf4c79">
+    <name>ИД_ТекущейСистемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор текущей системы</value>
+    </synonym>
+    <comment>Должен быть уникальным в рамках одной сети</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Идентификатор ИС в 1С Купорос</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="6545571a-2de9-482f-b68b-14fb19634c41">
+    <name>ОтключатьПользователейДобавленныхВручную</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отключать пользователей добавленных вручную</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Исключения: Не отключаются администраторы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4da6e828-ae63-4c74-9de2-ba42f5cda385">
+    <name>ИспользоватьДопВариантПоискаПоФИО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать доп. вариант поиска по ФИО</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Поиск только ФИО без сравнения с текущим параметром &quot;Пользователь ОС&quot; из Пользователя ИБ</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5bac8084-4a51-4c11-85db-7f2960b257c0">
+    <name>УдалятьПраваПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалять права пользователей (если не соответствуют шаблону доступа)</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <forms uuid="8dd41858-38fe-446d-b0e5-c972fcad11b5">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4b97b42d-9898-40ed-ab02-9514a3b61ab7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="b037a96e-2b5e-4bc7-80b7-f6e901736610">
+    <name>ПараметрыУправленияДоступомПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры Купорос: управление доступом пользователей</value>
+    </synonym>
+    <group>NavigationPanelSeeAlso</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

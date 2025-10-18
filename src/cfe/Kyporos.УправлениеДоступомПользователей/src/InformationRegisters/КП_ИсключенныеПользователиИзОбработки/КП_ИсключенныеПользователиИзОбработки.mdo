@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69e6226b-63d0-4a8e-9805-91aaaff2f0e1">
+  <producedTypes>
+    <selectionType typeId="40fb8172-f4a7-47eb-95f2-0fbca0d58403" valueTypeId="9ec684c6-8608-472d-9b36-e3e253e34f27"/>
+    <listType typeId="0a55ce0a-872c-40c3-bb47-32e2be6b6361" valueTypeId="c5b23e87-d9b1-4f52-af06-9e4338bbb65d"/>
+    <managerType typeId="32816537-0bf7-4546-9e80-f7a57f5fcaa5" valueTypeId="65a2a6c1-42d5-472a-bced-e860b0ec6045"/>
+    <recordSetType typeId="a8bf138c-4c02-4f39-b105-1cba328b1eac" valueTypeId="e5373b1c-aafb-4e77-b13a-8ab459d6df11"/>
+    <recordKeyType typeId="a922c279-ba42-4db0-a255-21be1760ce0c" valueTypeId="6781444d-1cae-4257-84ab-45128df8e82c"/>
+    <recordType typeId="56425940-506b-44ff-a543-92a852d8dc5d" valueTypeId="2be25b3d-be13-4f4a-88b5-86ea3eeb82ac"/>
+    <recordManagerType typeId="73b50fd3-63b2-42d1-91e6-98c533db5bb3" valueTypeId="0ee20177-73c6-4bc2-826f-dc864d0f31a4"/>
+  </producedTypes>
+  <name>КП_ИсключенныеПользователиИзОбработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Исключенные пользователи из обработки (Купорос)</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="57951d47-8433-43db-9add-ced523776ebe">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

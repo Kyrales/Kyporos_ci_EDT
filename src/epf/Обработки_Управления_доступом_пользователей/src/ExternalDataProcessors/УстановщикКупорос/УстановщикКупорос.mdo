@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1cc23f1c-54b3-4e94-b611-e8599695df80">
+  <producedTypes>
+    <objectType typeId="af856948-e0fd-41bd-8210-084e5ca69e44" valueTypeId="fab987d9-f422-4e2e-87d2-bafcf34433b9"/>
+  </producedTypes>
+  <name>УстановщикКупорос</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установщик (Купорос)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Installer (Infostart Toolkit)</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="8cb67d45-357d-4e38-a79f-1479a47e0095"/>
+  <defaultForm>ExternalDataProcessor.УстановщикКупорос.Form.Форма</defaultForm>
+  <forms uuid="d5465cb7-4f5a-4a84-a02d-97ce4600471f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>

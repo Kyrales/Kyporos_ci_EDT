@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0346166a-53bd-46ea-bc3e-7c9f72ad2bb9">
+  <producedTypes>
+    <objectType typeId="4e9b12e4-eb72-4109-94a2-76e10180afcd" valueTypeId="f259e081-a642-4c91-840d-7a08553eadcc"/>
+    <refType typeId="38099264-6bf2-4ef6-ab91-41aa1810bb14" valueTypeId="cc4d870c-c962-4362-a6bf-06a73b3540fa"/>
+    <selectionType typeId="d9fa71a0-0465-4f38-9857-eeefd712ea84" valueTypeId="cf75d4cb-3510-4484-822e-8c7ac8473cd6"/>
+    <listType typeId="e407d203-697f-4a51-8aa4-de0b1dd301cf" valueTypeId="a8718327-fcf7-4142-b428-abb1ae262bff"/>
+    <managerType typeId="78750f34-7ee6-4b05-82f3-54f0c1404ad3" valueTypeId="294498fd-c6d0-47fc-8117-5118d486dfcf"/>
+  </producedTypes>
+  <name>Пользователи</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="6a1c3546-d2a0-4912-981b-aa637dd133fa" extendedConfigurationObject="ae6d0e12-8857-476c-b4b2-f03295cbed3e">
+    <name>Недействителен</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

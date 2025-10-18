@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d77d60b-1a55-44f1-8d5b-4d38434d9550">
+  <name>КП_УправлениеБотомVKTeams</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление ботом VK Teams</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>
