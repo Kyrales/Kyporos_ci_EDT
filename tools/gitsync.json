@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/Kyrales/vanessa-usher_mod/refs/heads/my_dev/resources/schema.json",
   "agent": "gitsync",
-  "v8Version": "8.3.25.1546",
+  "v8Version": "8.3.27.1786",
   "defaultInfobase": {
     "connectionString": "/Fe:/1C/build/Kyporos_clear",
     "auth": ""

@@ -27,7 +27,7 @@
       "path": "tcp://KyralesGun/Storage/storage.1ccr/StorageKyporos",
       "dir": "./src/cf",
       "temp-dir": "",
-      "v8version": "8.3.25.1546",
+      "v8version": "8.3.27.1786",
       "plugins-config": {
         "URL": "https://github.com/Kyrales/Kyporos_ci2.git"
       }
@@ -38,7 +38,7 @@
         "path": "tcp://KyralesGun/Storage/storage.1ccr/StorageKyporos_yaxunit",
         "dir": "./src/cfe/yaxunit",
         "temp-dir": "",
-        "v8version": "8.3.25.1546",
+        "v8version": "8.3.27.1786",
         "plugins-config": {
           "URL": "https://github.com/Kyrales/Kyporos_ci2.git"
         }
