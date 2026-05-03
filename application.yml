@@ -1,0 +1,42 @@
+app:
+  # (необязательно) Человекочитаемый идентификатор проекта
+  id: Kyporos
+
+  # Формат проекта: DESIGNER (типовой) или EDT (структура EDT)
+  format: EDT
+
+  # Абсолютный путь к корню проекта 1С на диске
+  base-path: "F:/1C/Projects/Kyrporos_ci_edt"
+
+  # Описание исходников проекта (пути относительно base-path)
+  source-set:
+    - path: "src/cf"
+      name: Kyporos
+      type: "CONFIGURATION"
+      purpose: ["MAIN"]
+    - path: "src/cfe/Kyporos.YAXUNIT"
+      name: Kyporos.YAXUNIT
+      type: "EXTENSION"
+      purpose: ["TESTS", "YAXUNIT"]
+  # Подключение к информационной базе
+  connection:
+    # Примеры ниже; оставьте ровно одну строку
+    connection-string: "File='f:/1C/Base/КупоросДляТестовEDT';"
+    user: "Администратор"     # (необязательно)
+    # password: "secret"        # (необязательно)
+
+  # Инструменты сборки/запуска
+  tools:
+    # DESIGNER — локальная разработка, IBCMD — CI/CD
+    builder: IBCMD
+    edt-cli:
+      auto-start: true                 # автозапуск при старте приложения (по умолчанию: false)
+      version: "latest"               # версия EDT CLI (по умолчанию: latest; требуется EDT >= 2025.1)
+      interactive-mode: true           # интерактивный режим (по умолчанию: true)
+      working-directory: "D:/EDT/Kyporos"  # рабочая папка EDT
+      startup-timeout-ms: 30000        # ожидание готовности промпта (по умолчанию: 30000)
+      command-timeout-ms: 300000       # таймаут команд (по умолчанию: 300000)
+      ready-check-timeout-ms: 5000     # таймаут проверки готовности (по умолчанию: 5000)
+
+  # Версия платформы
+  platform-version: "8.3.27.1786"
