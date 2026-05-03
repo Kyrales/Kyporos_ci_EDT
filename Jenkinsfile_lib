@@ -1,3 +1,3 @@
-@Library('jenkins-lib_develop') _
+@Library('jenkins-lib') _
 
 pipeline1C()
