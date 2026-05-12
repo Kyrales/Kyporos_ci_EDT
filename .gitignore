@@ -11,3 +11,4 @@ out
 /src/epf/Обработки_Управления_доступом_пользователей/bin/ОбменСКупорос.epf
 *.log
 /mcp-server.log
+v8project.local.yaml
