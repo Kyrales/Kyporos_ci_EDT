@@ -12,3 +12,4 @@ out
 *.log
 /mcp-server.log
 v8project.local.yaml
+autumn-properties.json
